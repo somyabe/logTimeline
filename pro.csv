@@ -1,0 +1,66 @@
+datetime,markers,filename
+8 Dec 01 18:52:52.453691,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 18:53:23.769480,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 18:55:13.409198,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 18:55:42.854063,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:03:33.554240,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:03:59.854337,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:10:21.454958,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:13:53.318749,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:14:32.737772,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:14:36.441242,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:14:40.811974,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:14:50.139377,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:15:04.351988,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:15:30.625169,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:17:05.617429,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:19:07.624614,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:19:08.893212,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 19:19:26.911417,setPreferredAudioLanguage,receiver.log
+2018 Dec 01 18:52:44.443855,video tune request url,receiver.log
+2018 Dec 01 18:52:51.757308,video tune request url,receiver.log
+2018 Dec 01 18:53:23.685685,video tune request url,receiver.log
+2018 Dec 01 18:55:13.241142,video tune request url,receiver.log
+2018 Dec 01 18:55:42.776981,video tune request url,receiver.log
+2018 Dec 01 19:03:33.301048,video tune request url,receiver.log
+2018 Dec 01 19:03:59.793126,video tune request url,receiver.log
+2018 Dec 01 19:10:13.326758,video tune request url,receiver.log
+2018 Dec 01 19:10:20.959317,video tune request url,receiver.log
+2018 Dec 01 19:13:53.294230,video tune request url,receiver.log
+2018 Dec 01 19:14:32.409825,video tune request url,receiver.log
+2018 Dec 01 19:14:36.162050,video tune request url,receiver.log
+2018 Dec 01 19:14:40.462423,video tune request url,receiver.log
+2018 Dec 01 19:14:49.901608,video tune request url,receiver.log
+2018 Dec 01 19:15:04.065103,video tune request url,receiver.log
+2018 Dec 01 19:15:30.521663,video tune request url,receiver.log
+2018 Dec 01 19:17:05.274075,video tune request url,receiver.log
+2018 Dec 01 19:19:00.815571,video tune request url,receiver.log
+2018 Dec 01 19:19:08.517447,video tune request url,receiver.log
+2018 Dec 01 19:19:26.885694,video tune request url,receiver.log
+2018 Dec 01 18:53:25.198345,video tune succeeded,receiver.log
+2018 Dec 01 18:55:43.974079,video tune succeeded,receiver.log
+2018 Dec 01 19:04:01.059040,video tune succeeded,receiver.log
+2018 Dec 01 19:10:22.346591,video tune succeeded,receiver.log
+2018 Dec 01 19:14:33.962624,video tune succeeded,receiver.log
+2018 Dec 01 19:14:37.791674,video tune succeeded,receiver.log
+2018 Dec 01 19:14:42.013128,video tune succeeded,receiver.log
+2018 Dec 01 19:14:51.377366,video tune succeeded,receiver.log
+2018 Dec 01 19:15:31.892585,video tune succeeded,receiver.log
+2018 Dec 01 19:17:06.788519,video tune succeeded,receiver.log
+2018 Dec 01 19:19:10.025749,video tune succeeded,receiver.log
+2018 Dec 01 18:47:20.069615,unresponsive,receiver.log
+2018 Oct 17 01:06:01.441213,HangDetector,receiver.log
+2018 Oct 17 01:06:07.403666,HangDetector,receiver.log
+2018 Dec 01 18:47:15.016107,HangDetector,receiver.log
+2018 Dec 01 18:47:18.257994,HangDetector,receiver.log
+2018 Dec 01 18:47:18.258383,HangDetector,receiver.log
+2019 Jan 18 21:26:01.203181,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 18 21:26:01.258107,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 01:24:49.152645,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 02:24:49.316293,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 03:24:49.450174,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 04:24:49.584573,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 05:24:50.081393,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 06:24:49.964487,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 07:24:50.080222,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+2019 Jan 19 08:24:50.164722,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log

@@ -1,0 +1,34 @@
+FetchFragmentHelper : drm_Decrypt failed,receiver.log
+New flash video is playing,receiver.log
+aamp_stop,receiver.log
+setPreferredAudioLanguage,receiver.log
+video tune request url,receiver.log
+AAMPGstPlayer_Stop,receiver.log
+video tune succeeded,receiver.log
+RDKBROWSER_RENDER_PROCESS_CRASHED,receiver.log
+Could not connect to,receiver.log
+unresponsive,receiver.log
+onMediaFailed,receiver.log
+drm error,receiver.log
+Sending error AAMP: Authorization failure,receiver.log
+__PLOG__ Search started for 6,receiver.log
+CURL error,receiver.log
+BAD URL,receiver.log
+Error on,receiver.log
+aamp_UpdateDuration,receiver.log
+HangDetector,receiver.log
+hang detector will force crash,receiver.log
+eDRM_KEY_ACQUSITION_TIMEOUT,receiver.log
+key acquisition failure,receiver.log
+xre_nr,receiver.log
+sendFile HTTP 416  unable to read file,fog.log
+"sendRecording downloader is null,responding HTTP 404",fog.log
+"fog.service: main process exited, code=killed, status",fog.log
+Fragment download failed,fog.log
+Manifest download timedout,fog.log
+"sendRecording recordingID not found,responding HTTP 404",fog.log
+current bitrate[0],fog.log
+Manifest download aborted,fog.log
+Timeout was reached url,fog.log
+TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+TELEMETRY_WIFI_CONNECTION_STATUS:DISCONNECTED,netsrvmgr.log

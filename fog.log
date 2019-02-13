@@ -1,0 +1,108 @@
+Oct 17 01:05:36 arrisxg1v3 systemd[1]: Starting Fog HLS Recording Service...
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: 
+                                         ENTERING FOG IARM INIT (server)
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: IARM_Bus_Init: IARM_RESULT_SUCCESS
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: IARM_Bus_Connect: IARM_RESULT_SUCCESS
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: IARM_Bus_RegisterCall: IARM_RESULT_SUCCESS
+                                          
+Oct 17 01:05:38 arrisxg1v3 systemd[1]:  Started Fog HLS Recording Service.
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: IARM_Bus_RegisterCall(IARM_BUS_COMMON_API_PowerPreChange): IARM_RESULT_SUCCESS
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: entering GetMocaIp 
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: opened properties
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: found MOCA_INTERFACE=
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: got interfaces
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface eth0
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface sit0
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface bcm0
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface podnet0
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface eth1:0
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: [CONFIG] fog using moca interface[169.254.106.200]
+                                          
+Oct 17 01:05:38 arrisxg1v3 fogcli[3876]: [readConfigurationFromFile][ERROR]Reading Json from config file /opt/fogPrefs.json 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [readConfigurationFromFile][ERROR]could not open config file /opt/fogPrefs.json 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [readConfigurationFromFile][ERROR]Reading Json from config file /etc/fogPrefs.json 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]recordingLocation=/opt/data/fog/dvr 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]tsbLocation=/opt/data/fog/tsb 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]cullLength =3600000 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]bitrates=-1 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]tsbPolicy=0 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]bitrateCheating=1 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]tsbPreemptiveDownloadDelay=10.000000 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]downloadTimeoutMS=30000 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]FOG: recording storage-path: /opt/data/fog/dvr 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: [CONFIG]FOG: TSB storage-path: /opt/data/fog/tsb 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: entering GetMocaIp 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: opened properties
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: found MOCA_INTERFACE=
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: got interfaces
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface eth0
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface sit0
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface bcm0
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface podnet0
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface eth1:0
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: _IsFOGEnabled:endpoint:http://169.254.106.200:9080/tsb 
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: fogiarm_generateStatusEvent:IARM_Bus_BroadcastEvent: IARM_RESULT_SUCCESS
+                                          
+Oct 17 01:05:39 arrisxg1v3 fogcli[3876]: FOG Main: Local DVR recording Disabled 
+2018 Oct 17 01:06:38.538318 arrisxg1v3 fogcli[3876]: entering GetMocaIp 
+2018 Oct 17 01:06:38.538367 arrisxg1v3 fogcli[3876]: opened properties
+                                                      
+2018 Oct 17 01:06:38.538467 arrisxg1v3 fogcli[3876]: found MOCA_INTERFACE=
+                                                      
+2018 Oct 17 01:06:38.538935 arrisxg1v3 fogcli[3876]: got interfaces
+                                                      
+2018 Oct 17 01:06:38.538960 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                                      
+2018 Oct 17 01:06:38.538983 arrisxg1v3 fogcli[3876]: inspecting interface eth0
+                                                      
+2018 Oct 17 01:06:38.539005 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                                      
+2018 Oct 17 01:06:38.539026 arrisxg1v3 fogcli[3876]: inspecting interface sit0
+                                                      
+2018 Oct 17 01:06:38.539048 arrisxg1v3 fogcli[3876]: inspecting interface bcm0
+                                                      
+2018 Oct 17 01:06:38.539070 arrisxg1v3 fogcli[3876]: inspecting interface podnet0
+                                                      
+2018 Oct 17 01:06:38.539091 arrisxg1v3 fogcli[3876]: inspecting interface lo
+                                                      
+2018 Oct 17 01:06:38.558804 arrisxg1v3 fogcli[3876]: inspecting interface eth1:0
+                                                      
+2018 Oct 17 01:06:38.560459 arrisxg1v3 fogcli[3876]: inspecting interface eth1
+                                                      
+2018 Oct 17 01:06:38.561502 arrisxg1v3 fogcli[3876]: _IsFOGEnabled:endpoint:http://169.254.106.200:9080/tsb 
