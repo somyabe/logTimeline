@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import time
 import keypress
-from keypress import dict
+from keypress import keyDict
 from datetime import datetime , timedelta
 with open('time.csv', 'r') as e:
     text = csv.reader(e)
@@ -60,8 +60,8 @@ with open('pro.csv', 'w') as f:
                                     rr=split1[3]
                                     #print(rr)
 
-                                    if(rr in dict):
-                                        print(dict[rr])
+                                    if(rr in keyDict):
+                                        print(keyDict[rr])
 
 
 

@@ -1,4 +1,4 @@
-dict={
+keyDict={
 "8000": "KET_KEYDOWN",
 "8100": "KET_KEYUP",
 "8200":"KET_KEYREPEAT",
