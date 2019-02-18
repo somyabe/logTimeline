@@ -1,66 +1,328 @@
-datetime,markers,filename
-8 Dec 01 18:52:52.453691,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 18:53:23.769480,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 18:55:13.409198,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 18:55:42.854063,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:03:33.554240,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:03:59.854337,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:10:21.454958,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:13:53.318749,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:14:32.737772,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:14:36.441242,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:14:40.811974,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:14:50.139377,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:15:04.351988,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:15:30.625169,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:17:05.617429,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:19:07.624614,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:19:08.893212,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 19:19:26.911417,setPreferredAudioLanguage,receiver.log
-2018 Dec 01 18:52:44.443855,video tune request url,receiver.log
-2018 Dec 01 18:52:51.757308,video tune request url,receiver.log
-2018 Dec 01 18:53:23.685685,video tune request url,receiver.log
-2018 Dec 01 18:55:13.241142,video tune request url,receiver.log
-2018 Dec 01 18:55:42.776981,video tune request url,receiver.log
-2018 Dec 01 19:03:33.301048,video tune request url,receiver.log
-2018 Dec 01 19:03:59.793126,video tune request url,receiver.log
-2018 Dec 01 19:10:13.326758,video tune request url,receiver.log
-2018 Dec 01 19:10:20.959317,video tune request url,receiver.log
-2018 Dec 01 19:13:53.294230,video tune request url,receiver.log
-2018 Dec 01 19:14:32.409825,video tune request url,receiver.log
-2018 Dec 01 19:14:36.162050,video tune request url,receiver.log
-2018 Dec 01 19:14:40.462423,video tune request url,receiver.log
-2018 Dec 01 19:14:49.901608,video tune request url,receiver.log
-2018 Dec 01 19:15:04.065103,video tune request url,receiver.log
-2018 Dec 01 19:15:30.521663,video tune request url,receiver.log
-2018 Dec 01 19:17:05.274075,video tune request url,receiver.log
-2018 Dec 01 19:19:00.815571,video tune request url,receiver.log
-2018 Dec 01 19:19:08.517447,video tune request url,receiver.log
-2018 Dec 01 19:19:26.885694,video tune request url,receiver.log
-2018 Dec 01 18:53:25.198345,video tune succeeded,receiver.log
-2018 Dec 01 18:55:43.974079,video tune succeeded,receiver.log
-2018 Dec 01 19:04:01.059040,video tune succeeded,receiver.log
-2018 Dec 01 19:10:22.346591,video tune succeeded,receiver.log
-2018 Dec 01 19:14:33.962624,video tune succeeded,receiver.log
-2018 Dec 01 19:14:37.791674,video tune succeeded,receiver.log
-2018 Dec 01 19:14:42.013128,video tune succeeded,receiver.log
-2018 Dec 01 19:14:51.377366,video tune succeeded,receiver.log
-2018 Dec 01 19:15:31.892585,video tune succeeded,receiver.log
-2018 Dec 01 19:17:06.788519,video tune succeeded,receiver.log
-2018 Dec 01 19:19:10.025749,video tune succeeded,receiver.log
-2018 Dec 01 18:47:20.069615,unresponsive,receiver.log
-2018 Oct 17 01:06:01.441213,HangDetector,receiver.log
-2018 Oct 17 01:06:07.403666,HangDetector,receiver.log
-2018 Dec 01 18:47:15.016107,HangDetector,receiver.log
-2018 Dec 01 18:47:18.257994,HangDetector,receiver.log
-2018 Dec 01 18:47:18.258383,HangDetector,receiver.log
-2019 Jan 18 21:26:01.203181,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 18 21:26:01.258107,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 01:24:49.152645,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 02:24:49.316293,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 03:24:49.450174,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 04:24:49.584573,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 05:24:50.081393,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 06:24:49.964487,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 07:24:50.080222,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
-2019 Jan 19 08:24:50.164722,TELEMETRY_WIFI_CONNECTION_STATUS:CONNECTED,netsrvmgr.log
+datest,markers
+2018 Dec 01 18:47:22.589104,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 18:48:56.374283,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 18:50:46.333084,K E D _ L A S T
+2018 Dec 01 18:50:46.379646,K E D _ L A S T
+2018 Dec 01 18:52:42.000701,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 18:52:44.441605,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 18:52:44.443855,playbackmode [] video tune request url= contentType:
+2018 Dec 01 18:52:44.445280,playbackmode [] Video item creation time for  was 2 milliseconds
+2018 Dec 01 18:52:51.709765,playbackmode [] video tune aborted url= contentType:
+2018 Dec 01 18:52:51.720604,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 18:52:51.757308,Qam Linear
+2018 Dec 01 18:52:52.452011,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 692 milliseconds
+2018 Dec 01 18:52:52.456242,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 18:52:54.117482,playbackmode [LINEAR_TV] video tune failed url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:53:04.201625,K E D _ L A S T
+2018 Dec 01 18:53:04.241978,K E D _ L A S T
+2018 Dec 01 18:53:07.950764,K E D _ L A S T
+2018 Dec 01 18:53:08.000227,K E D _ L A S T
+2018 Dec 01 18:53:09.911064,K E D _ L A S T
+2018 Dec 01 18:53:09.942709,K E D _ L A S T
+2018 Dec 01 18:53:18.461645,K E D _ L A S T
+2018 Dec 01 18:53:18.507007,K E D _ L A S T
+2018 Dec 01 18:53:22.955088,K E D _ S E L E C T
+2018 Dec 01 18:53:23.272050,K E D _ S E L E C T
+2018 Dec 01 18:53:23.630066,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 18:53:23.685685,Qam Linear
+2018 Dec 01 18:53:23.746970,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 61 milliseconds
+2018 Dec 01 18:53:23.775277,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 18:53:25.198345,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:53:25.198345,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:54:39.627258,K E D _ K E Y A
+2018 Dec 01 18:54:39.845602,K E D _ K E Y A
+2018 Dec 01 18:54:46.842088,K E D _ A R R O W R I G H T
+2018 Dec 01 18:54:47.173929,K E D _ A R R O W R I G H T
+2018 Dec 01 18:54:48.793394,K E D _ A R R O W R I G H T
+2018 Dec 01 18:54:49.039358,K E D _ A R R O W R I G H T
+2018 Dec 01 18:54:53.128161,K E D _ A R R O W L E F T
+2018 Dec 01 18:54:53.396078,K E D _ A R R O W L E F T
+2018 Dec 01 18:54:53.880057,K E D _ A R R O W L E F T
+2018 Dec 01 18:54:54.212300,K E D _ A R R O W L E F T
+2018 Dec 01 18:55:02.124086,K E D _ L A S T
+2018 Dec 01 18:55:02.158632,K E D _ L A S T
+2018 Dec 01 18:55:09.111080,K E D _ D I G I T 5
+2018 Dec 01 18:55:09.424824,K E D _ D I G I T 5
+2018 Dec 01 18:55:09.838157,K E D _ D I G I T 1
+2018 Dec 01 18:55:10.084347,K E D _ D I G I T 1
+2018 Dec 01 18:55:10.246182,K E D _ D I G I T 1
+2018 Dec 01 18:55:10.512115,K E D _ D I G I T 1
+2018 Dec 01 18:55:12.047709,K E D _ S E L E C T
+2018 Dec 01 18:55:12.367080,K E D _ S E L E C T
+2018 Dec 01 18:55:13.021670,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 18:55:13.241142,Qam Linear
+2018 Dec 01 18:55:13.407484,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 166 milliseconds
+2018 Dec 01 18:55:13.416813,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 18:55:14.357100,playbackmode [LINEAR_TV] video tune failed url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:55:22.230040,K E D _ L A S T
+2018 Dec 01 18:55:22.275452,K E D _ L A S T
+2018 Dec 01 18:55:35.778080,K E D _ L A S T
+2018 Dec 01 18:55:35.817765,K E D _ L A S T
+2018 Dec 01 18:55:38.670828,K E D _ L A S T
+2018 Dec 01 18:55:38.708887,K E D _ L A S T
+2018 Dec 01 18:55:41.961402,K E D _ S E L E C T
+2018 Dec 01 18:55:42.274067,K E D _ S E L E C T
+2018 Dec 01 18:55:42.737635,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 18:55:42.776981,Qam Linear
+2018 Dec 01 18:55:42.837694,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 60 milliseconds
+2018 Dec 01 18:55:42.857041,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 18:55:43.974079,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:55:43.974079,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 18:55:48.795016,K E D _ K E Y B
+2018 Dec 01 18:55:49.088093,K E D _ K E Y B
+2018 Dec 01 18:55:55.388081,K E D _ E X I T
+2018 Dec 01 18:55:55.630847,K E D _ E X I T
+2018 Dec 01 18:55:58.118096,K E D _ K E Y C
+2018 Dec 01 18:55:58.405871,K E D _ K E Y C
+2018 Dec 01 18:56:05.507072,K E D _ E X I T
+2018 Dec 01 18:56:05.844085,K E D _ E X I T
+2018 Dec 01 18:56:11.787197,K E D _ K E Y A
+2018 Dec 01 18:56:12.029098,K E D _ K E Y A
+2018 Dec 01 18:56:16.659698,K E D _ A R R O W R I G H T
+2018 Dec 01 18:56:16.922239,K E D _ A R R O W R I G H T
+2018 Dec 01 18:56:17.638379,K E D _ A R R O W R I G H T
+2018 Dec 01 18:56:17.854134,K E D _ A R R O W R I G H T
+2018 Dec 01 18:56:19.723193,K E D _ S E L E C T
+2018 Dec 01 18:56:20.031094,K E D _ S E L E C T
+2018 Dec 01 18:56:28.036086,K E D _ E X I T
+2018 Dec 01 18:56:28.294050,K E D _ E X I T
+2018 Dec 01 18:56:32.019139,K E D _ S E L E C T
+2018 Dec 01 18:56:32.238103,K E D _ S E L E C T
+2018 Dec 01 18:56:41.110164,K E D _ E X I T
+2018 Dec 01 18:56:41.347138,K E D _ E X I T
+2018 Dec 01 18:58:16.459088,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:16.652306,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:17.433089,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:17.723218,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:18.594032,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:18.785130,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:19.820100,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:19.983569,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:22.200092,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:22.443627,K E D _ A R R O W R I G H T
+2018 Dec 01 18:58:23.537210,K E D _ S E L E C T
+2018 Dec 01 18:58:23.832849,K E D _ S E L E C T
+2018 Dec 01 18:58:27.861503,K E D _ A R R O W D O W N
+2018 Dec 01 18:58:28.129494,K E D _ A R R O W D O W N
+2018 Dec 01 18:58:31.199777,K E D _ S E L E C T
+2018 Dec 01 18:58:31.442944,K E D _ S E L E C T
+2018 Dec 01 18:58:35.844080,K E D _ S E L E C T
+2018 Dec 01 18:58:36.063825,K E D _ S E L E C T
+2018 Dec 01 18:58:50.547831,K E D _ E X I T
+2018 Dec 01 18:58:50.884538,K E D _ E X I T
+2018 Dec 01 18:58:56.457089,K E D _ S E L E C T
+2018 Dec 01 18:58:56.674376,K E D _ S E L E C T
+2018 Dec 01 18:59:00.336740,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:00.552127,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:02.420934,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:02.637273,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:05.308672,K E D _ S E L E C T
+2018 Dec 01 18:59:05.534106,K E D _ S E L E C T
+2018 Dec 01 18:59:12.321190,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:12.560807,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:13.771282,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:13.951108,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:16.079528,K E D _ S E L E C T
+2018 Dec 01 18:59:16.295696,K E D _ S E L E C T
+2018 Dec 01 18:59:21.898098,K E D _ A R R O W L E F T
+2018 Dec 01 18:59:22.152093,K E D _ A R R O W L E F T
+2018 Dec 01 18:59:32.285103,K E D _ S E L E C T
+2018 Dec 01 18:59:32.478197,K E D _ S E L E C T
+2018 Dec 01 18:59:38.553100,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:38.769297,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:40.938089,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:41.131083,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:41.842089,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:42.034954,K E D _ A R R O W D O W N
+2018 Dec 01 18:59:44.555090,K E D _ S E L E C T
+2018 Dec 01 18:59:44.797235,K E D _ S E L E C T
+2018 Dec 01 18:59:54.503072,K E D _ A R R O W R I G H T
+2018 Dec 01 18:59:54.791085,K E D _ A R R O W R I G H T
+2018 Dec 01 18:59:57.725864,K E D _ S E L E C T
+2018 Dec 01 18:59:57.941102,K E D _ S E L E C T
+2018 Dec 01 19:00:06.261097,K E D _ A R R O W R I G H T
+2018 Dec 01 19:00:06.506251,K E D _ A R R O W R I G H T
+2018 Dec 01 19:00:07.100149,K E D _ A R R O W R I G H T
+2018 Dec 01 19:00:07.316672,K E D _ A R R O W R I G H T
+2018 Dec 01 19:00:08.274320,K E D _ S E L E C T
+2018 Dec 01 19:00:08.489231,K E D _ S E L E C T
+2018 Dec 01 19:00:16.844408,K E D _ L A S T
+2018 Dec 01 19:00:16.894336,K E D _ L A S T
+2018 Dec 01 19:00:19.863105,K E D _ E X I T
+2018 Dec 01 19:00:20.102836,K E D _ E X I T
+2018 Dec 01 19:00:24.233268,K E D _ S E L E C T
+2018 Dec 01 19:00:24.526751,K E D _ S E L E C T
+2018 Dec 01 19:01:06.425971,K E D _ S E L E C T
+2018 Dec 01 19:01:06.739083,K E D _ S E L E C T
+2018 Dec 01 19:01:12.239091,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:12.459095,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:14.568114,K E D _ S E L E C T
+2018 Dec 01 19:01:14.660415,K E D _ S E L E C T
+2018 Dec 01 19:01:17.395095,K E D _ S E L E C T
+2018 Dec 01 19:01:17.636235,K E D _ S E L E C T
+2018 Dec 01 19:01:22.584467,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:22.851342,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:23.599639,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:23.817790,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:30.497076,K E D _ A R R O W D O W N
+2018 Dec 01 19:01:30.719090,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:00.759294,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:01.018636,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:08.146115,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:08.367375,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:09.194337,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:09.418127,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:10.550109,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:10.810160,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:12.091103,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:12.286398,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:13.272877,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:13.461088,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:16.828104,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:17.043027,K E D _ A R R O W D O W N
+2018 Dec 01 19:02:24.946092,K E D _ E X I T
+2018 Dec 01 19:02:25.239082,K E D _ E X I T
+2018 Dec 01 19:03:30.153105,K E D _ D I G I T 3
+2018 Dec 01 19:03:30.416142,K E D _ D I G I T 3
+2018 Dec 01 19:03:30.774102,K E D _ D I G I T 8
+2018 Dec 01 19:03:31.014503,K E D _ D I G I T 8
+2018 Dec 01 19:03:32.126458,K E D _ S E L E C T
+2018 Dec 01 19:03:32.536293,K E D _ S E L E C T
+2018 Dec 01 19:03:33.233091,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:03:33.301048,Qam Linear
+2018 Dec 01 19:03:33.552849,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 251 milliseconds
+2018 Dec 01 19:03:33.569171,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:03:34.335987,playbackmode [LINEAR_TV] video tune failed url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:03:49.390019,K E D _ S E L E C T
+2018 Dec 01 19:03:49.628109,K E D _ S E L E C T
+2018 Dec 01 19:03:52.721650,K E D _ E X I T
+2018 Dec 01 19:03:52.958988,K E D _ E X I T
+2018 Dec 01 19:03:55.715106,K E D _ L A S T
+2018 Dec 01 19:03:55.752606,K E D _ L A S T
+2018 Dec 01 19:03:59.273094,K E D _ S E L E C T
+2018 Dec 01 19:03:59.490595,K E D _ S E L E C T
+2018 Dec 01 19:03:59.712610,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:03:59.793126,Qam Linear
+2018 Dec 01 19:03:59.852614,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 59 milliseconds
+2018 Dec 01 19:03:59.881818,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:04:01.059040,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:04:01.059040,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=e68dd6a9-a076-4bb6-839b-947dfaa0aff7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:10:11.579524,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:10:13.323514,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:10:13.326758,playbackmode [] video tune request url= contentType:
+2018 Dec 01 19:10:13.326998,playbackmode [] Video item creation time for  was 0 milliseconds
+2018 Dec 01 19:10:20.857230,playbackmode [] video tune aborted url= contentType:
+2018 Dec 01 19:10:20.861549,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:10:20.959317,Qam Linear
+2018 Dec 01 19:10:21.453310,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=233b4bfe-a7d4-4eda-a5d8-198237038da7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 494 milliseconds
+2018 Dec 01 19:10:21.456018,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:10:22.346591,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=233b4bfe-a7d4-4eda-a5d8-198237038da7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:10:22.346591,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=233b4bfe-a7d4-4eda-a5d8-198237038da7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:11:24.140103,K E D _ D I G I T 3
+2018 Dec 01 19:11:24.448354,K E D _ D I G I T 3
+2018 Dec 01 19:11:24.963084,K E D _ D I G I T 8
+2018 Dec 01 19:11:25.273284,K E D _ D I G I T 8
+2018 Dec 01 19:11:29.605643,K E D _ D I G I T 3
+2018 Dec 01 19:11:30.108156,K E D _ D I G I T 3
+2018 Dec 01 19:11:30.159386,K E D _ D I G I T 3
+2018 Dec 01 19:12:30.442948,K E D _ E X I T
+2018 Dec 01 19:12:30.705172,K E D _ E X I T
+2018 Dec 01 19:13:51.463754,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:13:53.291291,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:13:53.294230,Qam Linear
+2018 Dec 01 19:13:53.321516,playbackmode [] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=233b4bfe-a7d4-4eda-a5d8-198237038da7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 26 milliseconds
+2018 Dec 01 19:14:32.014874,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:32.307400,playbackmode [LINEAR_TV] video tune aborted url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=233b4bfe-a7d4-4eda-a5d8-198237038da7&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:
+2018 Dec 01 19:14:32.333714,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:32.371176,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:14:32.409825,Qam Linear
+2018 Dec 01 19:14:32.736188,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3432&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 326 milliseconds
+2018 Dec 01 19:14:32.739636,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:14:33.962624,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3432&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:33.962624,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3432&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:35.829708,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:36.082608,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:36.132052,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:14:36.162050,Qam Linear
+2018 Dec 01 19:14:36.439517,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x320c&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 277 milliseconds
+2018 Dec 01 19:14:36.445535,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:14:37.791674,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x320c&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:37.791674,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x320c&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:39.999879,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:40.329700,K E D _ C H A N N E L U P
+2018 Dec 01 19:14:40.440649,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:14:40.462423,Qam Linear
+2018 Dec 01 19:14:40.810337,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x67fc&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 348 milliseconds
+2018 Dec 01 19:14:40.887589,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:14:42.013128,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x67fc&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:42.013128,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x67fc&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:47.375733,K E D _ D I G I T 8
+2018 Dec 01 19:14:47.591764,K E D _ D I G I T 8
+2018 Dec 01 19:14:47.928972,K E D _ D I G I T 6
+2018 Dec 01 19:14:48.123298,K E D _ D I G I T 6
+2018 Dec 01 19:14:48.205465,K E D _ D I G I T 6
+2018 Dec 01 19:14:48.423547,K E D _ D I G I T 6
+2018 Dec 01 19:14:49.144928,K E D _ S E L E C T
+2018 Dec 01 19:14:49.439984,K E D _ S E L E C T
+2018 Dec 01 19:14:49.840699,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:14:49.901608,Qam Linear
+2018 Dec 01 19:14:50.136594,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 233 milliseconds
+2018 Dec 01 19:14:50.140531,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:14:51.377366,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:14:51.377366,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:15:00.993078,K E D _ D I G I T 3
+2018 Dec 01 19:15:01.259400,K E D _ D I G I T 3
+2018 Dec 01 19:15:02.232584,K E D _ D I G I T 8
+2018 Dec 01 19:15:02.467422,K E D _ D I G I T 8
+2018 Dec 01 19:15:03.661318,K E D _ S E L E C T
+2018 Dec 01 19:15:03.994085,K E D _ S E L E C T
+2018 Dec 01 19:15:04.035852,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:15:04.065103,Qam Linear
+2018 Dec 01 19:15:04.350318,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 285 milliseconds
+2018 Dec 01 19:15:04.483524,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:15:05.204299,playbackmode [LINEAR_TV] video tune failed url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3baa&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:15:17.535091,K E D _ E X I T
+2018 Dec 01 19:15:17.826076,K E D _ E X I T
+2018 Dec 01 19:15:21.008975,K E D _ L A S T
+2018 Dec 01 19:15:21.039611,K E D _ L A S T
+2018 Dec 01 19:15:26.451334,K E D _ L A S T
+2018 Dec 01 19:15:26.499754,K E D _ L A S T
+2018 Dec 01 19:15:29.997078,K E D _ S E L E C T
+2018 Dec 01 19:15:30.209950,K E D _ S E L E C T
+2018 Dec 01 19:15:30.403407,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:15:30.521663,Qam Linear
+2018 Dec 01 19:15:30.607360,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 80 milliseconds
+2018 Dec 01 19:15:30.631223,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:15:31.892585,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:15:31.892585,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x49ae&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:17:02.202090,K E D _ D I G I T 5
+2018 Dec 01 19:17:02.439125,K E D _ D I G I T 5
+2018 Dec 01 19:17:02.784681,K E D _ D I G I T 0
+2018 Dec 01 19:17:02.977259,K E D _ D I G I T 0
+2018 Dec 01 19:17:03.421643,K E D _ D I G I T 1
+2018 Dec 01 19:17:03.687072,K E D _ D I G I T 1
+2018 Dec 01 19:17:04.884443,K E D _ S E L E C T
+2018 Dec 01 19:17:05.142430,K E D _ S E L E C T
+2018 Dec 01 19:17:05.251643,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:17:05.274075,Qam Linear
+2018 Dec 01 19:17:05.615726,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 341 milliseconds
+2018 Dec 01 19:17:05.619447,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:17:06.788519,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:17:06.788519,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=9dffe8ea-1e73-4e32-9e10-9cb48817b939&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:18:59.394131,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:19:00.811185,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:19:00.815571,playbackmode [] video tune request url= contentType:
+2018 Dec 01 19:19:00.815805,playbackmode [] Video item creation time for  was 0 milliseconds
+2018 Dec 01 19:19:08.445065,playbackmode [] video tune aborted url= contentType:
+2018 Dec 01 19:19:08.480662,playbackmode [LINEAR_TV] seekCalled pos[0] 
+2018 Dec 01 19:19:08.517447,Qam Linear
+2018 Dec 01 19:19:08.891462,playbackmode [LINEAR_TV] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=2e7aacfb-4f8b-413c-a517-5091560dfa1b&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 374 milliseconds
+2018 Dec 01 19:19:08.904696,playbackmode [LINEAR_TV] First time play-request
+2018 Dec 01 19:19:10.025749,playbackmode [LINEAR_TV] video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=2e7aacfb-4f8b-413c-a517-5091560dfa1b&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:19:10.025749,video tune succeeded url=http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=2e7aacfb-4f8b-413c-a517-5091560dfa1b&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d contentType:video/vnd.dlna
+2018 Dec 01 19:19:24.768837,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:19:26.883010,playbackmode [] seekCalled pos[0] 
+2018 Dec 01 19:19:26.885694,Qam Linear
+2018 Dec 01 19:19:26.914655,playbackmode [] Video item creation time for http://127.0.0.1:8080/hnStreamStart?deviceId=4bad815e-da16-4257-a04d-370b3532170d&DTCP1HOST=127.0.0.1&DTCP1PORT=5000&live=ocap://0x3253&reservationToken=2e7aacfb-4f8b-413c-a517-5091560dfa1b&continueTSB=true&streamingReceiverId=4bad815e-da16-4257-a04d-370b3532170d was 28 milliseconds
+2018 Oct 17 01:06:29.370058,K E D _ K E Y A
+2018 Oct 17 01:06:29.436796,K E D _ K E Y A

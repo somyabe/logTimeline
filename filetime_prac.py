@@ -11,9 +11,13 @@ def getMarkers():
             text = csv.reader(csv_file)
             markerDict = {}
             for line in text:
-                if line[1] not in markerDict.keys():
-                    markerDict[line[1]] = []
-                markerDict[line[1]].append(line[0])
+                try:
+                    if line[1] not in markerDict.keys():
+                        markerDict[line[1]] = []
+                    markerDict[line[1]].append(line[0])
+                except:
+                    print("Got markerDict!")
+                    pass
         mainlist=[]
         count=0
         for x in markerDict:
@@ -66,8 +70,24 @@ def getMarkers():
 
 def getPlaybackmode(mainlist):
     #for lines in mainlist:
-
-    return mainlist
+    finalist = []
+    for line in mainlist:
+        if "playbackmode" in line[1]:
+            if "request" in line[1]:
+                #print("request url")
+                if("ocap" in line[1]):
+                    line[1] = "Qam Linear"
+                    finalist.append(line)
+                elif("m3u8" in line[1]):
+                    line[1]="Ip linear"
+                    finalist.append(line)
+            elif "succeeded" in line[1]:
+                pass
+                #print("success url")
+        else:
+            #finalist.append(line)
+            pass
+    return finalist
 
 if __name__ == "__main__":
     with open('time.csv', 'r') as e:
@@ -79,7 +99,8 @@ if __name__ == "__main__":
 
     mainlist = getMarkers()
 
-
+    mlist = getPlaybackmode(mainlist)
+    print(mlist)
     df = pd.DataFrame(mainlist)
     df.columns = ['datest', 'markers']
     df = df.sort_values(by='datest')

@@ -1,7 +1,8 @@
-New flash video is playing,receiver_.log
-video tune succeeded,receiver_.log
-BAD URL,receiver_.log
-Error on,receiver_.log
-XREKeyPressLog,receiver_.log
-playbackmode,receiver_.log
-aamp_tune,receiver_.log
+New flash video is playing,receiver.log
+video tune succeeded,receiver.log
+BAD URL,receiver.log
+Error on,receiver.log
+XREKeyPressLog,receiver.log
+playbackmode,receiver.log
+aamp_tune,receiver.log
+
