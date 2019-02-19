@@ -73,19 +73,53 @@ def getPlaybackmode(mainlist):
     finalist = []
     for line in mainlist:
         if "playbackmode" in line[1]:
-            if "request" in line[1]:
+            if "tune request" in line[1]:
                 #print("request url")
                 if("ocap" in line[1]):
-                    line[1] = "Qam Linear"
+                    #line[1] = "Qam Linear"
+                    word = "ocap://"
+                    reg = re.compile('%s.+&' % word)
+                    result = reg.findall(line[1])
+                    line[1] = "QAM Linear"
+                    line.append(''.join(result)[7:-1])
+
+                    finalist.append(line)
+                elif("VOD" in line[1]):
+                    word = "net/"
+                    reg = re.compile('%s.+/movie' % word)
+                    result = reg.findall(line[1])
+                    line[1] = "VOD URL"
+                    line.append(''.join(result)[3:-6])
+
+                    finalist.append(line)
+                elif ("DVR" in line[1]):
+                    word = "cdvr-"
+                    reg = re.compile('%s.+xcr' % word)
+                    result = reg.findall(line[1])
+                    line[1] = "DVR URL"
+                    line.append(''.join(result)[5:-4])
+
                     finalist.append(line)
                 elif("m3u8" in line[1]):
-                    line[1]="Ip linear"
+                    #line[1] = "Ip linear"
+                    word = "net%2F"
+                    reg = re.compile('%s.{8}' % word)
+                    result = reg.findall(line[1])
+                    line[1] = "IP Linear"
+                    line.append(''.join(result)[6:])
+
                     finalist.append(line)
             elif "succeeded" in line[1]:
-                pass
+                line[1] = "Video Tune Succeeded"
+                finalist.append(line)
                 #print("success url")
-        else:
+            elif "failed" in line[1]:
+                line[1] = "Video Failed"
+                finalist.append(line)
+        elif "K E D" in line[1]:
             #finalist.append(line)
+            pass
+        else:
             pass
     return finalist
 
@@ -101,8 +135,11 @@ if __name__ == "__main__":
 
     mlist = getPlaybackmode(mainlist)
     print(mlist)
-    df = pd.DataFrame(mainlist)
-    df.columns = ['datest', 'markers']
-    df = df.sort_values(by='datest')
-    #print(df)
-    df.to_csv('pro.csv', index=False)
+    try:
+        df = pd.DataFrame(mlist)
+        df.columns = ['dates', 'col1','col2']
+        df = df.sort_values(by='dates')
+        #print(df)
+        df.to_csv('pro.csv', index=False)
+    except:
+        print("Dataframe failed")
