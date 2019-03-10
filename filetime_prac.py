@@ -3,7 +3,8 @@ import re
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
-from matplotlib.widgets import Slider
+from concurrent.futures import ThreadPoolExecutor
+
 import time
 from keypress import keyDict
 
@@ -221,6 +222,23 @@ def getSettings(mainlist):
             pass
 
     return finalist
+def first_graph():
+    fig, ax = plt.subplots()
+    ax.scatter(col3listdf, datelistdf)
+
+    for i, txt in enumerate(markerlistdf):
+        ax.annotate(txt, (col3listdf[i], datelistdf[i]))
+    plt.show()
+
+
+def second_graph():
+    fig, ax = plt.subplots()
+    ax.scatter(col3listdf1, datelistdf1)
+
+    for j, txt in enumerate(markerlistdf1):
+        ax.annotate(txt, (col3listdf1[j], datelistdf1[j]))
+
+    plt.show()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -258,17 +276,6 @@ if __name__ == "__main__":
         df1.columns=['dates', 'col1', 'col2','col3']
         df = df.sort_values(by='dates')
         df1 = df1.sort_values(by='dates')
-        #df1=df1.head(3)
-
-        #ax = df.plot(kind='scatter', x='a', y='b',color = 'DarkBlue', label = 'Group 1')
-        #for x in 'col3':
-
-        #pt.scatter(df1['dates'],df1['col3'], color='DarkBlue')
-        #pt.show()
-        #df.plot(kind='scatter', x='dates', y='col3')
-        #df = df.cumsum()
-
-
 
         df.to_csv('pro1.csv', index=False)
         df1.to_csv('pro.csv', index=False)
@@ -287,22 +294,10 @@ if __name__ == "__main__":
         col3listdf1=list(df1.col3)
         col3listdf = list(df.col3)
 
+        executor = ThreadPoolExecutor(max_workers=2)
+        a = executor.submit(first_graph)
+        b = executor.submit(second_graph)
 
-        fig, ax = plt.subplots()
-        ax.scatter(col3listdf, datelistdf)
-
-
-        for i, txt in enumerate(markerlistdf):
-            ax.annotate(txt, (col3listdf[i],datelistdf[i]))
-        plt.show()
-
-        fig, ax = plt.subplots()
-        ax.scatter(col3listdf1, datelistdf1)
-
-        for j, txt in enumerate(markerlistdf1):
-            ax.annotate(txt, (col3listdf1[j],datelistdf1[j]))
-
-        plt.show()
     except:
         print("Dataframe failed")
 
