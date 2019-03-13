@@ -147,9 +147,9 @@ def getPlaybackmode(mainlist):
                 finalist.append(line)
 
 
-        elif "K E D" in line[1]:
+        #elif "K E D" in line[1]:
             #finalist.append(line)
-            pass
+            #pass
         elif "HTML5 video" in line[1]:
             word = "mediasourceblob:"
             reg = re.compile('%s.+' % word)
@@ -229,6 +229,17 @@ def getSettings(mainlist):
         else:
             pass
 
+    return finalist
+
+def getKeypresses(mainlist):
+    finalist=[]
+    for line in mainlist:
+        if "K E D" in line[1]:
+
+            line.append(" ")
+
+            line.append("receiverlog")
+            finalist.append(line)
     return finalist
 
 

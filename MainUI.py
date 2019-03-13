@@ -84,7 +84,7 @@ class Ui_MainWindow(object):
         date_str=self.datetime.text().strip()
         dur_str=self.duration_set_button.text()
         file_name=self.filename.text()
-        print("run pressed!")
+        #print("run pressed!")
         pattern = '%Y %b %d %H:%M:%S.%f'
         epoch1 = int(time.mktime(time.strptime(date_str, pattern)))
         int_dur = int(dur_str)
@@ -93,73 +93,91 @@ class Ui_MainWindow(object):
         mainlist = UserTimeline.getMarkers(epoch2,epoch1,file_name)
         mlist = UserTimeline.getPlaybackmode(mainlist)
         print(mlist)
+
         nlist = UserTimeline.getSettings(mainlist)
         print(nlist)
-
+        olist=UserTimeline.getKeypresses(mainlist)
+        print(olist)
         try:
-            df = pd.DataFrame(mlist)
-            df1 = pd.DataFrame(nlist)
-            df.columns = ['dates', 'col1', 'col2', 'col3']
-            df1.columns = ['dates', 'col1', 'col2', 'col3']
-            df = df.sort_values(by='dates')
-            df1 = df1.sort_values(by='dates')
 
-            df.to_csv('videoTimeline.csv', index=False)
-            df1.to_csv('settingsTimeline.csv', index=False)
+            if(len(mlist)>0):
 
-            df1["marker"] = df1["col1"] + df1["col2"]
-            df["marker"] = df["col1"] + df["col2"]
-            datelistdf1 = list(df1.dates)
-            datelistdf = list(df.dates)
+                df = pd.DataFrame(mlist)
+                df.columns = ['dates', 'col1', 'col2', 'col3']
+                #print(df)
+                df = df.sort_values(by='dates')
+                df.to_csv('videoTimeline.csv', index=False)
+                df["marker"] = df["col1"] + df["col2"]
+                datelistdf = list(df.dates)
+                markerlistdf = list(df.marker)
+                col3listdf = list(df.col3)
+                fig, ax = plt.subplots()
+                ax.scatter(col3listdf, datelistdf)
 
-            markerlistdf1 = list(df1.marker)
-            markerlistdf = list(df.marker)
+                for i, txt in enumerate(markerlistdf):
+                    ax.annotate(txt, (col3listdf[i], datelistdf[i]))
 
-            col3listdf1 = list(df1.col3)
-            col3listdf = list(df.col3)
-            #interactive(True)
-            #self.first_graph(col3listdf,datelistdf,markerlistdf)
-            #self.second_graph(col3listdf1,datelistdf1,markerlistdf1)
-            fig, ax = plt.subplots()
-            ax.scatter(col3listdf, datelistdf)
+                if(len(nlist)!=0):
 
-            for i, txt in enumerate(markerlistdf):
-                ax.annotate(txt, (col3listdf[i], datelistdf[i]))
-            interactive(True)
-            plt.show()
+                    interactive(True)
+                plt.show()
 
-            fig, ax = plt.subplots()
-            ax.scatter(col3listdf1, datelistdf1)
+            else:
+                print("No video records found")
 
-            for j, txt in enumerate(markerlistdf1):
-                ax.annotate(txt, (col3listdf1[j], datelistdf1[j]))
-            interactive(False)
+            if(len(nlist)>0):
 
-            plt.show()
+
+                df1 = pd.DataFrame(nlist)
+                #df.columns = ['dates', 'col1', 'col2', 'col3']
+                #print(df)
+                df1.columns = ['dates', 'col1', 'col2', 'col3']
+                #df = df.sort_values(by='dates')
+                df1 = df1.sort_values(by='dates')
+
+                #df.to_csv('videoTimeline.csv', index=False)
+                df1.to_csv('settingsTimeline.csv', index=False)
+
+
+
+                df1["marker"] = df1["col1"] + df1["col2"]
+                #df["marker"] = df["col1"] + df["col2"]
+                datelistdf1 = list(df1.dates)
+                #datelistdf = list(df.dates)
+
+                markerlistdf1 = list(df1.marker)
+                #markerlistdf = list(df.marker)
+
+                col3listdf1 = list(df1.col3)
+                #col3listdf = list(df.col3)
+                #interactive(True)
+                #self.first_graph(col3listdf,datelistdf,markerlistdf)
+                #self.second_graph(col3listdf1,datelistdf1,markerlistdf1)
+
+
+                fig, ax = plt.subplots()
+                ax.scatter(col3listdf1, datelistdf1)
+
+                for j, txt in enumerate(markerlistdf1):
+                    ax.annotate(txt, (col3listdf1[j], datelistdf1[j]))
+                interactive(False)
+
+                plt.show()
+            else:
+                print("No settings records found")
+
+            if (len(olist) > 0):
+                df = pd.DataFrame(olist)
+                df.columns = ['dates', 'col1', 'col2', 'col3']
+                # print(df)
+                df = df.sort_values(by='dates')
+                df.to_csv('keypreses.csv', index=False)
 
         except:
             print("Dataframe failed")
             traceback.print_exc()
 
-    #def first_graph(self,col3listdf,datelistdf,markerlistdf):
-        #fig, ax = plt.subplots()
-        #ax.scatter(col3listdf, datelistdf)
 
-        #for i, txt in enumerate(markerlistdf):
-            #ax.annotate(txt, (col3listdf[i], datelistdf[i]))
-        #plt.show()
-        #return True
-
-
-    #def second_graph(self,col3listdf1,datelistdf1,markerlistdf1):
-        #fig, ax = plt.subplots()
-        #ax.scatter(col3listdf1, datelistdf1)
-
-        #for j, txt in enumerate(markerlistdf1):
-            #ax.annotate(txt, (col3listdf1[j], datelistdf1[j]))
-
-        #plt.show()
-        #return True
 if __name__ == "__main__":
     import sys
 
