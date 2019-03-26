@@ -1,0 +1,43 @@
+dates,col3,marker
+2019 Mar 24 07:36:11.040943,Notifications,SHELL_STATUS=active 
+2019 Mar 24 07:36:16.111449,Notifications,PLAYER_STATUS=active 
+2019 Mar 24 07:36:16.226717,Video,No URL found 
+2019 Mar 24 07:36:17.607961,Notifications,GUIDE_STATUS=active 
+2019 Mar 24 07:37:24.418578,Video,QAM Linear requested0x3653
+2019 Mar 24 07:37:24.418578,Video,QAM Linear requested0x3653
+2019 Mar 24 07:37:30.767964,Video,Video Tune Succeeded 
+2019 Mar 24 07:47:31.806223,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:47:36.628048,Notifications,PLAYER_STATUS=disconnected 
+2019 Mar 24 07:47:37.596342,Notifications,GUIDE_STATUS=disconnected 
+2019 Mar 24 07:47:52.820136,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:48:27.506170,Notifications,SHELL_STATUS=active 
+2019 Mar 24 07:49:57.440897,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:51:21.878426,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:51:24.467359,Notifications,SHELL_STATUS=active 
+2019 Mar 24 07:51:29.576784,Notifications,PLAYER_STATUS=active 
+2019 Mar 24 07:51:29.793504,Video,No URL found 
+2019 Mar 24 07:51:31.095409,Notifications,GUIDE_STATUS=active 
+2019 Mar 24 07:51:35.809100,Video,QAM Linear requested0x3653
+2019 Mar 24 07:51:35.809100,Video,QAM Linear requested0x3653
+2019 Mar 24 07:51:37.206084,Video,Video Tune Succeeded 
+2019 Mar 24 07:53:24.704327,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:53:28.732781,Notifications,SHELL_STATUS=active 
+2019 Mar 24 07:53:33.333247,Notifications,PLAYER_STATUS=active 
+2019 Mar 24 07:53:33.523350,Video,QAM Linear requested0x3653
+2019 Mar 24 07:53:33.523350,Video,QAM Linear requested0x3653
+2019 Mar 24 07:53:35.382004,Notifications,GUIDE_STATUS=active 
+2019 Mar 24 07:54:48.768559,Notifications,SHELL_STATUS=disconnected 
+2019 Mar 24 07:54:53.711191,Notifications,SHELL_STATUS=active 
+2019 Mar 24 07:54:58.799573,Notifications,PLAYER_STATUS=active 
+2019 Mar 24 07:54:58.973534,Video,QAM Linear requested0x3653
+2019 Mar 24 07:54:58.973534,Video,QAM Linear requested0x3653
+2019 Mar 24 07:55:00.336265,Notifications,GUIDE_STATUS=active 
+2019 Mar 24 07:55:32.342938,Video,Video Failed 
+2019 Mar 24 07:55:32.542136,Video,IP Linear requested FOODD_HD
+2019 Mar 24 07:55:32.913811,Settings,closed captions 
+2019 Mar 24 07:55:37.928705,Video,Video Tune Succeeded 
+2019 Mar 24 07:57:51.416812,Notifications,BROWSER_CRASHED 
+2019 Mar 24 07:57:51.568395,Notifications,BROWSER_CRASHED 
+2019 Mar 24 07:57:51.729931,Notifications,BROWSER_CRASHED 
+2019 Mar 24 07:58:52.173529,Video,IP Linear requested WRTVD_HD
+2019 Mar 24 07:58:52.322921,Settings,closed captions 

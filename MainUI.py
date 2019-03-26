@@ -3,9 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from concurrent.futures import ThreadPoolExecutor
 import time
-import UserTimeline
+import UserTimeline1
 import traceback
 from matplotlib import interactive
+import tarfile
+import os
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -39,7 +41,7 @@ class Ui_MainWindow(object):
         self.duration_set_button.setCorrectionMode(QtWidgets.QAbstractSpinBox.CorrectToPreviousValue)
         self.duration_set_button.setKeyboardTracking(True)
         self.duration_set_button.setMinimum(1)
-        self.duration_set_button.setMaximum(6)
+        #self.duration_set_button.setMaximum(6)
         self.duration_set_button.setSingleStep(1)
         self.duration_set_button.setProperty("value", 1)
         self.duration_set_button.setDisplayIntegerBase(10)
@@ -69,7 +71,6 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
 
-        self.executor = ThreadPoolExecutor(max_workers=2)
 
 
     def retranslateUi(self, MainWindow):
@@ -90,65 +91,80 @@ class Ui_MainWindow(object):
         int_dur = int(dur_str)
         int_dur = int_dur * 3600
         epoch2 = epoch1 - int_dur
-        mainlist = UserTimeline.getMarkers(epoch2,epoch1,file_name)
-        mlist = UserTimeline.getPlaybackmode(mainlist)
+        mainlist = UserTimeline1.getMarkers(epoch2, epoch1, file_name)
+        mlist = UserTimeline1.getPlaybackmode(mainlist)
         print(mlist)
 
-        nlist = UserTimeline.getSettings(mainlist)
+        nlist = UserTimeline1.getSettings(mainlist)
         print(nlist)
-        olist=UserTimeline.getKeypresses(mainlist)
+        olist=UserTimeline1.getKeypresses(mainlist)
         print(olist)
+        qlist=UserTimeline1.getnotifications(mainlist)
+        print(qlist)
+        plist=mlist+nlist+qlist
+
         try:
 
-            if(len(mlist)>0):
+            #if(len(mlist)>0):
 
-                df = pd.DataFrame(mlist)
-                df.columns = ['dates', 'col1', 'col2', 'col3']
+                #df = pd.DataFrame(mlist)
+                #df.columns = ['dates', 'col1', 'col2', 'col3']
                 #print(df)
-                df = df.sort_values(by='dates')
-                df.to_csv('videoTimeline.csv', index=False)
-                df["marker"] = df["col1"] + df["col2"]
-                datelistdf = list(df.dates)
-                markerlistdf = list(df.marker)
-                col3listdf = list(df.col3)
-                fig, ax = plt.subplots()
-                ax.scatter(col3listdf, datelistdf)
+                #df = df.sort_values(by='dates')
+                #df["marker"] = df["col1"] + df["col2"]
+                #datelistdf = list(df.dates)
+                #markerlistdf = list(df.marker)
+                #col3listdf = list(df.col3)
+                #fig, ax = plt.subplots()
 
-                for i, txt in enumerate(markerlistdf):
-                    ax.annotate(txt, (col3listdf[i], datelistdf[i]))
+                #ax.scatter(datelistdf, col3listdf)
 
-                if(len(nlist)!=0):
+                #for i, txt in enumerate(markerlistdf):
+                    #ax.annotate(txt, (datelistdf[i], col3listdf[i]))
 
-                    interactive(True)
-                plt.show()
+                #if(len(nlist)!=0):
 
-            else:
-                print("No video records found")
+                    #interactive(True)
+                #plt.show()
 
-            if(len(nlist)>0):
+            #else:
+                #print("No video records found")
+
+            if(len(plist)>0):
 
 
-                df1 = pd.DataFrame(nlist)
+                df1 = pd.DataFrame(plist)
                 #df.columns = ['dates', 'col1', 'col2', 'col3']
                 #print(df)
                 df1.columns = ['dates', 'col1', 'col2', 'col3']
+
+                #df1["marker"] = df1["col1"] + df1["col2"]
+                #df1.columns = ['dates', 'marker', 'col3']
                 #df = df.sort_values(by='dates')
+
+
                 df1 = df1.sort_values(by='dates')
+                df1["marker"] = df1["col1"] + df1["col2"]
+                del df1['col1']
+                del df1['col2']
+
 
                 #df.to_csv('videoTimeline.csv', index=False)
-                df1.to_csv('settingsTimeline.csv', index=False)
+                df1.to_csv('Timeline.csv', index=False)
 
 
 
-                df1["marker"] = df1["col1"] + df1["col2"]
+                #df1["marker"] = df1["col1"] + df1["col2"]
                 #df["marker"] = df["col1"] + df["col2"]
                 datelistdf1 = list(df1.dates)
                 #datelistdf = list(df.dates)
 
                 markerlistdf1 = list(df1.marker)
+                #markerlistdf1 = markerlistdf1.astype(str)
                 #markerlistdf = list(df.marker)
 
                 col3listdf1 = list(df1.col3)
+                #col3listdf1 = col3listdf1.astype(str)
                 #col3listdf = list(df.col3)
                 #interactive(True)
                 #self.first_graph(col3listdf,datelistdf,markerlistdf)
@@ -156,15 +172,17 @@ class Ui_MainWindow(object):
 
 
                 fig, ax = plt.subplots()
-                ax.scatter(col3listdf1, datelistdf1)
+                ax.scatter(datelistdf1, col3listdf1)
+
+                fig.autofmt_xdate()
 
                 for j, txt in enumerate(markerlistdf1):
-                    ax.annotate(txt, (col3listdf1[j], datelistdf1[j]))
-                interactive(False)
+                    ax.annotate(txt, (datelistdf1[j], col3listdf1[j]), rotation=10)
+                #interactive(False)
 
                 plt.show()
             else:
-                print("No settings records found")
+                print("No records found")
 
             if (len(olist) > 0):
                 df = pd.DataFrame(olist)

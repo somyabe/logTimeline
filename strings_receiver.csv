@@ -9,3 +9,9 @@ HTML5 video
 Gibbon
 closedcaptions
 SAP
+errorType
+XRE_NR_STATUS
+RDKBROWSER_RENDER_PROCESS_CRASHED
+RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)
+"Pre-caching failed, renderer crashed"
+core.prog_rtrmfplayer
