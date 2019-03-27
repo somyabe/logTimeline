@@ -1,0 +1,65 @@
+<html>
+<head>
+<script src="papaparse.min.js"></script>
+<script src="canvasjs.min.js"></script>
+<script src="jquery-3.3.1.js"></script>        
+<script>
+window.onload = function () {
+    $("#csv-file").change(handleFile);
+    
+}
+
+function handleFile(evt){
+    var file = evt.target.files[0];
+    var timeline_data = new Array();
+    Papa.parse(file, {
+        header: true,
+		skipEmptyLines: true,
+        dynamicTyping: true,
+        complete: function(results) {
+        timeline_data = results['data'];
+        console.log("got file");
+        console.log(timeline_data);
+        throwChart(timeline_data);
+	}
+    });
+    
+    
+}
+
+function throwChart(TimelineData){
+    var chartData = TimelineData;
+    var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	zoomEnabled: true,
+	title:{
+		text: "Timeline"
+	},
+	axisX: {
+		title:"Time",
+		labelAngle: -30
+	},
+	axisY:{
+		title: "Timelines"
+	},
+	data: [{
+		type: "scatter",
+		toolTipContent: "<span style=\"color:#4F81BC \"></span> Marker: {z} ",
+		name: "Timeline",
+        showInLegend: true,
+        xValueType: "dateTime",
+		dataPoints: chartData,
+	}
+	]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<input type="file" id="csv-file" name="files"/>
+<div id="chartContainer" style="height: 370px; width: 100%;">
+</div>
+</body>
+</html>
