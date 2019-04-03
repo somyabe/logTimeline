@@ -148,9 +148,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
 
                 else:
-                    line[1] = "No URL found"
-                    line.append(" ")
-                    line.append("Video")
+                    break
 
 
                 finalist.append(line)
@@ -231,7 +229,7 @@ def getSettings(mainlist):
     for line in mainlist:
         if "closedcaptions" in line[1]:
 
-            line[1] = "closed captions"
+            line[1] = "closed captions on"
             line.append(" ")
 
             line.append("Settings")
@@ -260,7 +258,7 @@ def getKeypresses(mainlist):
 
             line.append(" ")
 
-            line.append("receiverlog")
+            line.append("Keypresses")
             finalist.append(line)
     return finalist
 

@@ -35,6 +35,45 @@ function throwChart(TimelineData){
 	title:{
 		text: "Timeline"
 	},
+	subtitles:[
+		{
+			text: "1-Video",
+			//Uncomment properties below to see how they behave
+			horizontalAlign: "left",
+			fontStyle: "normal",
+			fontColor: "blue",
+			fontFamily: "arial",
+			//fontSize: 30
+		},
+		{
+			text: "2-Notifications",
+			//Uncomment properties below to see how they behave
+			horizontalAlign: "left",
+			fontStyle: "normal",
+			fontColor: "blue",
+			fontFamily: "arial",
+			//fontSize: 30
+		},
+		{
+			text: "3-Settings",
+			//Uncomment properties below to see how they behave
+			horizontalAlign: "left",
+			fontStyle: "normal",
+			fontColor: "blue",
+			fontFamily: "arial",
+			//fontSize: 30
+		},
+		{
+			text: "4-Keypreses",
+			//Uncomment properties below to see how they behave
+			horizontalAlign: "left",
+			fontStyle: "normal",
+			fontColor: "blue",
+			fontFamily: "arial",
+			//fontSize: 30
+		}
+	
+		],
 	axisX: {
 		title:"Time",
 		labelAngle: -30
@@ -44,7 +83,9 @@ function throwChart(TimelineData){
 	},
 	data: [{
 		type: "scatter",
-		toolTipContent: "<span style=\"color:#4F81BC \"></span> Marker: {z} ",
+		
+		color: "red",
+		toolTipContent: "{z} ",
 		name: "Timeline",
         showInLegend: true,
         xValueType: "dateTime",

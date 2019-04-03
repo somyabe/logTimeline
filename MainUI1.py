@@ -102,10 +102,11 @@ class Ui_MainWindow(object):
         nlist = UserTimeline1.getSettings(mainlist)
         print(nlist)
         olist=UserTimeline1.getKeypresses(mainlist)
+        print(olist)
 
         qlist=UserTimeline1.getnotifications(mainlist)
         print(qlist)
-        plist=mlist+nlist+qlist
+        plist=mlist+nlist+qlist+olist
         print(plist)
 
         copy_list=plist.copy()
@@ -139,6 +140,14 @@ class Ui_MainWindow(object):
             #else:
                 #print("No video records found")
 
+
+            #if (len(olist) > 0):
+                #df = pd.DataFrame(olist)
+                #df.columns = ['dates', 'col1', 'col2']
+                # print(df)
+                #df = df.sort_values(by='dates')
+                #df.to_csv('keypresses.csv', index=False)
+
             if(len(plist)>0):
 
 
@@ -159,9 +168,9 @@ class Ui_MainWindow(object):
 
                 for i in plist:
                     datetimeobj = datetime.strptime(i[0], pattern)
-                    datetimeobj1 = datetimeobj.replace(tzinfo=timezone.utc).timestamp()
+                    datetimeobj1 = datetimeobj.timestamp()*1000
 
-                    temp_list.append(datetimeobj1)
+                    temp_list.append(int(datetimeobj1))
                 #print(temp_list)
 
 
@@ -171,15 +180,21 @@ class Ui_MainWindow(object):
                 for i in copy_list:
                     if i[3]=='Video':
                         i[3]='1'
+                        #i.append("blue")
                     elif i[3]=='Notifications':
                         i[3]='2'
+                        #i.append("green")
                     elif i[3]=='Settings':
                         i[3]='3'
+                        #i.append("red")
+
+                    elif i[3]=='Keypresses':
+                        i[3]='4'
+                        #i.append("yellow")
 
 
 
                 print(copy_list)
-
 
 
 
@@ -234,12 +249,7 @@ class Ui_MainWindow(object):
             else:
                 print("No records found")
 
-            if (len(olist) > 0):
-                df = pd.DataFrame(olist)
-                df.columns = ['dates', 'col1', 'col2', 'col3']
-                # print(df)
-                df = df.sort_values(by='dates')
-                df.to_csv('keypreses.csv', index=False)
+
 
         except:
             print("Dataframe failed")
