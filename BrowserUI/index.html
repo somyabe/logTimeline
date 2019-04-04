@@ -21,10 +21,26 @@ function handleFile(evt){
         console.log("got file");
         console.log(timeline_data);
         throwChart(timeline_data);
+		throwTable(timeline_data);
 	}
     });
     
     
+}
+
+function throwTable(timeline_data){
+
+	var obj = timeline_data;
+
+	var tbody = document.getElementById('tbody');
+
+	for (var i = 0; i < obj.length; i++) {
+    var tr = "<tr>";
+
+    tr += "<td>" + obj[i].x + "</td>" + "<td>" + obj[i].z.toString() + "</td></tr>";
+
+    tbody.innerHTML += tr;
+}
 }
 
 function throwChart(TimelineData){
@@ -103,6 +119,12 @@ chart.render();
 <body>
 <input type="file" id="csv-file" name="files"/>
 <div id="chartContainer" style="height: 370px; width: 100%;">
+</div>
+<div>
+	<table>
+		<tbody id="tbody">
+		</tbody>
+	</table>
 </div>
 </body>
 </html>
