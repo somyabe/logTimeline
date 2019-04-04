@@ -112,6 +112,8 @@ def getPlaybackmode(mainlist):
                     line[1] = "QAM Linear requested"
                     line.append(''.join(result)[7:-4])
                     line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
 
                     #finalist.append(line)
 
@@ -122,6 +124,8 @@ def getPlaybackmode(mainlist):
                     line[1] = "VOD URL"
                     line.append(''.join(result)[3:-6])
                     line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
 
                     #finalist.append(line)
 
@@ -132,6 +136,8 @@ def getPlaybackmode(mainlist):
                     line[1] = "DVR URL"
                     line.append(''.join(result)[5:-4])
                     line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
 
                     #finalist.append(line)
 
@@ -146,6 +152,8 @@ def getPlaybackmode(mainlist):
                     line[1] = "IP Linear requested "
                     line.append(''.join(result)[7:])
                     line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
 
                 else:
                     break
@@ -157,6 +165,8 @@ def getPlaybackmode(mainlist):
                 line[1] = "Video Tune Succeeded"
                 line.append(" ")
                 line.append("Video")
+                line.append("green")
+                line.append("square")
                 finalist.append(line)
 
                 #print("success url")
@@ -164,6 +174,8 @@ def getPlaybackmode(mainlist):
                 line[1] = "Video Failed"
                 line.append(" ")
                 line.append("Video")
+                line.append("red")
+                line.append("circle")
                 finalist.append(line)
 
 
@@ -178,29 +190,39 @@ def getPlaybackmode(mainlist):
                 line[1] = "Loading"
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
 
             elif "Pause" in line[1]:
                 line[1] = "Pause"
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
             elif "Playback started" in line[1]:
                 line[1] = "Playback started"
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
 
             elif "Playback terminated" in line[1]:
                 line[1] = "Playback terminated"
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
                 #finalist.append("receiver.log")
             elif "Play " in line[1]:
                 line[1] = "Play"
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
 
             else:
@@ -211,12 +233,16 @@ def getPlaybackmode(mainlist):
                 line[1] = "Netflix initiated"
                 line.append(" ")
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
 
             elif "Gibbon_Start" or "Gibbon_Started" in line[1]:
                 line[1]="Netflix started"
                 line.append(" ")
                 line.append("Video")
+                line.append("blue")
+                line.append("triangle")
                 finalist.append(line)
         else:
             pass
@@ -227,12 +253,14 @@ def getPlaybackmode(mainlist):
 def getSettings(mainlist):
     finalist = []
     for line in mainlist:
-        if "closedcaptions" in line[1]:
+        if "closedCaptioningEnabled enabled: true" in line[1]:
 
-            line[1] = "closed captions on"
+            line[1] = "closed captions enabled"
             line.append(" ")
 
             line.append("Settings")
+            line.append("blue")
+            line.append("triangle")
             finalist.append(line)
 
         elif " SAP" in line[1]:
@@ -244,6 +272,8 @@ def getSettings(mainlist):
             line[1] = result
             line.append(" ")
             line.append("Settings")
+            line.append("blue")
+            line.append("triangle")
             finalist.append(line)
 
         else:
@@ -254,11 +284,25 @@ def getSettings(mainlist):
 def getKeypresses(mainlist):
     finalist=[]
     for line in mainlist:
-        if "K E D" in line[1]:
+        if "K E Y" in line[1]:
+            if "G U I D E" in line[1] or "O K" in line[1] or "E N T E R" in line[1] or "S E L E C T" in line[1]:
 
-            line.append(" ")
+                line.append(" ")
 
-            line.append("Keypresses")
+                line.append("Keypresses")
+                line.append("red")
+                line.append("circle")
+
+            else:
+
+                line.append(" ")
+
+                line.append("Keypresses")
+                line.append("blue")
+                line.append("triangle")
+
+
+
             finalist.append(line)
     return finalist
 
@@ -276,6 +320,8 @@ def getnotifications(mainlist):
             line[1] = result
             line.append(" ")
             line.append("Notifications")
+            line.append("red")
+            line.append("circle")
             finalist.append(line)
 
 
@@ -295,21 +341,37 @@ def getnotifications(mainlist):
             result=reg.findall(line[1])
             result=" ".join(result)[:-6]
 
+
             line[1] = result
-            line.append(" ")
-            line.append("Notifications")
-            finalist.append(line)
+            if 'active' in line[1]:
+
+                line.append(" ")
+                line.append("Notifications")
+                line.append("green")
+                line.append("square")
+                finalist.append(line)
+            else:
+                line.append(" ")
+
+                line.append("Notifications")
+                line.append("red")
+                line.append("circle")
+                finalist.append(line)
 
         elif 'RDKBROWSER_RENDER_PROCESS_CRASHED' in line[1]:
             line[1] = "BROWSER_CRASHED"
             line.append(" ")
             line.append("Notifications")
+            line.append("red")
+            line.append("circle")
             finalist.append(line)
 
         elif 'RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)' in line[1]:
             line[1] = "WebProcess crashed"
             line.append(" ")
             line.append("Notifications")
+            line.append("red")
+            line.append("circle")
             finalist.append(line)
 
 
@@ -317,20 +379,17 @@ def getnotifications(mainlist):
             line[1] = "RENDERER_CRASHED"
             line.append(" ")
             line.append("Notifications")
+            line.append("red")
+            line.append("circle")
             finalist.append(line)
 
         elif 'core.prog_rtrmfplayer' in line[1]:
             line[1] = "RMFPLAYER_CRASHED"
             line.append(" ")
             line.append("Notifications")
+            line.append("red")
+            line.append("circle")
             finalist.append(line)
-
-
-
-
-
-
-
 
     return finalist
 

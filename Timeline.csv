@@ -1,167 +1,160 @@
-dates,col3,marker
-2019 Feb 21 16:41:45.937041,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 16:41:50.304958,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:41:57.537000,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:46:29.784183,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:46:30.105899,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:46:30.567605,Keypresses,K E D _ A R R O W U P 
-2019 Feb 21 16:46:30.887554,Keypresses,K E D _ A R R O W U P 
-2019 Feb 21 16:46:31.435975,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:46:31.628185,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:47:22.016292,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:47:27.925279,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:48:24.009143,Keypresses,K E D _ D I G I T 2 
-2019 Feb 21 16:48:24.208444,Keypresses,K E D _ D I G I T 2 
-2019 Feb 21 16:48:24.537144,Keypresses,K E D _ D I G I T 1 
-2019 Feb 21 16:48:24.738570,Keypresses,K E D _ D I G I T 1 
-2019 Feb 21 16:48:25.054093,Keypresses,K E D _ D I G I T 6 
-2019 Feb 21 16:48:25.254106,Keypresses,K E D _ D I G I T 6 
-2019 Feb 21 16:48:25.399367,Keypresses,K E D _ D I G I T 8 
-2019 Feb 21 16:48:25.604721,Keypresses,K E D _ D I G I T 8 
-2019 Feb 21 16:48:49.135845,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:48:54.938497,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:48:55.138510,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:48:55.628157,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:48:55.941630,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:48:56.645497,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:48:56.790184,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:01.481420,Notifications,SHELL_STATUS=active 
-2019 Feb 21 16:49:12.608306,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:12.754899,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:14.373366,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:14.497462,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:16.131333,Notifications,PLAYER_STATUS=active 
-2019 Feb 21 16:49:17.142608,Notifications,GUIDE_STATUS=active 
-2019 Feb 21 16:49:21.466080,Settings,closed captions on 
-2019 Feb 21 16:49:38.193832,Keypresses,K E D _ K E Y A 
-2019 Feb 21 16:49:38.417971,Keypresses,K E D _ K E Y A 
-2019 Feb 21 16:49:39.964442,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:49:40.139773,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:49:40.308951,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:49:40.411701,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:49:40.969247,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:41.124151,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:43.307733,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:49:43.458281,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:32.284015,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:32.435836,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:33.762615,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:33.887319,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:34.373831,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:34.517387,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:47.845990,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:47.962693,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:50.486997,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:50.640555,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:53.463941,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:53.587040,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:53.653178,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:53.777589,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:53.845997,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:53.915911,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.003284,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.076463,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.154889,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.258250,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.314386,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.415363,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.484377,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.582243,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.660657,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.756994,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.812253,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.920126,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:54.991576,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.091397,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.153474,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.255124,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.345679,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.431799,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:50:55.967157,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:56.088598,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:50:59.436839,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:50:59.591704,Keypresses,K E D _ A R R O W D O W N 
-2019 Feb 21 16:51:00.057073,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:00.214445,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:17.250317,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:17.405619,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:21.178660,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:21.300267,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:24.343451,Keypresses,K E D _ E X I T 
-2019 Feb 21 16:51:24.487396,Keypresses,K E D _ E X I T 
-2019 Feb 21 16:51:28.891900,Keypresses,K E D _ K E Y A 
-2019 Feb 21 16:51:29.045715,Keypresses,K E D _ K E Y A 
-2019 Feb 21 16:51:29.974169,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:30.122416,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:30.461612,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:30.591201,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:32.237405,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:32.387514,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:35.379900,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:35.579968,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:37.334734,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:37.508993,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:38.239016,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:38.385319,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:38.780158,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:38.960040,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:49.259314,Keypresses,K E D _ A R R O W L E F T 
-2019 Feb 21 16:51:49.393988,Keypresses,K E D _ A R R O W L E F T 
-2019 Feb 21 16:51:49.798188,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:50.092156,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:51.592863,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:51.695261,Keypresses,K E D _ A R R O W R I G H T 
-2019 Feb 21 16:51:52.149660,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:52.271579,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 16:51:54.244891,Keypresses,K E D _ E X I T 
-2019 Feb 21 16:51:54.394265,Keypresses,K E D _ E X I T 
-2019 Feb 21 17:18:31.985973,Video,IP Linear requested ANPLD_HD
-2019 Feb 21 17:18:32.056134,Settings,closed captions on 
-2019 Feb 21 17:18:35.740619,Video,Video Tune Succeeded 
-2019 Feb 21 18:43:16.142232,Notifications,PLAYER_STATUS=disconnected 
-2019 Feb 21 18:43:17.115804,Notifications,GUIDE_STATUS=disconnected 
-2019 Feb 21 18:43:37.049912,Notifications,PLAYER_STATUS=disconnected 
-2019 Feb 21 18:43:57.217722,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 18:43:57.234613,Notifications,GUIDE_STATUS=disconnected 
-2019 Feb 21 18:44:22.920945,Notifications,SHELL_STATUS=active 
-2019 Feb 21 18:45:43.254229,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 18:46:07.245322,Notifications,SHELL_STATUS=active 
-2019 Feb 21 18:46:10.773657,Notifications,PLAYER_STATUS=active 
-2019 Feb 21 18:46:10.953150,Video,IP Linear requested ANPLD_HD
-2019 Feb 21 18:46:11.005956,Settings,closed captions on 
-2019 Feb 21 18:46:11.800287,Notifications,GUIDE_STATUS=active 
-2019 Feb 21 20:58:24.839845,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:25.163614,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:37.460595,Keypresses,K E D _ D I G I T 7 
-2019 Feb 21 20:58:37.659897,Keypresses,K E D _ D I G I T 7 
-2019 Feb 21 20:58:38.304475,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:38.674265,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:38.723729,Video,IP Linear requested WLSD1_HD
-2019 Feb 21 20:58:38.837050,Settings,closed captions on 
-2019 Feb 21 20:58:42.674523,Video,Video Tune Succeeded 
-2019 Feb 21 20:58:47.901988,Keypresses,K E D _ D I G I T 2 
-2019 Feb 21 20:58:48.161762,Keypresses,K E D _ D I G I T 2 
-2019 Feb 21 20:58:49.060102,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:49.285809,Video,IP Linear requested WBBMD_HD
-2019 Feb 21 20:58:49.400596,Settings,closed captions on 
-2019 Feb 21 20:58:49.450448,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 20:58:52.795210,Video,Video Tune Succeeded 
-2019 Feb 21 21:04:58.414616,Video,IP Linear requested ANPLD_HD
-2019 Feb 21 21:04:58.538325,Settings,closed captions on 
-2019 Feb 21 21:05:01.797315,Video,Video Tune Succeeded 
-2019 Feb 21 21:05:24.282665,Video,IP Linear requested HMMHD_HD
-2019 Feb 21 21:05:24.400953,Settings,closed captions on 
-2019 Feb 21 21:05:27.715489,Video,Video Tune Succeeded 
-2019 Feb 21 21:21:27.276693,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 21:21:31.116779,Notifications,PLAYER_STATUS=disconnected 
-2019 Feb 21 21:21:32.148433,Notifications,GUIDE_STATUS=disconnected 
-2019 Feb 21 21:21:48.179332,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 21:22:09.386561,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 21:22:28.501721,Notifications,SHELL_STATUS=disconnected 
-2019 Feb 21 21:22:44.888642,Notifications,SHELL_STATUS=active 
-2019 Feb 21 21:23:17.681465,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 21:23:18.046142,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 21:23:20.834811,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 21:23:21.284657,Keypresses,K E D _ S E L E C T 
-2019 Feb 21 21:23:25.775735,Notifications,errorType: 'RDK-03087' 
-2019 Feb 21 21:23:27.508859,Notifications,errorType: 'RDK-03087' 
+dates,col3,color,markerType,marker
+2019 Feb 21 16:41:45.937041,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 16:41:50.304958,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:41:57.537000,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:46:29.784183,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:46:30.105899,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:46:30.567605,Keypresses,blue,triangle,K E Y _ A R R O W U P 
+2019 Feb 21 16:46:30.887554,Keypresses,blue,triangle,K E Y _ A R R O W U P 
+2019 Feb 21 16:46:31.435975,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:46:31.628185,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:47:22.016292,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:47:27.925279,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:48:24.009143,Keypresses,blue,triangle,K E Y _ D I G I T 2 
+2019 Feb 21 16:48:24.208444,Keypresses,blue,triangle,K E Y _ D I G I T 2 
+2019 Feb 21 16:48:24.537144,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Feb 21 16:48:24.738570,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Feb 21 16:48:25.054093,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Feb 21 16:48:25.254106,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Feb 21 16:48:25.399367,Keypresses,blue,triangle,K E Y _ D I G I T 8 
+2019 Feb 21 16:48:25.604721,Keypresses,blue,triangle,K E Y _ D I G I T 8 
+2019 Feb 21 16:48:49.135845,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:48:54.938497,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:48:55.138510,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:48:55.628157,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:48:55.941630,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:48:56.645497,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:48:56.790184,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:01.481420,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 16:49:12.608306,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:12.754899,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:14.373366,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:14.497462,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:16.131333,Notifications,green,square,PLAYER_STATUS=active 
+2019 Feb 21 16:49:17.142608,Notifications,green,square,GUIDE_STATUS=active 
+2019 Feb 21 16:49:38.193832,Keypresses,blue,triangle,K E Y _ C O L O R _ A 
+2019 Feb 21 16:49:38.417971,Keypresses,blue,triangle,K E Y _ C O L O R _ A 
+2019 Feb 21 16:49:39.964442,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:49:40.139773,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:49:40.308951,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:49:40.411701,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:49:40.969247,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:41.124151,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:43.307733,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:49:43.458281,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:32.284015,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:32.435836,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:33.762615,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:33.887319,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:34.373831,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:34.517387,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:47.845990,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:47.962693,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:50.486997,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:50.640555,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:53.463941,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:53.587040,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:53.653178,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:53.777589,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:53.845997,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:53.915911,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.003284,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.076463,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.154889,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.258250,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.314386,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.415363,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.484377,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.582243,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.660657,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.756994,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.812253,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.920126,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:54.991576,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.091397,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.153474,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.255124,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.345679,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.431799,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:50:55.967157,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:56.088598,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:50:59.436839,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:50:59.591704,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Feb 21 16:51:00.057073,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:00.214445,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:17.250317,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:17.405619,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:21.178660,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:21.300267,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:24.343451,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Feb 21 16:51:24.487396,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Feb 21 16:51:28.891900,Keypresses,blue,triangle,K E Y _ C O L O R _ A 
+2019 Feb 21 16:51:29.045715,Keypresses,blue,triangle,K E Y _ C O L O R _ A 
+2019 Feb 21 16:51:29.974169,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:30.122416,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:30.461612,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:30.591201,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:32.237405,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:32.387514,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:35.379900,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:35.579968,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:37.334734,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:37.508993,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:38.239016,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:38.385319,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:38.780158,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:38.960040,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:49.259314,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Feb 21 16:51:49.393988,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Feb 21 16:51:49.798188,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:50.092156,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:51.592863,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:51.695261,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Feb 21 16:51:52.149660,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:52.271579,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 16:51:54.244891,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Feb 21 16:51:54.394265,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Feb 21 17:18:31.985973,Video,blue,triangle,IP Linear requested ANPLD_HD
+2019 Feb 21 17:18:35.740619,Video,green,square,Video Tune Succeeded 
+2019 Feb 21 18:43:16.142232,Notifications,red,circle,PLAYER_STATUS=disconnected 
+2019 Feb 21 18:43:17.115804,Notifications,red,circle,GUIDE_STATUS=disconnected 
+2019 Feb 21 18:43:37.049912,Notifications,red,circle,PLAYER_STATUS=disconnected 
+2019 Feb 21 18:43:57.217722,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 18:43:57.234613,Notifications,red,circle,GUIDE_STATUS=disconnected 
+2019 Feb 21 18:44:22.920945,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 18:45:43.254229,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 18:46:07.245322,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 18:46:10.773657,Notifications,green,square,PLAYER_STATUS=active 
+2019 Feb 21 18:46:10.953150,Video,blue,triangle,IP Linear requested ANPLD_HD
+2019 Feb 21 18:46:11.800287,Notifications,green,square,GUIDE_STATUS=active 
+2019 Feb 21 20:58:24.839845,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:25.163614,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:37.460595,Keypresses,blue,triangle,K E Y _ D I G I T 7 
+2019 Feb 21 20:58:37.659897,Keypresses,blue,triangle,K E Y _ D I G I T 7 
+2019 Feb 21 20:58:38.304475,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:38.674265,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:38.723729,Video,blue,triangle,IP Linear requested WLSD1_HD
+2019 Feb 21 20:58:42.674523,Video,green,square,Video Tune Succeeded 
+2019 Feb 21 20:58:47.901988,Keypresses,blue,triangle,K E Y _ D I G I T 2 
+2019 Feb 21 20:58:48.161762,Keypresses,blue,triangle,K E Y _ D I G I T 2 
+2019 Feb 21 20:58:49.060102,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:49.285809,Video,blue,triangle,IP Linear requested WBBMD_HD
+2019 Feb 21 20:58:49.450448,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 20:58:52.795210,Video,green,square,Video Tune Succeeded 
+2019 Feb 21 21:04:58.414616,Video,blue,triangle,IP Linear requested ANPLD_HD
+2019 Feb 21 21:05:01.797315,Video,green,square,Video Tune Succeeded 
+2019 Feb 21 21:05:24.282665,Video,blue,triangle,IP Linear requested HMMHD_HD
+2019 Feb 21 21:05:27.715489,Video,green,square,Video Tune Succeeded 
+2019 Feb 21 21:21:27.276693,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 21:21:31.116779,Notifications,red,circle,PLAYER_STATUS=disconnected 
+2019 Feb 21 21:21:32.148433,Notifications,red,circle,GUIDE_STATUS=disconnected 
+2019 Feb 21 21:21:48.179332,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:09.386561,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:28.501721,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:44.888642,Notifications,green,square,SHELL_STATUS=active 
+2019 Feb 21 21:23:17.681465,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 21:23:18.046142,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 21:23:20.834811,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 21:23:21.284657,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Feb 21 21:23:25.775735,Notifications,red,circle,errorType: 'RDK-03087' 
+2019 Feb 21 21:23:27.508859,Notifications,red,circle,errorType: 'RDK-03087' 

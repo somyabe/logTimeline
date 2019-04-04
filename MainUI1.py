@@ -154,7 +154,7 @@ class Ui_MainWindow(object):
                 df1 = pd.DataFrame(plist)
                 #df.columns = ['dates', 'col1', 'col2', 'col3']
                 #print(df)
-                df1.columns = ['dates', 'col1', 'col2', 'col3']
+                df1.columns = ['dates', 'col1', 'col2', 'col3', 'color', 'markerType']
 
                 #df1["marker"] = df1["col1"] + df1["col2"]
                 #df1.columns = ['dates', 'marker', 'col3']
@@ -180,17 +180,17 @@ class Ui_MainWindow(object):
                 for i in copy_list:
                     if i[3]=='Video':
                         i[3]='1'
-                        #i.append("blue")
+
                     elif i[3]=='Notifications':
                         i[3]='2'
-                        #i.append("green")
+
                     elif i[3]=='Settings':
                         i[3]='3'
-                        #i.append("red")
+
 
                     elif i[3]=='Keypresses':
                         i[3]='4'
-                        #i.append("yellow")
+
 
 
 
@@ -210,12 +210,14 @@ class Ui_MainWindow(object):
                 df1.to_csv('Timeline.csv', index=False)
 
                 dfgraph = pd.DataFrame(copy_list)
-                dfgraph.columns = ['x', 'col1', 'col2', 'y']
+                dfgraph.columns = ['x', 'col1', 'col2', 'y', 'color', 'markerType']
                 dfgraph["z"] = dfgraph["col1"] + dfgraph["col2"]
                 del dfgraph['col1']
                 del dfgraph['col2']
                 dfgraph = dfgraph.sort_values(by='x')
-                dfgraph.to_csv('forchart.csv', index=False, line_terminator=None)
+                columnsTitles = ["x", "y", "z", "color", "markerType"]
+                df = dfgraph.reindex(columns=columnsTitles)
+                df.to_csv('forchart.csv', index=False, line_terminator=None)
 
 
 
