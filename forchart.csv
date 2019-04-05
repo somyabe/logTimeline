@@ -1,160 +1,18 @@
 x,y,z,color,markerType
-1550747505937,2,SHELL_STATUS=disconnected ,red,circle
-1550747510304,2,SHELL_STATUS=active ,green,square
-1550747517537,2,SHELL_STATUS=active ,green,square
-1550747789784,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550747790105,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550747790567,4,K E Y _ A R R O W U P ,blue,triangle
-1550747790887,4,K E Y _ A R R O W U P ,blue,triangle
-1550747791435,4,K E Y _ S E L E C T ,red,circle
-1550747791628,4,K E Y _ S E L E C T ,red,circle
-1550747842016,2,SHELL_STATUS=active ,green,square
-1550747847925,2,SHELL_STATUS=active ,green,square
-1550747904009,4,K E Y _ D I G I T 2 ,blue,triangle
-1550747904208,4,K E Y _ D I G I T 2 ,blue,triangle
-1550747904537,4,K E Y _ D I G I T 1 ,blue,triangle
-1550747904738,4,K E Y _ D I G I T 1 ,blue,triangle
-1550747905054,4,K E Y _ D I G I T 6 ,blue,triangle
-1550747905254,4,K E Y _ D I G I T 6 ,blue,triangle
-1550747905399,4,K E Y _ D I G I T 8 ,blue,triangle
-1550747905604,4,K E Y _ D I G I T 8 ,blue,triangle
-1550747929135,2,SHELL_STATUS=active ,green,square
-1550747934938,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550747935138,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550747935628,4,K E Y _ S E L E C T ,red,circle
-1550747935941,4,K E Y _ S E L E C T ,red,circle
-1550747936645,4,K E Y _ S E L E C T ,red,circle
-1550747936790,4,K E Y _ S E L E C T ,red,circle
-1550747941481,2,SHELL_STATUS=active ,green,square
-1550747952608,4,K E Y _ S E L E C T ,red,circle
-1550747952754,4,K E Y _ S E L E C T ,red,circle
-1550747954373,4,K E Y _ S E L E C T ,red,circle
-1550747954497,4,K E Y _ S E L E C T ,red,circle
-1550747956131,2,PLAYER_STATUS=active ,green,square
-1550747957142,2,GUIDE_STATUS=active ,green,square
-1550747978193,4,K E Y _ C O L O R _ A ,blue,triangle
-1550747978417,4,K E Y _ C O L O R _ A ,blue,triangle
-1550747979964,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550747980139,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550747980308,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550747980411,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550747980969,4,K E Y _ S E L E C T ,red,circle
-1550747981124,4,K E Y _ S E L E C T ,red,circle
-1550747983307,4,K E Y _ S E L E C T ,red,circle
-1550747983458,4,K E Y _ S E L E C T ,red,circle
-1550748032284,4,K E Y _ S E L E C T ,red,circle
-1550748032435,4,K E Y _ S E L E C T ,red,circle
-1550748033762,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748033887,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748034373,4,K E Y _ S E L E C T ,red,circle
-1550748034517,4,K E Y _ S E L E C T ,red,circle
-1550748047845,4,K E Y _ S E L E C T ,red,circle
-1550748047962,4,K E Y _ S E L E C T ,red,circle
-1550748050486,4,K E Y _ S E L E C T ,red,circle
-1550748050640,4,K E Y _ S E L E C T ,red,circle
-1550748053463,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748053587,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748053653,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748053777,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748053845,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748053915,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054003,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054076,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054154,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054258,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054314,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054415,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054484,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054582,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054660,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054756,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054812,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054920,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748054991,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055091,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055153,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055255,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055345,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055431,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748055967,4,K E Y _ S E L E C T ,red,circle
-1550748056088,4,K E Y _ S E L E C T ,red,circle
-1550748059436,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550748059591,4,K E Y _ A R R O W D O W N ,blue,triangle
-1550748060057,4,K E Y _ S E L E C T ,red,circle
-1550748060214,4,K E Y _ S E L E C T ,red,circle
-1550748077250,4,K E Y _ S E L E C T ,red,circle
-1550748077405,4,K E Y _ S E L E C T ,red,circle
-1550748081178,4,K E Y _ S E L E C T ,red,circle
-1550748081300,4,K E Y _ S E L E C T ,red,circle
-1550748084343,4,K E Y _ E X I T ,blue,triangle
-1550748084487,4,K E Y _ E X I T ,blue,triangle
-1550748088891,4,K E Y _ C O L O R _ A ,blue,triangle
-1550748089045,4,K E Y _ C O L O R _ A ,blue,triangle
-1550748089974,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748090122,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748090461,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748090591,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748092237,4,K E Y _ S E L E C T ,red,circle
-1550748092387,4,K E Y _ S E L E C T ,red,circle
-1550748095379,4,K E Y _ S E L E C T ,red,circle
-1550748095579,4,K E Y _ S E L E C T ,red,circle
-1550748097334,4,K E Y _ S E L E C T ,red,circle
-1550748097508,4,K E Y _ S E L E C T ,red,circle
-1550748098239,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748098385,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748098780,4,K E Y _ S E L E C T ,red,circle
-1550748098960,4,K E Y _ S E L E C T ,red,circle
-1550748109259,4,K E Y _ A R R O W L E F T ,blue,triangle
-1550748109393,4,K E Y _ A R R O W L E F T ,blue,triangle
-1550748109798,4,K E Y _ S E L E C T ,red,circle
-1550748110092,4,K E Y _ S E L E C T ,red,circle
-1550748111592,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748111695,4,K E Y _ A R R O W R I G H T ,blue,triangle
-1550748112149,4,K E Y _ S E L E C T ,red,circle
-1550748112271,4,K E Y _ S E L E C T ,red,circle
-1550748114244,4,K E Y _ E X I T ,blue,triangle
-1550748114394,4,K E Y _ E X I T ,blue,triangle
-1550749711985,1,IP Linear requested ANPLD_HD,blue,triangle
-1550749715740,1,Video Tune Succeeded ,green,square
-1550754796142,2,PLAYER_STATUS=disconnected ,red,circle
-1550754797115,2,GUIDE_STATUS=disconnected ,red,circle
-1550754817049,2,PLAYER_STATUS=disconnected ,red,circle
-1550754837217,2,SHELL_STATUS=disconnected ,red,circle
-1550754837234,2,GUIDE_STATUS=disconnected ,red,circle
-1550754862920,2,SHELL_STATUS=active ,green,square
-1550754943254,2,SHELL_STATUS=disconnected ,red,circle
-1550754967245,2,SHELL_STATUS=active ,green,square
-1550754970773,2,PLAYER_STATUS=active ,green,square
-1550754970953,1,IP Linear requested ANPLD_HD,blue,triangle
-1550754971800,2,GUIDE_STATUS=active ,green,square
-1550762904839,4,K E Y _ S E L E C T ,red,circle
-1550762905163,4,K E Y _ S E L E C T ,red,circle
-1550762917460,4,K E Y _ D I G I T 7 ,blue,triangle
-1550762917659,4,K E Y _ D I G I T 7 ,blue,triangle
-1550762918304,4,K E Y _ S E L E C T ,red,circle
-1550762918674,4,K E Y _ S E L E C T ,red,circle
-1550762918723,1,IP Linear requested WLSD1_HD,blue,triangle
-1550762922674,1,Video Tune Succeeded ,green,square
-1550762927901,4,K E Y _ D I G I T 2 ,blue,triangle
-1550762928161,4,K E Y _ D I G I T 2 ,blue,triangle
-1550762929060,4,K E Y _ S E L E C T ,red,circle
-1550762929285,1,IP Linear requested WBBMD_HD,blue,triangle
-1550762929450,4,K E Y _ S E L E C T ,red,circle
-1550762932795,1,Video Tune Succeeded ,green,square
-1550763298414,1,IP Linear requested ANPLD_HD,blue,triangle
-1550763301797,1,Video Tune Succeeded ,green,square
-1550763324282,1,IP Linear requested HMMHD_HD,blue,triangle
-1550763327715,1,Video Tune Succeeded ,green,square
-1550764287276,2,SHELL_STATUS=disconnected ,red,circle
-1550764291116,2,PLAYER_STATUS=disconnected ,red,circle
-1550764292148,2,GUIDE_STATUS=disconnected ,red,circle
-1550764308179,2,SHELL_STATUS=disconnected ,red,circle
-1550764329386,2,SHELL_STATUS=disconnected ,red,circle
-1550764348501,2,SHELL_STATUS=disconnected ,red,circle
-1550764364888,2,SHELL_STATUS=active ,green,square
-1550764397681,4,K E Y _ S E L E C T ,red,circle
-1550764398046,4,K E Y _ S E L E C T ,red,circle
-1550764400834,4,K E Y _ S E L E C T ,red,circle
-1550764401284,4,K E Y _ S E L E C T ,red,circle
-1550764405775,2,errorType: 'RDK-03087' ,red,circle
-1550764407508,2,errorType: 'RDK-03087' ,red,circle
+1551785988150,2,SHELL_STATUS=active ,green,square
+1551786021711,2,PLAYER_STATUS=active ,green,square
+1551813216829,2,GUIDE_STATUS=disconnected ,red,circle
+1551813226434,1,Video Tune Succeeded ,green,square
+1551813243767,2,GUIDE_STATUS=disconnected ,red,circle
+1551813262534,2,GUIDE_STATUS=active ,green,square
+1551813365879,2,GUIDE_STATUS=disconnected ,red,circle
+1551813367191,1,QAM Linear requested0x2d9e,blue,triangle
+1551813376418,1,Video Tune Succeeded ,green,square
+1551813389556,2,GUIDE_STATUS=disconnected ,red,circle
+1551813408805,2,GUIDE_STATUS=active ,green,square
+1551813775506,2,SHELL_STATUS=active ,green,square
+1551813806057,2,PLAYER_STATUS=active ,green,square
+1551813814448,2,GUIDE_STATUS=active ,green,square
+1551814174701,2,SHELL_STATUS=active ,green,square
+1551814211743,2,PLAYER_STATUS=active ,green,square
+1551814219773,2,GUIDE_STATUS=active ,green,square

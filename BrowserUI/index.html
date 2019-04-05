@@ -1,8 +1,13 @@
 <html>
 <head>
+
 <script src="papaparse.min.js"></script>
 <script src="canvasjs.min.js"></script>
-<script src="jquery-3.3.1.js"></script>        
+<script src="jquery-3.3.1.js"></script>
+<script src="moment.js"></script>
+<script src="moment-with-locales.js"></script>
+
+
 <script>
 window.onload = function () {
     $("#csv-file").change(handleFile);
@@ -37,7 +42,7 @@ function throwTable(timeline_data){
 	for (var i = 0; i < obj.length; i++) {
     var tr = "<tr>";
 
-    tr += "<td>" + obj[i].x + "</td>" + "<td>" + obj[i].z.toString() + "</td></tr>";
+    tr += "<td>" + moment(obj[i].x).format("YYYY MMM DD HH:mm:ss.SSS") + "</td>" + "<td>" + obj[i].z.toString() + "</td></tr>";
 
     tbody.innerHTML += tr;
 }
@@ -120,11 +125,17 @@ chart.render();
 <input type="file" id="csv-file" name="files"/>
 <div id="chartContainer" style="height: 370px; width: 100%;">
 </div>
-<div>
-	<table>
-		<tbody id="tbody">
-		</tbody>
-	</table>
+
+
+<div style="overflow-y: scroll;">
+
+	
+<table border="1", rules="all", cellspacing="40", cellpadding="10">
+
+<tbody id="tbody">
+</tbody>
+
+</table>
 </div>
 </body>
 </html>
