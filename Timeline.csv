@@ -1,18 +1,21 @@
 dates,col3,color,markerType,marker
-2019 Mar 05 17:09:48.150666,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 05 17:10:21.711292,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 06 00:43:36.829366,Notifications,red,circle,GUIDE_STATUS=disconnected 
-2019 Mar 06 00:43:46.434467,Video,green,square,Video Tune Succeeded 
-2019 Mar 06 00:44:03.767324,Notifications,red,circle,GUIDE_STATUS=disconnected 
-2019 Mar 06 00:44:22.534394,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 06 00:46:05.879565,Notifications,red,circle,GUIDE_STATUS=disconnected 
-2019 Mar 06 00:46:07.191721,Video,blue,triangle,QAM Linear requested0x2d9e
-2019 Mar 06 00:46:16.418246,Video,green,square,Video Tune Succeeded 
-2019 Mar 06 00:46:29.556405,Notifications,red,circle,GUIDE_STATUS=disconnected 
-2019 Mar 06 00:46:48.805320,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 06 00:52:55.506186,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 06 00:53:26.057373,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 06 00:53:34.448050,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 06 00:59:34.701099,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 06 01:00:11.743196,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 06 01:00:19.773058,Notifications,green,square,GUIDE_STATUS=active 
+2019 Mar 24 07:36:11.040943,Notifications,green,square,SHELL_STATUS=active 
+2019 Mar 24 07:36:16.111449,Notifications,green,square,PLAYER_STATUS=active 
+2019 Mar 24 07:36:17.607961,Notifications,green,square,GUIDE_STATUS=active 
+2019 Mar 24 07:47:31.806223,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:47:36.628048,Notifications,red,circle,PLAYER_STATUS=disconnected 
+2019 Mar 24 07:47:37.596342,Notifications,red,circle,GUIDE_STATUS=disconnected 
+2019 Mar 24 07:47:52.820136,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:48:27.506170,Notifications,green,square,SHELL_STATUS=active 
+2019 Mar 24 07:49:57.440897,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:51:21.878426,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:51:24.467359,Notifications,green,square,SHELL_STATUS=active 
+2019 Mar 24 07:51:29.576784,Notifications,green,square,PLAYER_STATUS=active 
+2019 Mar 24 07:51:31.095409,Notifications,green,square,GUIDE_STATUS=active 
+2019 Mar 24 07:53:24.704327,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:53:28.732781,Notifications,green,square,SHELL_STATUS=active 
+2019 Mar 24 07:53:33.333247,Notifications,green,square,PLAYER_STATUS=active 
+2019 Mar 24 07:53:35.382004,Notifications,green,square,GUIDE_STATUS=active 
+2019 Mar 24 07:54:48.768559,Notifications,red,circle,SHELL_STATUS=disconnected 
+2019 Mar 24 07:54:53.711191,Notifications,green,square,SHELL_STATUS=active 
+2019 Mar 24 07:54:58.799573,Notifications,green,square,PLAYER_STATUS=active 

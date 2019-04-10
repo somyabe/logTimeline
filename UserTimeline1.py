@@ -118,26 +118,57 @@ def getPlaybackmode(mainlist):
                     #finalist.append(line)
 
                 elif("VOD" in line[1]):
-                    word = "net/"
-                    reg = re.compile('%s.+/movie' % word)
-                    result = reg.findall(line[1])
-                    line[1] = "VOD URL"
-                    line.append(''.join(result)[3:-6])
-                    line.append("Video")
-                    line.append("blue")
-                    line.append("triangle")
+
+                    if "HOST" in line[1]:
+                        word="live"
+                        reg = re.compile('%s.+&res' % word)
+                        result = reg.findall(line[1])
+                        line[1] = "VOD URL "
+                        line.append(''.join(result)[4:-4])
+                        line.append("Video")
+                        line.append("blue")
+                        line.append("triangle")
+
+
+
+                    else:
+
+                        word = "net/"
+                        reg = re.compile('%s.+/movie' % word)
+                        result = reg.findall(line[1])
+                        line[1] = "VOD URL"
+                        line.append(''.join(result)[3:-6])
+                        line.append("Video")
+                        line.append("blue")
+                        line.append("triangle")
 
                     #finalist.append(line)
 
                 elif ("DVR" in line[1]):
-                    word = "cdvr-"
-                    reg = re.compile('%s.+xcr' % word)
-                    result = reg.findall(line[1])
-                    line[1] = "DVR URL"
-                    line.append(''.join(result)[5:-4])
-                    line.append("Video")
-                    line.append("blue")
-                    line.append("triangle")
+
+                    if "recordingId" in line[1]:
+
+                        word = "recordingId="
+                        reg = re.compile('%s.+&seg' % word)
+                        result = reg.findall(line[1])
+                        line[1] = "DVR URL "
+                        line.append(''.join(result)[12:-4])
+                        line.append("Video")
+                        line.append("blue")
+                        line.append("triangle")
+
+
+                    else:
+                        word = "cdvr-"
+                        reg = re.compile('%s.+xcr' % word)
+                        result = reg.findall(line[1])
+                        line[1] = "DVR URL"
+                        line.append(''.join(result)[5:-4])
+                        line.append("Video")
+                        line.append("blue")
+                        line.append("triangle")
+
+
 
                     #finalist.append(line)
 
@@ -178,6 +209,14 @@ def getPlaybackmode(mainlist):
                 line.append("circle")
                 finalist.append(line)
 
+            elif "aborted" in line[1]:
+                line[1] = "Video Aborted"
+                line.append(" ")
+                line.append("Video")
+                line.append("red")
+                line.append("circle")
+                finalist.append(line)
+
 
         #elif "K E D" in line[1]:
             #finalist.append(line)
@@ -187,7 +226,7 @@ def getPlaybackmode(mainlist):
             reg = re.compile('%s.+' % word)
             result = reg.findall(line[1])
             if "Loading" in line[1]:
-                line[1] = "Loading"
+                line[1] = "Loading "
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
                 line.append("blue")
@@ -195,14 +234,14 @@ def getPlaybackmode(mainlist):
                 finalist.append(line)
 
             elif "Pause" in line[1]:
-                line[1] = "Pause"
+                line[1] = "Pause "
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
                 line.append("blue")
                 line.append("triangle")
                 finalist.append(line)
             elif "Playback started" in line[1]:
-                line[1] = "Playback started"
+                line[1] = "Playback started "
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
                 line.append("blue")
@@ -210,15 +249,15 @@ def getPlaybackmode(mainlist):
                 finalist.append(line)
 
             elif "Playback terminated" in line[1]:
-                line[1] = "Playback terminated"
+                line[1] = "Playback terminated "
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
-                line.append("blue")
-                line.append("triangle")
+                line.append("red")
+                line.append("circle")
                 finalist.append(line)
                 #finalist.append("receiver.log")
             elif "Play " in line[1]:
-                line[1] = "Play"
+                line[1] = "Play "
                 line.append(''.join(result)[16:-1])
                 line.append("Video")
                 line.append("blue")

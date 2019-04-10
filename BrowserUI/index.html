@@ -1,5 +1,41 @@
 <html>
 <head>
+<style>
+
+
+.tabel {
+    
+    height: 400px;
+	width: 28%;
+	margin-top: 25px;
+	
+	
+  	
+  	overflow-y: scroll;
+  	
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.heading {
+  text-align: center;
+  font-size:35px;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 5px grey;
+  opacity: 0.8;
+}
+
+</style>
+
+
 
 <script src="papaparse.min.js"></script>
 <script src="canvasjs.min.js"></script>
@@ -9,10 +45,22 @@
 
 
 <script>
+
+
+
+
+
 window.onload = function () {
+	
+
+
     $("#csv-file").change(handleFile);
+	$('#csv-file').attr('disabled',false);
     
 }
+
+
+
 
 function handleFile(evt){
     var file = evt.target.files[0];
@@ -25,6 +73,7 @@ function handleFile(evt){
         timeline_data = results['data'];
         console.log("got file");
         console.log(timeline_data);
+		$('#imageDiv').hide();
         throwChart(timeline_data);
 		throwTable(timeline_data);
 	}
@@ -32,6 +81,7 @@ function handleFile(evt){
     
     
 }
+
 
 function throwTable(timeline_data){
 
@@ -52,9 +102,11 @@ function throwChart(TimelineData){
     var chartData = TimelineData;
     var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
+	backgroundColor: "#DCDCDC",
+	
 	zoomEnabled: true,
 	title:{
-		text: "Timeline"
+		text: ""
 	},
 	subtitles:[
 		{
@@ -62,7 +114,7 @@ function throwChart(TimelineData){
 			
 			horizontalAlign: "left",
 			fontStyle: "normal",
-			fontColor: "blue",
+			//fontColor: "blue",
 			fontFamily: "arial",
 			
 		},
@@ -71,7 +123,7 @@ function throwChart(TimelineData){
 			
 			horizontalAlign: "left",
 			fontStyle: "normal",
-			fontColor: "blue",
+			//fontColor: "blue",
 			fontFamily: "arial",
 			
 		},
@@ -80,7 +132,7 @@ function throwChart(TimelineData){
 			
 			horizontalAlign: "left",
 			fontStyle: "normal",
-			fontColor: "blue",
+			//fontColor: "blue",
 			fontFamily: "arial",
 			
 		},
@@ -89,7 +141,7 @@ function throwChart(TimelineData){
 			
 			horizontalAlign: "left",
 			fontStyle: "normal",
-			fontColor: "blue",
+			//fontColor: "blue",
 			fontFamily: "arial",
 			
 		}
@@ -100,14 +152,16 @@ function throwChart(TimelineData){
 		labelAngle: -30
 	},
 	axisY:{
-		title: "Timelines"
+		title: "Timelines",
+		interval: 1
 	},
 	data: [{
 		type: "scatter",
 		
 		color: "red",
 		toolTipContent: "{z} ",
-		name: "Timeline",
+		name: "      ",
+		
         showInLegend: true,
         xValueType: "dateTime",
 		dataPoints: chartData,
@@ -119,20 +173,37 @@ chart.render();
 
 }
 
+
 </script>
 </head>
-<body>
-<input type="file" id="csv-file" name="files"/>
-<div id="chartContainer" style="height: 370px; width: 100%;">
+<body background="subtle.jpg">
+<div class="heading">
+	<h1>Customer Timeline</h1>
+
 </div>
 
 
-<div style="overflow-y: scroll;">
+
+<div id = "imageDiv" class="image-upload">
+	<label for="csv-file">
+		<img src="button.png" class="center"/>
+	</label>
+
+	<input id="csv-file" type="file" name="files"/>
+</div>
+
+<div id="chartContainer" style="height: 500px; width: 100%; bgcolor: rgba(150, 147, 147); box-shadow: 10px 10px 5px grey">
+</div>
+
+
+<div class="tabel">
 
 	
-<table border="1", rules="all", cellspacing="40", cellpadding="10">
+<table border="1", rules="all", cellspacing="40", cellpadding="10", bgcolor="#DCDCDC">
 
 <tbody id="tbody">
+
+
 </tbody>
 
 </table>

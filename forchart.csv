@@ -1,18 +1,21 @@
 x,y,z,color,markerType
-1551785988150,2,SHELL_STATUS=active ,green,square
-1551786021711,2,PLAYER_STATUS=active ,green,square
-1551813216829,2,GUIDE_STATUS=disconnected ,red,circle
-1551813226434,1,Video Tune Succeeded ,green,square
-1551813243767,2,GUIDE_STATUS=disconnected ,red,circle
-1551813262534,2,GUIDE_STATUS=active ,green,square
-1551813365879,2,GUIDE_STATUS=disconnected ,red,circle
-1551813367191,1,QAM Linear requested0x2d9e,blue,triangle
-1551813376418,1,Video Tune Succeeded ,green,square
-1551813389556,2,GUIDE_STATUS=disconnected ,red,circle
-1551813408805,2,GUIDE_STATUS=active ,green,square
-1551813775506,2,SHELL_STATUS=active ,green,square
-1551813806057,2,PLAYER_STATUS=active ,green,square
-1551813814448,2,GUIDE_STATUS=active ,green,square
-1551814174701,2,SHELL_STATUS=active ,green,square
-1551814211743,2,PLAYER_STATUS=active ,green,square
-1551814219773,2,GUIDE_STATUS=active ,green,square
+1553393171040,2,SHELL_STATUS=active ,green,square
+1553393176111,2,PLAYER_STATUS=active ,green,square
+1553393177607,2,GUIDE_STATUS=active ,green,square
+1553393851806,2,SHELL_STATUS=disconnected ,red,circle
+1553393856628,2,PLAYER_STATUS=disconnected ,red,circle
+1553393857596,2,GUIDE_STATUS=disconnected ,red,circle
+1553393872820,2,SHELL_STATUS=disconnected ,red,circle
+1553393907506,2,SHELL_STATUS=active ,green,square
+1553393997440,2,SHELL_STATUS=disconnected ,red,circle
+1553394081878,2,SHELL_STATUS=disconnected ,red,circle
+1553394084467,2,SHELL_STATUS=active ,green,square
+1553394089576,2,PLAYER_STATUS=active ,green,square
+1553394091095,2,GUIDE_STATUS=active ,green,square
+1553394204704,2,SHELL_STATUS=disconnected ,red,circle
+1553394208732,2,SHELL_STATUS=active ,green,square
+1553394213333,2,PLAYER_STATUS=active ,green,square
+1553394215382,2,GUIDE_STATUS=active ,green,square
+1553394288768,2,SHELL_STATUS=disconnected ,red,circle
+1553394293711,2,SHELL_STATUS=active ,green,square
+1553394298799,2,PLAYER_STATUS=active ,green,square
