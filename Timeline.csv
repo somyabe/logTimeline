@@ -1,21 +1,295 @@
 dates,col3,color,markerType,marker
-2019 Mar 24 07:36:11.040943,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 24 07:36:16.111449,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 24 07:36:17.607961,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 24 07:47:31.806223,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:47:36.628048,Notifications,red,circle,PLAYER_STATUS=disconnected 
-2019 Mar 24 07:47:37.596342,Notifications,red,circle,GUIDE_STATUS=disconnected 
-2019 Mar 24 07:47:52.820136,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:48:27.506170,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 24 07:49:57.440897,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:51:21.878426,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:51:24.467359,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 24 07:51:29.576784,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 24 07:51:31.095409,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 24 07:53:24.704327,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:53:28.732781,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 24 07:53:33.333247,Notifications,green,square,PLAYER_STATUS=active 
-2019 Mar 24 07:53:35.382004,Notifications,green,square,GUIDE_STATUS=active 
-2019 Mar 24 07:54:48.768559,Notifications,red,circle,SHELL_STATUS=disconnected 
-2019 Mar 24 07:54:53.711191,Notifications,green,square,SHELL_STATUS=active 
-2019 Mar 24 07:54:58.799573,Notifications,green,square,PLAYER_STATUS=active 
+2019 Mar 09 18:28:34.786067,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:35.157119,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:36.241319,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:36.429518,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:38.103120,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:38.406081,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 18:28:41.612397,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 18:28:41.828030,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 18:28:44.097792,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 18:28:44.257786,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 18:28:46.163926,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:28:46.164119,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:28:47.862230,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:28:48.074165,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:28:49.517285,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:28:49.517462,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:28:50.410261,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 09 18:28:50.573682,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 09 18:28:51.795007,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 09 18:28:51.958378,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 09 18:28:52.677521,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:28:52.794738,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:28:55.116454,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:28:55.279195,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:28:55.527389,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:55.696313,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:55.851843,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:56.031316,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:56.907619,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:28:57.069795,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:28:57.287838,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:57.451713,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:57.507716,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:57.666177,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:28:59.152057,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:28:59.361875,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:02.201453,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:02.367455,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:02.645620,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:02.812120,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:02.853823,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:02.973366,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:03.656405,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:03.770333,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:04.029151,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:04.171395,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:04.240341,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:04.360326,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:04.924075,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:05.063178,Keypresses,blue,triangle,K E Y _ D I G I T 6 
+2019 Mar 09 18:29:05.326250,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:05.463834,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:05.510174,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:05.653475,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:07.164910,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:07.283888,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:08.722238,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:08.888557,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:08.990764,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:09.133282,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:09.575690,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:09.693275,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 09 18:29:10.231482,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:10.402529,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:11.734576,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:11.848031,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:14.750742,Keypresses,blue,triangle,K E Y _ D I G I T 8 
+2019 Mar 09 18:29:14.870856,Keypresses,blue,triangle,K E Y _ D I G I T 8 
+2019 Mar 09 18:29:15.196554,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:15.314301,Keypresses,blue,triangle,K E Y _ D I G I T 1 
+2019 Mar 09 18:29:15.736029,Keypresses,blue,triangle,K E Y _ D I G I T 7 
+2019 Mar 09 18:29:15.900624,Keypresses,blue,triangle,K E Y _ D I G I T 7 
+2019 Mar 09 18:29:16.728644,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:16.897263,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:16.956882,Video,blue,triangle,QAM Linear requested0x44d2
+2019 Mar 09 18:29:19.548684,Video,green,square,Video Tune Succeeded 
+2019 Mar 09 18:29:22.378898,Keypresses,blue,triangle,K E Y _ D I G I T 5 
+2019 Mar 09 18:29:22.516043,Keypresses,blue,triangle,K E Y _ D I G I T 5 
+2019 Mar 09 18:29:22.770464,Keypresses,blue,triangle,K E Y _ D I G I T 4 
+2019 Mar 09 18:29:22.911076,Keypresses,blue,triangle,K E Y _ D I G I T 4 
+2019 Mar 09 18:29:23.021366,Keypresses,blue,triangle,K E Y _ D I G I T 4 
+2019 Mar 09 18:29:23.144229,Keypresses,blue,triangle,K E Y _ D I G I T 4 
+2019 Mar 09 18:29:24.143585,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:24.355261,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:24.460759,Video,blue,triangle,QAM Linear requested0x4a44
+2019 Mar 09 18:29:25.940156,Video,green,square,Video Tune Succeeded 
+2019 Mar 09 18:29:43.399401,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:29:43.399564,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:29:48.619315,Keypresses,blue,triangle,K E Y _ D I G I T 3 
+2019 Mar 09 18:29:48.794993,Keypresses,blue,triangle,K E Y _ D I G I T 3 
+2019 Mar 09 18:29:49.158316,Keypresses,blue,triangle,K E Y _ D I G I T 0 
+2019 Mar 09 18:29:49.343912,Keypresses,blue,triangle,K E Y _ D I G I T 0 
+2019 Mar 09 18:29:49.442180,Keypresses,blue,triangle,K E Y _ D I G I T 0 
+2019 Mar 09 18:29:49.580048,Keypresses,blue,triangle,K E Y _ D I G I T 0 
+2019 Mar 09 18:29:50.546933,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:50.711170,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 09 18:29:50.798352,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 09 18:29:52.451419,Video,green,square,Video Tune Succeeded 
+2019 Mar 09 18:30:02.961563,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:30:02.961926,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:31:27.996740,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:31:28.013834,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:32:03.413733,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 18:32:03.440247,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 21:17:56.540675,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 21:17:56.540856,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 09 21:33:10.201751,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 21:33:10.412377,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 09 22:35:57.016828,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 22:35:57.234012,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 22:35:57.335015,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 09 22:35:57.427999,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:50:34.645954,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 03:50:34.661296,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 03:53:55.056111,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:53:55.274686,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:53:55.677615,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:53:55.819693,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:53:59.272772,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 03:53:59.506681,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 03:54:03.982101,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:54:04.218747,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:54:04.711937,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:04.920418,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:08.360555,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:08.619957,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:08.837602,Video,blue,triangle,DVR URL A392003852976765695L200195480309210019S5753
+2019 Mar 10 03:54:09.836567,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:54:17.762445,Keypresses,blue,triangle,K E Y _ P A G E U P 
+2019 Mar 10 03:54:17.971126,Keypresses,blue,triangle,K E Y _ P A G E U P 
+2019 Mar 10 03:54:24.028919,Keypresses,blue,triangle,K E Y _ R E W I N D 
+2019 Mar 10 03:54:24.384007,Keypresses,blue,triangle,K E Y _ R E W I N D 
+2019 Mar 10 03:54:29.548680,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:29.757497,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:36.266852,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:54:36.455131,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:54:36.855995,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:37.019338,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:39.632564,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:39.868992,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:39.969028,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 10 03:54:41.294319,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:54:43.027527,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:43.198482,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:44.746613,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:44.945943,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:44.964426,Video,blue,triangle,DVR URL A392003852976765695L200195480309210019S5753
+2019 Mar 10 03:54:46.445294,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:54:51.859817,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:52.020894,Video,blue,triangle,DVR URL A392003852976765695L200195480309210019S5753
+2019 Mar 10 03:54:52.070618,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:54:53.160544,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:54:58.017959,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:58.234868,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:54:58.269527,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 10 03:54:59.573592,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:54:59.925547,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:00.094682,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:01.493522,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:55:01.639119,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 03:55:02.204878,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:02.334929,Video,blue,triangle,DVR URL A392003852976765695L200195480309210019S5753
+2019 Mar 10 03:55:02.364657,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:03.716158,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 03:55:07.774708,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:08.044864,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:08.235441,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:08.425274,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:08.647565,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:08.824469,Keypresses,blue,triangle,K E Y _ F A S T F O R W A R D 
+2019 Mar 10 03:55:17.610567,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:55:17.866027,Keypresses,blue,triangle,K E Y _ E X I T 
+2019 Mar 10 03:55:19.686581,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 10 03:55:19.920146,Keypresses,blue,triangle,K E Y _ P L A Y 
+2019 Mar 10 03:55:21.587654,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 03:55:21.587843,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 03:55:24.251645,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:24.461358,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 03:55:24.560328,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 10 03:55:25.871459,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 04:00:24.646406,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:24.806253,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:24.946394,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:25.108188,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:25.845682,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:26.060570,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:34.036694,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:00:34.036877,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:00:35.848759,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:36.030298,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:36.628003,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:36.836656,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:37.429935,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:37.604553,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:50.241758,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:50.429381,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:00:51.899560,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:52.041332,Video,blue,triangle,DVR URL A392003852976765695L200195480309210019S5753
+2019 Mar 10 04:00:52.079458,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:00:53.138542,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 04:00:55.286916,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:00:55.287099,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:00:57.549676,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:57.739041,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:59.298614,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:59.482481,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:59.612892,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:59.775544,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:00:59.874311,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:01:00.018584,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:01:01.105675,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:01:01.317459,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:01:02.225030,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:02.225304,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:03.466773,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:03.479982,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:04.628133,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:04.628708,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:13.716444,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:13.716714,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:23.068999,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:23.299059,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:24.731488,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:24.945127,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:25.292677,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:25.456318,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:25.923325,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:26.137937,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:31.730253,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:31.926394,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:38.378266,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:38.603645,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:41.704894,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:41.869633,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:47.502063,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:48.001338,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:48.050774,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:48.074193,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:01:50.804691,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:50.805310,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:01:52.007697,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:52.196572,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:54.446591,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:54.885837,Keypresses,blue,triangle,K E Y _ A R R O W D O W N 
+2019 Mar 10 04:01:58.517293,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:58.659889,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:58.818765,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:58.981548,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:59.075293,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:59.210706,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:59.346267,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:01:59.486872,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:01.073593,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:01.307393,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:01.889437,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:02.097119,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:02.621730,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:02.790663,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:03.771093,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:03.957780,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:04.471105,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:04.672601,Keypresses,blue,triangle,K E Y _ A R R O W R I G H T 
+2019 Mar 10 04:02:05.418107,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:05.418324,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:06.603386,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:06.603564,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:07.735862,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:07.749857,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:02:09.999151,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:02:10.163231,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:02:10.296765,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 10 04:02:11.680757,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 04:05:05.602242,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:05:05.612734,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:05:10.824323,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.036454,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.155903,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.338876,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.434663,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.594539,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.802593,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:11.963809,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:12.765418,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:12.945455,Keypresses,blue,triangle,K E Y _ A R R O W L E F T 
+2019 Mar 10 04:05:13.525912,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:05:13.701428,Video,blue,triangle,QAM Linear requested0x3f0d
+2019 Mar 10 04:05:13.754818,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:05:15.015109,Video,green,square,Video Tune Succeeded 
+2019 Mar 10 04:07:24.022503,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:07:24.022838,Keypresses,blue,triangle,K E Y _ L A S T 
+2019 Mar 10 04:07:28.150764,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:07:28.341366,Keypresses,red,circle,K E Y _ S E L E C T 
+2019 Mar 10 04:07:28.422441,Video,blue,triangle,QAM Linear requested0x3b30
+2019 Mar 10 04:07:29.697542,Video,green,square,Video Tune Succeeded 

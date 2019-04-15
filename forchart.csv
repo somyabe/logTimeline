@@ -1,21 +1,295 @@
 x,y,z,color,markerType
-1553393171040,2,SHELL_STATUS=active ,green,square
-1553393176111,2,PLAYER_STATUS=active ,green,square
-1553393177607,2,GUIDE_STATUS=active ,green,square
-1553393851806,2,SHELL_STATUS=disconnected ,red,circle
-1553393856628,2,PLAYER_STATUS=disconnected ,red,circle
-1553393857596,2,GUIDE_STATUS=disconnected ,red,circle
-1553393872820,2,SHELL_STATUS=disconnected ,red,circle
-1553393907506,2,SHELL_STATUS=active ,green,square
-1553393997440,2,SHELL_STATUS=disconnected ,red,circle
-1553394081878,2,SHELL_STATUS=disconnected ,red,circle
-1553394084467,2,SHELL_STATUS=active ,green,square
-1553394089576,2,PLAYER_STATUS=active ,green,square
-1553394091095,2,GUIDE_STATUS=active ,green,square
-1553394204704,2,SHELL_STATUS=disconnected ,red,circle
-1553394208732,2,SHELL_STATUS=active ,green,square
-1553394213333,2,PLAYER_STATUS=active ,green,square
-1553394215382,2,GUIDE_STATUS=active ,green,square
-1553394288768,2,SHELL_STATUS=disconnected ,red,circle
-1553394293711,2,SHELL_STATUS=active ,green,square
-1553394298799,2,PLAYER_STATUS=active ,green,square
+1552136314786,4,K E Y _ E X I T ,blue,triangle
+1552136315157,4,K E Y _ E X I T ,blue,triangle
+1552136316241,4,K E Y _ E X I T ,blue,triangle
+1552136316429,4,K E Y _ E X I T ,blue,triangle
+1552136318103,4,K E Y _ E X I T ,blue,triangle
+1552136318406,4,K E Y _ E X I T ,blue,triangle
+1552136321612,4,K E Y _ P L A Y ,blue,triangle
+1552136321828,4,K E Y _ P L A Y ,blue,triangle
+1552136324097,4,K E Y _ P L A Y ,blue,triangle
+1552136324257,4,K E Y _ P L A Y ,blue,triangle
+1552136326163,4,K E Y _ L A S T ,blue,triangle
+1552136326164,4,K E Y _ L A S T ,blue,triangle
+1552136327862,4,K E Y _ S E L E C T ,red,circle
+1552136328074,4,K E Y _ S E L E C T ,red,circle
+1552136329517,4,K E Y _ L A S T ,blue,triangle
+1552136329517,4,K E Y _ L A S T ,blue,triangle
+1552136330410,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552136330573,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552136331795,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552136331958,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552136332677,4,K E Y _ S E L E C T ,red,circle
+1552136332794,4,K E Y _ S E L E C T ,red,circle
+1552136335116,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136335279,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136335527,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136335696,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136335851,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136336031,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136336907,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136337069,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136337287,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136337451,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136337507,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136337666,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136339152,4,K E Y _ S E L E C T ,red,circle
+1552136339361,4,K E Y _ S E L E C T ,red,circle
+1552136342201,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136342367,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136342645,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136342812,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136342853,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136342973,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136343656,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136343770,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136344029,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136344171,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136344240,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136344360,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136344924,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136345063,4,K E Y _ D I G I T 6 ,blue,triangle
+1552136345326,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136345463,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136345510,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136345653,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136347164,4,K E Y _ S E L E C T ,red,circle
+1552136347283,4,K E Y _ S E L E C T ,red,circle
+1552136348722,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136348888,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136348990,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136349133,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136349575,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136349693,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552136350231,4,K E Y _ S E L E C T ,red,circle
+1552136350402,4,K E Y _ S E L E C T ,red,circle
+1552136351734,4,K E Y _ S E L E C T ,red,circle
+1552136351848,4,K E Y _ S E L E C T ,red,circle
+1552136354750,4,K E Y _ D I G I T 8 ,blue,triangle
+1552136354870,4,K E Y _ D I G I T 8 ,blue,triangle
+1552136355196,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136355314,4,K E Y _ D I G I T 1 ,blue,triangle
+1552136355736,4,K E Y _ D I G I T 7 ,blue,triangle
+1552136355900,4,K E Y _ D I G I T 7 ,blue,triangle
+1552136356728,4,K E Y _ S E L E C T ,red,circle
+1552136356897,4,K E Y _ S E L E C T ,red,circle
+1552136356956,1,QAM Linear requested0x44d2,blue,triangle
+1552136359548,1,Video Tune Succeeded ,green,square
+1552136362378,4,K E Y _ D I G I T 5 ,blue,triangle
+1552136362516,4,K E Y _ D I G I T 5 ,blue,triangle
+1552136362770,4,K E Y _ D I G I T 4 ,blue,triangle
+1552136362911,4,K E Y _ D I G I T 4 ,blue,triangle
+1552136363021,4,K E Y _ D I G I T 4 ,blue,triangle
+1552136363144,4,K E Y _ D I G I T 4 ,blue,triangle
+1552136364143,4,K E Y _ S E L E C T ,red,circle
+1552136364355,4,K E Y _ S E L E C T ,red,circle
+1552136364460,1,QAM Linear requested0x4a44,blue,triangle
+1552136365940,1,Video Tune Succeeded ,green,square
+1552136383399,4,K E Y _ L A S T ,blue,triangle
+1552136383399,4,K E Y _ L A S T ,blue,triangle
+1552136388619,4,K E Y _ D I G I T 3 ,blue,triangle
+1552136388794,4,K E Y _ D I G I T 3 ,blue,triangle
+1552136389158,4,K E Y _ D I G I T 0 ,blue,triangle
+1552136389343,4,K E Y _ D I G I T 0 ,blue,triangle
+1552136389442,4,K E Y _ D I G I T 0 ,blue,triangle
+1552136389580,4,K E Y _ D I G I T 0 ,blue,triangle
+1552136390546,4,K E Y _ S E L E C T ,red,circle
+1552136390711,4,K E Y _ S E L E C T ,red,circle
+1552136390798,1,QAM Linear requested0x3b30,blue,triangle
+1552136392451,1,Video Tune Succeeded ,green,square
+1552136402961,4,K E Y _ L A S T ,blue,triangle
+1552136402961,4,K E Y _ L A S T ,blue,triangle
+1552136487996,4,K E Y _ L A S T ,blue,triangle
+1552136488013,4,K E Y _ L A S T ,blue,triangle
+1552136523413,4,K E Y _ L A S T ,blue,triangle
+1552136523440,4,K E Y _ L A S T ,blue,triangle
+1552146476540,4,K E Y _ L A S T ,blue,triangle
+1552146476540,4,K E Y _ L A S T ,blue,triangle
+1552147390201,4,K E Y _ P L A Y ,blue,triangle
+1552147390412,4,K E Y _ P L A Y ,blue,triangle
+1552151157016,4,K E Y _ E X I T ,blue,triangle
+1552151157234,4,K E Y _ E X I T ,blue,triangle
+1552151157335,4,K E Y _ E X I T ,blue,triangle
+1552151157427,4,K E Y _ E X I T ,blue,triangle
+1552170034645,4,K E Y _ L A S T ,blue,triangle
+1552170034661,4,K E Y _ L A S T ,blue,triangle
+1552170235056,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170235274,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170235677,4,K E Y _ S E L E C T ,red,circle
+1552170235819,4,K E Y _ S E L E C T ,red,circle
+1552170239272,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170239506,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170243982,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170244218,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170244711,4,K E Y _ S E L E C T ,red,circle
+1552170244920,4,K E Y _ S E L E C T ,red,circle
+1552170248360,4,K E Y _ S E L E C T ,red,circle
+1552170248619,4,K E Y _ S E L E C T ,red,circle
+1552170248837,1,DVR URL A392003852976765695L200195480309210019S5753,blue,triangle
+1552170249836,1,Video Tune Succeeded ,green,square
+1552170257762,4,K E Y _ P A G E U P ,blue,triangle
+1552170257971,4,K E Y _ P A G E U P ,blue,triangle
+1552170264028,4,K E Y _ R E W I N D ,blue,triangle
+1552170264384,4,K E Y _ R E W I N D ,blue,triangle
+1552170269548,4,K E Y _ E X I T ,blue,triangle
+1552170269757,4,K E Y _ E X I T ,blue,triangle
+1552170276266,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170276455,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170276855,4,K E Y _ S E L E C T ,red,circle
+1552170277019,4,K E Y _ S E L E C T ,red,circle
+1552170279632,4,K E Y _ E X I T ,blue,triangle
+1552170279868,4,K E Y _ E X I T ,blue,triangle
+1552170279969,1,QAM Linear requested0x3b30,blue,triangle
+1552170281294,1,Video Tune Succeeded ,green,square
+1552170283027,4,K E Y _ S E L E C T ,red,circle
+1552170283198,4,K E Y _ S E L E C T ,red,circle
+1552170284746,4,K E Y _ S E L E C T ,red,circle
+1552170284945,4,K E Y _ S E L E C T ,red,circle
+1552170284964,1,DVR URL A392003852976765695L200195480309210019S5753,blue,triangle
+1552170286445,1,Video Tune Succeeded ,green,square
+1552170291859,4,K E Y _ S E L E C T ,red,circle
+1552170292020,1,DVR URL A392003852976765695L200195480309210019S5753,blue,triangle
+1552170292070,4,K E Y _ S E L E C T ,red,circle
+1552170293160,1,Video Tune Succeeded ,green,square
+1552170298017,4,K E Y _ E X I T ,blue,triangle
+1552170298234,4,K E Y _ E X I T ,blue,triangle
+1552170298269,1,QAM Linear requested0x3b30,blue,triangle
+1552170299573,1,Video Tune Succeeded ,green,square
+1552170299925,4,K E Y _ S E L E C T ,red,circle
+1552170300094,4,K E Y _ S E L E C T ,red,circle
+1552170301493,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170301639,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170302204,4,K E Y _ S E L E C T ,red,circle
+1552170302334,1,DVR URL A392003852976765695L200195480309210019S5753,blue,triangle
+1552170302364,4,K E Y _ S E L E C T ,red,circle
+1552170303716,1,Video Tune Succeeded ,green,square
+1552170307774,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170308044,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170308235,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170308425,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170308647,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170308824,4,K E Y _ F A S T F O R W A R D ,blue,triangle
+1552170317610,4,K E Y _ E X I T ,blue,triangle
+1552170317866,4,K E Y _ E X I T ,blue,triangle
+1552170319686,4,K E Y _ P L A Y ,blue,triangle
+1552170319920,4,K E Y _ P L A Y ,blue,triangle
+1552170321587,4,K E Y _ L A S T ,blue,triangle
+1552170321587,4,K E Y _ L A S T ,blue,triangle
+1552170324251,4,K E Y _ S E L E C T ,red,circle
+1552170324461,4,K E Y _ S E L E C T ,red,circle
+1552170324560,1,QAM Linear requested0x3b30,blue,triangle
+1552170325871,1,Video Tune Succeeded ,green,square
+1552170624646,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170624806,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170624946,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170625108,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170625845,4,K E Y _ S E L E C T ,red,circle
+1552170626060,4,K E Y _ S E L E C T ,red,circle
+1552170634036,4,K E Y _ L A S T ,blue,triangle
+1552170634036,4,K E Y _ L A S T ,blue,triangle
+1552170635848,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170636030,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170636628,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170636836,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170637429,4,K E Y _ S E L E C T ,red,circle
+1552170637604,4,K E Y _ S E L E C T ,red,circle
+1552170650241,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170650429,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170651899,4,K E Y _ S E L E C T ,red,circle
+1552170652041,1,DVR URL A392003852976765695L200195480309210019S5753,blue,triangle
+1552170652079,4,K E Y _ S E L E C T ,red,circle
+1552170653138,1,Video Tune Succeeded ,green,square
+1552170655286,4,K E Y _ L A S T ,blue,triangle
+1552170655287,4,K E Y _ L A S T ,blue,triangle
+1552170657549,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170657739,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170659298,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170659482,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170659612,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170659775,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170659874,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170660018,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170661105,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170661317,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170662225,4,K E Y _ L A S T ,blue,triangle
+1552170662225,4,K E Y _ L A S T ,blue,triangle
+1552170663466,4,K E Y _ L A S T ,blue,triangle
+1552170663479,4,K E Y _ L A S T ,blue,triangle
+1552170664628,4,K E Y _ L A S T ,blue,triangle
+1552170664628,4,K E Y _ L A S T ,blue,triangle
+1552170673716,4,K E Y _ L A S T ,blue,triangle
+1552170673716,4,K E Y _ L A S T ,blue,triangle
+1552170683068,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170683299,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170684731,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170684945,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170685292,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170685456,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170685923,4,K E Y _ S E L E C T ,red,circle
+1552170686137,4,K E Y _ S E L E C T ,red,circle
+1552170691730,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170691926,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170698378,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170698603,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170701704,4,K E Y _ S E L E C T ,red,circle
+1552170701869,4,K E Y _ S E L E C T ,red,circle
+1552170707502,4,K E Y _ S E L E C T ,red,circle
+1552170708001,4,K E Y _ S E L E C T ,red,circle
+1552170708050,4,K E Y _ S E L E C T ,red,circle
+1552170708074,4,K E Y _ S E L E C T ,red,circle
+1552170710804,4,K E Y _ L A S T ,blue,triangle
+1552170710805,4,K E Y _ L A S T ,blue,triangle
+1552170712007,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170712196,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170714446,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170714885,4,K E Y _ A R R O W D O W N ,blue,triangle
+1552170718517,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170718659,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170718818,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170718981,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170719075,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170719210,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170719346,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170719486,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170721073,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170721307,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170721889,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170722097,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170722621,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170722790,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170723771,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170723957,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170724471,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170724672,4,K E Y _ A R R O W R I G H T ,blue,triangle
+1552170725418,4,K E Y _ L A S T ,blue,triangle
+1552170725418,4,K E Y _ L A S T ,blue,triangle
+1552170726603,4,K E Y _ L A S T ,blue,triangle
+1552170726603,4,K E Y _ L A S T ,blue,triangle
+1552170727735,4,K E Y _ L A S T ,blue,triangle
+1552170727749,4,K E Y _ L A S T ,blue,triangle
+1552170729999,4,K E Y _ S E L E C T ,red,circle
+1552170730163,4,K E Y _ S E L E C T ,red,circle
+1552170730296,1,QAM Linear requested0x3b30,blue,triangle
+1552170731680,1,Video Tune Succeeded ,green,square
+1552170905602,4,K E Y _ L A S T ,blue,triangle
+1552170905612,4,K E Y _ L A S T ,blue,triangle
+1552170910824,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911036,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911155,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911338,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911434,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911594,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911802,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170911963,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170912765,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170912945,4,K E Y _ A R R O W L E F T ,blue,triangle
+1552170913525,4,K E Y _ S E L E C T ,red,circle
+1552170913701,1,QAM Linear requested0x3f0d,blue,triangle
+1552170913754,4,K E Y _ S E L E C T ,red,circle
+1552170915015,1,Video Tune Succeeded ,green,square
+1552171044022,4,K E Y _ L A S T ,blue,triangle
+1552171044022,4,K E Y _ L A S T ,blue,triangle
+1552171048150,4,K E Y _ S E L E C T ,red,circle
+1552171048341,4,K E Y _ S E L E C T ,red,circle
+1552171048422,1,QAM Linear requested0x3b30,blue,triangle
+1552171049697,1,Video Tune Succeeded ,green,square

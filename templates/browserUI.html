@@ -1,0 +1,27 @@
+{% block body %}
+<html>
+<head>
+<link rel="shortcut icon" href="">
+<script src="{{ url_for('static', filename='uiHandler.js') }}"></script>
+<script src="{{ url_for('static', filename='canvasjs.min.js') }}"></script>
+<script src="{{ url_for('static', filename='jquery-3.3.1.js') }}"></script>
+<script src="{{ url_for('static', filename='moment.js') }}"></script>
+<script src="{{ url_for('static', filename='moment-with-locales.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body background="{{ url_for('static', filename='subtle.jpg') }}">
+<div class="heading">
+	<h1>Customer Timeline</h1>
+</div>
+<meta id="my-data" data-name="{{data}}">
+<div id="chartContainer" class="chartContainer">
+</div>
+<div class="tabel">	
+<table border="1", rules="all", cellspacing="40", cellpadding="10", bgcolor="#DCDCDC">
+<tbody id="tbody">
+</tbody>
+</table>
+</div>
+</body>
+</html>
+{% endblock %}

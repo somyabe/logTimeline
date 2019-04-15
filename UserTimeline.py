@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 import matplotlib.pyplot as plt
 from keypress import keyDict
+import traceback
 
 def getMarkers(epoch1,epoch2,file_name):
     with open('strings_receiver.csv', 'r') as csv_file:
@@ -20,10 +21,6 @@ def getMarkers(epoch1,epoch2,file_name):
             # print(line1)
             try:
                 markerDict.append(line1)
-                # if line[1] not in markerDict.keys():
-                # markerDict[args.inputfile] = []
-                # markerDict[file_name].append(line[0])
-                # print("Got markerDict!")
             except:
                 print("Failed to get markerDict!")
                 pass
@@ -31,7 +28,7 @@ def getMarkers(epoch1,epoch2,file_name):
     mainlist=[]
     count=0
 
-    #with tarfile.open(file_name, "r:gz") as tar:
+    
     new_path = file_name
     print(new_path)
 
@@ -85,15 +82,17 @@ def getMarkers(epoch1,epoch2,file_name):
                             result2=regex2.findall(line)
                             #print(result2)
                             mark = " ".join(result2)
-                            count=count+1
+
                             list = []
                             list.append(date)
                             list.append(mark)
                             # list.append(x)
                             mainlist.append(list)
+                            count=count+1
                             #print(mainlist)
                     #date = " ".join(result)
     print(mainlist)
+    #print(count)
     return mainlist
 
 
@@ -101,191 +100,199 @@ def getPlaybackmode(mainlist):
     #for lines in mainlist:
     finalist = []
     for line in mainlist:
-        if "playbackmode" in line[1]:
-            if "tune request" in line[1]:
-                #print("request url")
-                if("ocap" in line[1]):
-                    #line[1] = "Qam Linear"
-                    word = "ocap://"
-                    reg = re.compile('%s.+&res' % word)
-                    result = reg.findall(line[1])
-                    line[1] = "QAM Linear requested"
-                    line.append(''.join(result)[7:-4])
-                    line.append("Video")
-                    line.append("blue")
-                    line.append("triangle")
+        try:
+            if "playbackmode" in line[1]:
+                if "tune request" in line[1]:
 
-                    #finalist.append(line)
+                    #print("request url")
+                    if("ocap" in line[1]):
 
-                elif("VOD" in line[1]):
-
-                    if "HOST" in line[1]:
-                        word="live"
+                        #line[1] = "Qam Linear"
+                        word = "ocap://"
                         reg = re.compile('%s.+&res' % word)
                         result = reg.findall(line[1])
-                        line[1] = "VOD URL "
-                        line.append(''.join(result)[4:-4])
+                        line[1] = "QAM Linear requested"
+                        line.append(''.join(result)[7:-4])
                         line.append("Video")
                         line.append("blue")
                         line.append("triangle")
 
+                        #finalist.append(line)
 
+                    elif("VOD" in line[1]):
+
+                        if "HOST" in line[1]:
+                            word="live"
+                            reg = re.compile('%s.+&res' % word)
+                            result = reg.findall(line[1])
+                            line[1] = "VOD URL "
+                            line.append(''.join(result)[4:-4])
+                            line.append("Video")
+                            line.append("blue")
+                            line.append("triangle")
+
+
+
+                        else:
+
+                            word = "net/"
+                            reg = re.compile('%s.+/movie' % word)
+                            result = reg.findall(line[1])
+                            line[1] = "VOD URL"
+                            line.append(''.join(result)[3:-6])
+                            line.append("Video")
+                            line.append("blue")
+                            line.append("triangle")
+
+                        #finalist.append(line)
+
+                    elif ("DVR" in line[1]):
+
+                        if "recordingId" in line[1]:
+
+                            word = "recordingId="
+                            reg = re.compile('%s.+&seg' % word)
+                            result = reg.findall(line[1])
+                            line[1] = "DVR URL "
+                            line.append(''.join(result)[12:-4])
+                            line.append("Video")
+                            line.append("blue")
+                            line.append("triangle")
+
+
+                        else:
+                            word = "cdvr-"
+                            reg = re.compile('%s.+xcr' % word)
+                            result = reg.findall(line[1])
+                            line[1] = "DVR URL"
+                            line.append(''.join(result)[5:-4])
+                            line.append("Video")
+                            line.append("blue")
+                            line.append("triangle")
+
+
+
+                        #finalist.append(line)
+
+                    elif("m3u8" in line[1]):
+                        #line[1] = "Ip linear"
+                        if '.net%2F' in line[1]:
+                            word = ".net%2F"
+                        elif '.com%2F' in line[1]:
+                            word = ".com%2F"
+                        reg = re.compile('%s.+HD' % word)
+                        result = reg.findall(line[1])
+                        line[1] = "IP Linear requested "
+                        line.append(''.join(result)[7:])
+                        line.append("Video")
+                        line.append("blue")
+                        line.append("triangle")
 
                     else:
+                        #print("no url")
+                        continue
 
-                        word = "net/"
-                        reg = re.compile('%s.+/movie' % word)
-                        result = reg.findall(line[1])
-                        line[1] = "VOD URL"
-                        line.append(''.join(result)[3:-6])
+
+                    finalist.append(line)
+
+                elif "succeeded" in line[1]:
+                    line[1] = "Video Tune Succeeded"
+                    line.append(" ")
+                    line.append("Video")
+                    line.append("green")
+                    line.append("square")
+                    finalist.append(line)
+
+                    #print("success url")
+                elif "failed" in line[1]:
+                    line[1] = "Video Failed"
+                    line.append(" ")
+                    line.append("Video")
+                    line.append("red")
+                    line.append("circle")
+                    finalist.append(line)
+
+                elif "aborted" in line[1]:
+                    if "http" in line[1]:
+                        line[1] = "Video Aborted"
+                        line.append(" ")
                         line.append("Video")
-                        line.append("blue")
-                        line.append("triangle")
-
-                    #finalist.append(line)
-
-                elif ("DVR" in line[1]):
-
-                    if "recordingId" in line[1]:
-
-                        word = "recordingId="
-                        reg = re.compile('%s.+&seg' % word)
-                        result = reg.findall(line[1])
-                        line[1] = "DVR URL "
-                        line.append(''.join(result)[12:-4])
-                        line.append("Video")
-                        line.append("blue")
-                        line.append("triangle")
-
-
-                    else:
-                        word = "cdvr-"
-                        reg = re.compile('%s.+xcr' % word)
-                        result = reg.findall(line[1])
-                        line[1] = "DVR URL"
-                        line.append(''.join(result)[5:-4])
-                        line.append("Video")
-                        line.append("blue")
-                        line.append("triangle")
+                        line.append("red")
+                        line.append("circle")
+                        finalist.append(line)
 
 
 
-                    #finalist.append(line)
-
-                elif("m3u8" in line[1]):
-                    #line[1] = "Ip linear"
-                    if '.net%2F' in line[1]:
-                        word = ".net%2F"
-                    elif '.com%2F' in line[1]:
-                        word = ".com%2F"
-                    reg = re.compile('%s.+HD' % word)
-                    result = reg.findall(line[1])
-                    line[1] = "IP Linear requested "
-                    line.append(''.join(result)[7:])
+            #elif "K E D" in line[1]:
+                #finalist.append(line)
+                #pass
+            elif "HTML5 video" in line[1]:
+                word = "mediasourceblob:"
+                reg = re.compile('%s.+' % word)
+                result = reg.findall(line[1])
+                if "Loading" in line[1]:
+                    line[1] = "Loading "
+                    line.append(''.join(result)[16:-1])
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    finalist.append(line)
+
+                elif "Pause" in line[1]:
+                    line[1] = "Pause "
+                    line.append(''.join(result)[16:-1])
+                    line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
+                    finalist.append(line)
+                elif "Playback started" in line[1]:
+                    line[1] = "Playback started "
+                    line.append(''.join(result)[16:-1])
+                    line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
+                    finalist.append(line)
+
+                elif "Playback terminated" in line[1]:
+                    line[1] = "Playback terminated "
+                    line.append(''.join(result)[16:-1])
+                    line.append("Video")
+                    line.append("red")
+                    line.append("circle")
+                    finalist.append(line)
+                    #finalist.append("receiver.log")
+                elif "Play " in line[1]:
+                    line[1] = "Play "
+                    line.append(''.join(result)[16:-1])
+                    line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
+                    finalist.append(line)
 
                 else:
-                    break
+                    pass
 
+            elif "Gibbon" in line[1]:
+                if "GibbonOEM_Init" in line[1]:
+                    line[1] = "Netflix initiated"
+                    line.append(" ")
+                    line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
+                    finalist.append(line)
 
-                finalist.append(line)
-
-            elif "succeeded" in line[1]:
-                line[1] = "Video Tune Succeeded"
-                line.append(" ")
-                line.append("Video")
-                line.append("green")
-                line.append("square")
-                finalist.append(line)
-
-                #print("success url")
-            elif "failed" in line[1]:
-                line[1] = "Video Failed"
-                line.append(" ")
-                line.append("Video")
-                line.append("red")
-                line.append("circle")
-                finalist.append(line)
-
-            elif "aborted" in line[1]:
-                line[1] = "Video Aborted"
-                line.append(" ")
-                line.append("Video")
-                line.append("red")
-                line.append("circle")
-                finalist.append(line)
-
-
-        #elif "K E D" in line[1]:
-            #finalist.append(line)
-            #pass
-        elif "HTML5 video" in line[1]:
-            word = "mediasourceblob:"
-            reg = re.compile('%s.+' % word)
-            result = reg.findall(line[1])
-            if "Loading" in line[1]:
-                line[1] = "Loading "
-                line.append(''.join(result)[16:-1])
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-
-            elif "Pause" in line[1]:
-                line[1] = "Pause "
-                line.append(''.join(result)[16:-1])
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-            elif "Playback started" in line[1]:
-                line[1] = "Playback started "
-                line.append(''.join(result)[16:-1])
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-
-            elif "Playback terminated" in line[1]:
-                line[1] = "Playback terminated "
-                line.append(''.join(result)[16:-1])
-                line.append("Video")
-                line.append("red")
-                line.append("circle")
-                finalist.append(line)
-                #finalist.append("receiver.log")
-            elif "Play " in line[1]:
-                line[1] = "Play "
-                line.append(''.join(result)[16:-1])
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-
+                elif "Gibbon_Start" or "Gibbon_Started" in line[1]:
+                    line[1]="Netflix started"
+                    line.append(" ")
+                    line.append("Video")
+                    line.append("blue")
+                    line.append("triangle")
+                    finalist.append(line)
             else:
                 pass
-
-        elif "Gibbon" in line[1]:
-            if "GibbonOEM_Init" in line[1]:
-                line[1] = "Netflix initiated"
-                line.append(" ")
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-
-            elif "Gibbon_Start" or "Gibbon_Started" in line[1]:
-                line[1]="Netflix started"
-                line.append(" ")
-                line.append("Video")
-                line.append("blue")
-                line.append("triangle")
-                finalist.append(line)
-        else:
+        except:
+            traceback.print_exc()
             pass
-
 
     return finalist
 

@@ -1,0 +1,30 @@
+.tabel {   
+  height: 400px;
+	width: 28%;
+	margin-top: 25px; 	
+  overflow-y: scroll;  	
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.heading {
+  text-align: center;
+  font-size:35px;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 5px grey;
+  opacity: 0.8;
+}
+.chartContainer{
+  height: 500px; 
+  width: 100%; 
+  background-color: rgba(150, 147, 147); 
+  box-shadow: 10px 10px 5px grey
+}
