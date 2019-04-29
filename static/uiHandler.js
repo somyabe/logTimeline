@@ -30,43 +30,23 @@ function throwChart(TimelineData){
     var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	backgroundColor: "#DCDCDC",	
+	height: 320,
 	zoomEnabled: true,
 	title:{
 		text: ""
+		
 	},
 	subtitles:[
 		{
-			text: "1-Video",			
+			text: "1-Video  2-Settings  3-Notifications  4-Keypresses",			
 			horizontalAlign: "left",
 			fontStyle: "normal",
 			//fontColor: "blue",
 			fontFamily: "arial",
-			
-		},
-		{
-			text: "2-Notifications",			
-			horizontalAlign: "left",
-			fontStyle: "normal",
-			//fontColor: "blue",
-			fontFamily: "arial",
-			
-		},
-		{
-			text: "3-Settings",			
-			horizontalAlign: "left",
-			fontStyle: "normal",
-			//fontColor: "blue",
-			fontFamily: "arial",
-			
-		},
-		{
-			text: "4-Keypresses",			
-			horizontalAlign: "left",
-			fontStyle: "normal",
-			//fontColor: "blue",
-			fontFamily: "arial",
-			
+			padding: 30,
+       					
 		}
+		
 	
 		],
 	axisX: {
@@ -75,7 +55,10 @@ function throwChart(TimelineData){
 	},
 	axisY:{
 		title: "Timelines",
-		interval: 1
+		interval: 1,
+		minimum:0.1,
+		maximum: 4.1,
+		
 	},
 	data: [{
 		type: "scatter",		

@@ -61,38 +61,24 @@ def getMarkers(epoch1,epoch2,file_name):
                     if epoch3>=epoch1 and epoch3<=epoch2:
                         #print(date)
                         #count=count+1
-                        if word=="XREKeyPressLog":
-                            regex2 = re.compile('%s.+' % word)
-                            result2 = regex2.findall(line)
-                            split1=result2[0].split(" ")
-                            rr=split1[3]
-                            #print(rr)
-                            if(rr in keyDict):
-                                #print(keyDict[rr])
-                                #count=count+1
-                                mark = " ".join(keyDict[rr])
-                                list = []
-                                list.append(date)
-                                list.append(mark)
-                                # list.append(x)
-                                mainlist.append(list)
-                            #print(result2)
-                        else:
-                            regex2 = re.compile('%s.+' %word)
-                            result2=regex2.findall(line)
-                            #print(result2)
-                            mark = " ".join(result2)
+                        
+                            
+                            
+                        
+                        regex2 = re.compile('%s.+' %word)
+                        result2=regex2.findall(line)
+                        #print(result2)
+                        mark = " ".join(result2)
 
-                            list = []
-                            list.append(date)
-                            list.append(mark)
-                            # list.append(x)
-                            mainlist.append(list)
-                            count=count+1
-                            #print(mainlist)
-                    #date = " ".join(result)
-    print(mainlist)
-    #print(count)
+                        list = []
+                        list.append(date)
+                        list.append(mark)
+                        # list.append(x)
+                        mainlist.append(list)
+                        count=count+1
+                        #print(mainlist)
+                #date = " ".join(result)
+
     return mainlist
 
 
@@ -116,6 +102,7 @@ def getPlaybackmode(mainlist):
                         line.append("Video")
                         line.append("blue")
                         line.append("triangle")
+                        line.append("8")
 
                         #finalist.append(line)
 
@@ -130,6 +117,7 @@ def getPlaybackmode(mainlist):
                             line.append("Video")
                             line.append("blue")
                             line.append("triangle")
+                            line.append("8")
 
 
 
@@ -143,6 +131,7 @@ def getPlaybackmode(mainlist):
                             line.append("Video")
                             line.append("blue")
                             line.append("triangle")
+                            line.append("8")
 
                         #finalist.append(line)
 
@@ -158,6 +147,8 @@ def getPlaybackmode(mainlist):
                             line.append("Video")
                             line.append("blue")
                             line.append("triangle")
+                            line.append("8")
+
 
 
                         else:
@@ -169,6 +160,7 @@ def getPlaybackmode(mainlist):
                             line.append("Video")
                             line.append("blue")
                             line.append("triangle")
+                            line.append("8")
 
 
 
@@ -187,6 +179,7 @@ def getPlaybackmode(mainlist):
                         line.append("Video")
                         line.append("blue")
                         line.append("triangle")
+                        line.append("8")
 
                     else:
                         #print("no url")
@@ -201,6 +194,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("green")
                     line.append("square")
+                    line.append("8")
                     finalist.append(line)
 
                     #print("success url")
@@ -210,6 +204,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("red")
                     line.append("circle")
+                    line.append("8")
                     finalist.append(line)
 
                 elif "aborted" in line[1]:
@@ -219,6 +214,7 @@ def getPlaybackmode(mainlist):
                         line.append("Video")
                         line.append("red")
                         line.append("circle")
+                        line.append("8")
                         finalist.append(line)
 
 
@@ -236,6 +232,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
 
                 elif "Pause" in line[1]:
@@ -244,6 +241,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
                 elif "Playback started" in line[1]:
                     line[1] = "Playback started "
@@ -251,6 +249,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
 
                 elif "Playback terminated" in line[1]:
@@ -259,6 +258,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("red")
                     line.append("circle")
+                    line.append("8")
                     finalist.append(line)
                     #finalist.append("receiver.log")
                 elif "Play " in line[1]:
@@ -267,6 +267,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
 
                 else:
@@ -279,6 +280,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
 
                 elif "Gibbon_Start" or "Gibbon_Started" in line[1]:
@@ -287,6 +289,7 @@ def getPlaybackmode(mainlist):
                     line.append("Video")
                     line.append("blue")
                     line.append("triangle")
+                    line.append("8")
                     finalist.append(line)
             else:
                 pass
@@ -307,6 +310,7 @@ def getSettings(mainlist):
             line.append("Settings")
             line.append("blue")
             line.append("triangle")
+            line.append("8")
             finalist.append(line)
 
         elif " SAP" in line[1]:
@@ -320,6 +324,7 @@ def getSettings(mainlist):
             line.append("Settings")
             line.append("blue")
             line.append("triangle")
+            line.append("8")
             finalist.append(line)
 
         else:
@@ -330,28 +335,52 @@ def getSettings(mainlist):
 def getKeypresses(mainlist):
     finalist=[]
     for line in mainlist:
-        if "K E Y" in line[1]:
-            if "G U I D E" in line[1] or "O K" in line[1] or "E N T E R" in line[1] or "S E L E C T" in line[1]:
 
-                line.append(" ")
-
-                line.append("Keypresses")
-                line.append("red")
-                line.append("circle")
-
-            else:
-
-                line.append(" ")
-
-                line.append("Keypresses")
-                line.append("blue")
-                line.append("triangle")
+        if "virtualKeyCode" in line[1]:
+            if "onKeyUp" in line[1]:
 
 
+                word = "virtualKeyCode"
+                reg = re.compile('%s([^,]+)' % word)
+                result = reg.findall(line[1])
+                
+                line[1]="KEY_"
+                line.append(" ".join(result)[3:-1])
 
-            finalist.append(line)
+                       
+
+
+                if "ENTER" in line[1] or "GUIDE" in line[1]:
+
+
+
+                    
+
+                    line.append("Keypresses")
+
+
+                    line.append("green")
+                    line.append("square")
+                    line.append("8")
+                    finalist.append(line)
+
+                else:
+                    
+
+                    line.append("Keypresses")
+
+                    line.append("blue")
+                    line.append("triangle")
+                    line.append("8")
+                    finalist.append(line)
+
+
+
+
+
+       
     return finalist
-
+    
 def getnotifications(mainlist):
     finalist=[]
     for line in mainlist:
@@ -367,7 +396,8 @@ def getnotifications(mainlist):
             line.append(" ")
             line.append("Notifications")
             line.append("red")
-            line.append("circle")
+            line.append("cross")
+            line.append("15")
             finalist.append(line)
 
 
@@ -409,7 +439,8 @@ def getnotifications(mainlist):
             line.append(" ")
             line.append("Notifications")
             line.append("red")
-            line.append("circle")
+            line.append("cross")
+            line.append("15")
             finalist.append(line)
 
         elif 'RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)' in line[1]:
@@ -417,7 +448,8 @@ def getnotifications(mainlist):
             line.append(" ")
             line.append("Notifications")
             line.append("red")
-            line.append("circle")
+            line.append("cross")
+            line.append("15")
             finalist.append(line)
 
 
@@ -426,7 +458,8 @@ def getnotifications(mainlist):
             line.append(" ")
             line.append("Notifications")
             line.append("red")
-            line.append("circle")
+            line.append("cross")
+            line.append("15")
             finalist.append(line)
 
         elif 'core.prog_rtrmfplayer' in line[1]:
@@ -434,7 +467,8 @@ def getnotifications(mainlist):
             line.append(" ")
             line.append("Notifications")
             line.append("red")
-            line.append("circle")
+            line.append("cross")
+            line.append("15")
             finalist.append(line)
 
     return finalist

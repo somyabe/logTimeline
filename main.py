@@ -5,6 +5,8 @@ import os
 import traceback
 import time
 from datetime import datetime
+import zipfile
+from zipfile import BadZipfile
 
 
 def startApp(fileName,logPath,issueTime,searchSpan):
@@ -12,9 +14,15 @@ def startApp(fileName,logPath,issueTime,searchSpan):
     dur_str=searchSpan
     file_name=fileName
     log_path=logPath
+
+    if "zip" in file_name:
+        with zipfile.ZipFile(file_name,"r") as zipp:
+            zipp.extractall(path=log_path)
+
+    else:
     
-    with tarfile.open(file_name, "r:gz") as tar:
-        tar.extractall(path=log_path)
+        with tarfile.open(file_name, "r:gz") as tar:
+            tar.extractall(path=log_path)
 
     pattern = '%Y %b %d %H:%M:%S.%f'
     epoch1 = int(time.mktime(time.strptime(date_str, pattern)))
@@ -23,22 +31,22 @@ def startApp(fileName,logPath,issueTime,searchSpan):
     epoch2 = epoch1 - int_dur
     mainlist = UserTimeline.getMarkers(epoch2, epoch1, log_path)
     mlist = UserTimeline.getPlaybackmode(mainlist)
-    print(mlist)
+    #print(mlist)
     nlist = UserTimeline.getSettings(mainlist)
-    print(nlist)
+    #print(nlist)
     olist=UserTimeline.getKeypresses(mainlist)
-    print(olist)
+    #print(olist)
     qlist=UserTimeline.getnotifications(mainlist)
-    print(qlist)
+    #print(qlist)
     plist=mlist+nlist+qlist+olist
-    print(plist)
+    #print(plist)
     copy_list=plist.copy()
     temp_list = []
     try:
 
         if(len(plist)>0):
             df1 = pd.DataFrame(plist)          
-            df1.columns = ['dates', 'col1', 'col2', 'col3', 'color', 'markerType']
+            df1.columns = ['dates', 'col1', 'col2', 'col3', 'color', 'markerType', 'markerSize']
             df1 = df1.sort_values(by='dates')
             pattern = '%Y %b %d %H:%M:%S.%f'
 
@@ -60,7 +68,7 @@ def startApp(fileName,logPath,issueTime,searchSpan):
                     i[3]=3
                 elif i[3]=='Keypresses':
                     i[3]=4
-            print(copy_list)
+            #print(copy_list)
             df1["marker"] = df1["col1"] + df1["col2"]
             del df1['col1']
             del df1['col2']
@@ -68,15 +76,16 @@ def startApp(fileName,logPath,issueTime,searchSpan):
             df1.to_csv('Timeline.csv', index=False)
 
             dfgraph = pd.DataFrame(copy_list)
-            dfgraph.columns = ['x', 'col1', 'col2', 'y', 'color', 'markerType']
+            dfgraph.columns = ['x', 'col1', 'col2', 'y', 'color', 'markerType', 'markerSize']
             dfgraph["z"] = dfgraph["col1"] + dfgraph["col2"]
             del dfgraph['col1']
             del dfgraph['col2']
             dfgraph = dfgraph.sort_values(by='x')
-            columnsTitles = ["x", "y", "z", "color", "markerType"]
+            columnsTitles = ["x", "y", "z", "color", "markerType", "markerSize"]
             df = dfgraph.reindex(columns=columnsTitles)
             df.to_csv('forchart.csv', index=False, line_terminator=None)
-            jsList = df.to_dict('index')
+            jsList = df.to_dict('records')
+            print(jsList)
             return jsList
 
         else:
