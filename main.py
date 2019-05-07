@@ -24,7 +24,7 @@ def startApp(fileName,logPath,issueTime,searchSpan):
         with tarfile.open(file_name, "r:gz") as tar:
             tar.extractall(path=log_path)
 
-    pattern = '%Y %b %d %H:%M:%S.%f'
+    pattern = '%Y %b %d %H:%M:%S'
     epoch1 = int(time.mktime(time.strptime(date_str, pattern)))
     int_dur = int(dur_str)
     int_dur = int_dur * 3600

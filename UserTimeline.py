@@ -435,7 +435,7 @@ def getnotifications(mainlist):
                 finalist.append(line)
 
         elif 'RDKBROWSER_RENDER_PROCESS_CRASHED' in line[1]:
-            line[1] = "BROWSER_CRASHED"
+            line[1] = "RDK Browser crashed"
             line.append(" ")
             line.append("Notifications")
             line.append("red")
@@ -443,14 +443,9 @@ def getnotifications(mainlist):
             line.append("15")
             finalist.append(line)
 
-        elif 'RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)' in line[1]:
-            line[1] = "WebProcess crashed"
-            line.append(" ")
-            line.append("Notifications")
-            line.append("red")
-            line.append("cross")
-            line.append("15")
-            finalist.append(line)
+        
+
+        
 
 
         elif 'Pre-caching failed, renderer crashed' in line[1]:

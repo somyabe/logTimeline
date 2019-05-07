@@ -6,7 +6,6 @@ closedcaptions
 SAP
 errorType
 XRE_NR_STATUS
-RDKBROWSER_RENDER_PROCESS_CRASHED
-RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)
+event=onMediaError RDKBROWSER_RENDER_PROCESS_CRASHED
 "Pre-caching failed, renderer crashed"
 core.prog_rtrmfplayer
