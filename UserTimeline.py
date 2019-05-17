@@ -55,29 +55,32 @@ def getMarkers(epoch1,epoch2,file_name):
                     date = " ".join(result)
                     #print(date)
                     pattern = '%Y %b %d %H:%M:%S.%f'
-                    epoch3 = int(time.mktime(time.strptime(date, pattern)))
-                    #print(epoch3)
-                    #count=count+1
-                    if epoch3>=epoch1 and epoch3<=epoch2:
-                        #print(date)
+                    try:
+                        epoch3 = int(time.mktime(time.strptime(date, pattern)))
+                        #print(epoch3)
                         #count=count+1
-                        
+                        if epoch3>=epoch1 and epoch3<=epoch2:
+                            #print(date)
+                            #count=count+1
                             
+                                
+                                
                             
-                        
-                        regex2 = re.compile('%s.+' %word)
-                        result2=regex2.findall(line)
-                        #print(result2)
-                        mark = " ".join(result2)
+                            regex2 = re.compile('%s.+' %word)
+                            result2=regex2.findall(line)
+                            #print(result2)
+                            mark = " ".join(result2)
 
-                        list = []
-                        list.append(date)
-                        list.append(mark)
-                        # list.append(x)
-                        mainlist.append(list)
-                        count=count+1
-                        #print(mainlist)
-                #date = " ".join(result)
+                            list = []
+                            list.append(date)
+                            list.append(mark)
+                            # list.append(x)
+                            mainlist.append(list)
+                            count=count+1
+                            #print(mainlist)
+                    #date = " ".join(result)
+                    except:
+                        pass
 
     return mainlist
 
@@ -106,7 +109,7 @@ def getPlaybackmode(mainlist):
 
                         #finalist.append(line)
 
-                    elif("VOD" in line[1]):
+                    elif("[VOD]" in line[1]):
 
                         if "HOST" in line[1]:
                             word="live"
@@ -172,10 +175,10 @@ def getPlaybackmode(mainlist):
                             word = ".net%2F"
                         elif '.com%2F' in line[1]:
                             word = ".com%2F"
-                        reg = re.compile('%s.+HD' % word)
+                        reg = re.compile('%s.+?_' % word)
                         result = reg.findall(line[1])
                         line[1] = "IP Linear requested "
-                        line.append(''.join(result)[7:])
+                        line.append(''.join(result)[7:-1])
                         line.append("Video")
                         line.append("blue")
                         line.append("triangle")
@@ -384,21 +387,24 @@ def getKeypresses(mainlist):
 def getnotifications(mainlist):
     finalist=[]
     for line in mainlist:
-        if 'Console' and 'errorType:' in line[1]:
+        if "RDK-" in line[1]:
 
 
-            word = "errorType"
-            reg = re.compile('%s.+' % word)
+            word = "RDK-"
+            reg = re.compile('%s\d\d\d\d\d' % word)
             result = reg.findall(line[1])
             result = " ".join(result)
+            if(result):
 
-            line[1] = result
-            line.append(" ")
-            line.append("Notifications")
-            line.append("red")
-            line.append("cross")
-            line.append("15")
-            finalist.append(line)
+                line[1] = result
+                line.append(" ")
+                line.append("Notifications")
+                line.append("red")
+                line.append("cross")
+                line.append("15")
+                finalist.append(line)
+            else:
+                continue
 
 
         elif 'XRE_NR_STATUS' in line[1]:
@@ -435,7 +441,7 @@ def getnotifications(mainlist):
                 finalist.append(line)
 
         elif 'RDKBROWSER_RENDER_PROCESS_CRASHED' in line[1]:
-            line[1] = "BROWSER_CRASHED"
+            line[1] = "RDK Browser crashed"
             line.append(" ")
             line.append("Notifications")
             line.append("red")
@@ -443,14 +449,9 @@ def getnotifications(mainlist):
             line.append("15")
             finalist.append(line)
 
-        elif 'RDKBROWSER_RENDER_PROCESS_CRASHED(WebProcess crashed)' in line[1]:
-            line[1] = "WebProcess crashed"
-            line.append(" ")
-            line.append("Notifications")
-            line.append("red")
-            line.append("cross")
-            line.append("15")
-            finalist.append(line)
+        
+
+        
 
 
         elif 'Pre-caching failed, renderer crashed' in line[1]:

@@ -1,16 +1,18 @@
 <!doctype html>
 <html>
    <head>
+      <script src="{{ url_for('static', filename='uiHandler.js') }}"></script>
       <style>
          form{
             margin: 0 auto; 
             width:250px;
             margin-top: 40px;
+            font-size: 140%;
          }
 
          input[value="Submit"]{
             background-color: #4CAF50;
-            font-size: 20px;
+            font-size: 30px;
             border-radius: 12px;
             width: 350px;
 
@@ -22,7 +24,11 @@
          }
          input[type="text"]{
             width: 350px;
+            
 
+         }
+         body {
+            background-size: cover;
          }
 
 
@@ -30,17 +36,26 @@
 
 
       </style>
+
    </head>
    <body>
+   <div class="back">
+
+   
    <body background="{{ url_for('static', filename='subtle.jpg') }}">
-   <form action='/getData' method= "POST" enctype = "multipart/form-data">
+   </div>
+   <form id = "upload_form" action='/getData' method="post" enctype = "multipart/form-data">
   Log File:<br>
-  <input type = "file" name = "file" /><br>
+  <input type = "file" name = "file" id="file" placeholder="tgz/zip" onchange="uploadFile()" style="width: 300px;font-size:16pt"><br>
+  
+  
   Issue Time:<br>   
-  <input type="text" name="issueTime"><br>
+  <input type="text" name="issueTime" placeholder="YYYY Mon DD hh:mm:ss" style="font-size:16pt;width:300px;"><br>
   Search Span:<br>
-  <input type="text" name="searchSpan"><br><br><br>
+  <input type="text" name="searchSpan" placeholder="in hours" style="font-size:16pt;width: 300px;"><br><br><br>
   <input type = "submit" value = "Submit" />
-</form>     
+</form>   
+
+
    </body>
 </html>
