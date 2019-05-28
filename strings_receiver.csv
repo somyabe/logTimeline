@@ -2,8 +2,8 @@ virtualKeyCode
 playbackmode
 HTML5 video
 Gibbon
-closedcaptions
-SAP
+closedCaptioningEnabled
+SAP changed
 RDK-
 XRE_NR_STATUS
 event=onMediaError RDKBROWSER_RENDER_PROCESS_CRASHED

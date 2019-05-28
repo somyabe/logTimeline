@@ -24,7 +24,7 @@ def getMarkers(epoch1,epoch2,file_name):
             except:
                 print("Failed to get markerDict!")
                 pass
-        #print(markerDict)
+        print(markerDict)
     mainlist=[]
     count=0
 
@@ -145,7 +145,7 @@ def getPlaybackmode(mainlist):
                             word = "recordingId="
                             reg = re.compile('%s.+&seg' % word)
                             result = reg.findall(line[1])
-                            line[1] = "DVR URL "
+                            line[1] = "DVR recording id= "
                             line.append(''.join(result)[12:-4])
                             line.append("Video")
                             line.append("blue")
@@ -316,19 +316,23 @@ def getSettings(mainlist):
             line.append("8")
             finalist.append(line)
 
-        elif " SAP" in line[1]:
-            word = "SAP"
-            reg = re.compile('%s.+' % word)
-            result = reg.findall(line[1])
-            result = " ".join(result)
+        elif "SAP changed" in line[1]:
+            
 
-            line[1] = result
-            line.append(" ")
+            word = "SAP changed"
+            reg = re.compile('%s....' % word)
+            result = reg.findall(line[1])
+            #result = " ".join(result)
+
+            line[1] = "SAP changed to "
+            line.append(" ".join(result)[13:])
+            
             line.append("Settings")
             line.append("blue")
             line.append("triangle")
             line.append("8")
             finalist.append(line)
+            
 
         else:
             pass

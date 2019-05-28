@@ -1,24 +1,308 @@
 x,y,z,color,markerType,markerSize
-1557939130557,1,QAM Linear requested0x3fa3,blue,triangle,8
-1557939132460,1,Video Tune Succeeded ,green,square,8
-1557939798276,1,QAM Linear requested0x2b6a,blue,triangle,8
-1557939799935,1,Video Tune Succeeded ,green,square,8
-1557944996437,2,RDK-21197 ,red,cross,15
-1557945020967,2,RDK-21197 ,red,cross,15
-1557945023652,2,PLAYER_STATUS=active ,green,square,
-1557945024368,2,RDK-23524 ,red,cross,15
-1557945026944,2,RDK-21197 ,red,cross,15
-1557945028581,2,GUIDE_STATUS=active ,green,square,
-1557945031380,2,RDK-21197 ,red,cross,15
-1557945045530,1,QAM Linear requested0x2b6a,blue,triangle,8
-1557945049696,1,Video Tune Succeeded ,green,square,8
-1557945072216,2,RDK-21197 ,red,cross,15
-1557945086851,1,Netflix initiated ,blue,triangle,8
-1557945087524,1,Netflix started ,blue,triangle,8
-1557945092217,1,Netflix started ,blue,triangle,8
-1557945092313,1,Netflix started ,blue,triangle,8
-1557945094383,1,Netflix started ,blue,triangle,8
-1557945097291,1,Netflix started ,blue,triangle,8
-1557945097563,1,Netflix started ,blue,triangle,8
-1557945124210,1,Netflix started ,blue,triangle,8
-1557945126409,1,Netflix started ,blue,triangle,8
+1550749711985,1,IP Linear requested ANPLD,blue,triangle,8
+1550749712252,3,SAP changed to en,blue,triangle,8
+1550749712336,3,SAP changed to en,blue,triangle,8
+1550749713499,3,SAP changed to en,blue,triangle,8
+1550749715740,1,Video Tune Succeeded ,green,square,8
+1550752375034,4,KEY_POWER,blue,triangle,8
+1550752376373,4,KEY_POWER,blue,triangle,8
+1550752377542,4,KEY_POWER,blue,triangle,8
+1550752379244,4,KEY_POWER,blue,triangle,8
+1550752380573,4,KEY_POWER,blue,triangle,8
+1550752381944,4,KEY_POWER,blue,triangle,8
+1550754796142,2,PLAYER_STATUS=disconnected ,red,circle,
+1550754797115,2,GUIDE_STATUS=disconnected ,red,circle,
+1550754817049,2,PLAYER_STATUS=disconnected ,red,circle,
+1550754837217,2,SHELL_STATUS=disconnected ,red,circle,
+1550754837234,2,GUIDE_STATUS=disconnected ,red,circle,
+1550754855312,2,RDK-21197 ,red,cross,15
+1550754855316,2,RDK-21197 ,red,cross,15
+1550754859159,2,RDK-21197 ,red,cross,15
+1550754862834,2,RDK-21197 ,red,cross,15
+1550754862920,2,SHELL_STATUS=active ,green,square,
+1550754943254,2,SHELL_STATUS=disconnected ,red,circle,
+1550754955370,2,RDK-21197 ,red,cross,15
+1550754966392,2,RDK-21197 ,red,cross,15
+1550754966992,2,RDK-21197 ,red,cross,15
+1550754967245,2,SHELL_STATUS=active ,green,square,
+1550754970508,2,RDK-21197 ,red,cross,15
+1550754970773,2,PLAYER_STATUS=active ,green,square,
+1550754970953,1,IP Linear requested ANPLD,blue,triangle,8
+1550754971133,3,SAP changed to en,blue,triangle,8
+1550754971137,3,SAP changed to en,blue,triangle,8
+1550754971446,2,RDK-21197 ,red,cross,15
+1550754971800,2,GUIDE_STATUS=active ,green,square,
+1550762902614,4,KEY_POWER,blue,triangle,8
+1550762905187,4,KEY_ENTER,blue,triangle,8
+1550762917665,4,KEY_NUMBER_7,blue,triangle,8
+1550762918404,1,Video Aborted ,red,circle,8
+1550762918723,1,IP Linear requested WLSD1,blue,triangle,8
+1550762918804,4,KEY_ENTER,blue,triangle,8
+1550762919066,3,SAP changed to en,blue,triangle,8
+1550762919126,3,SAP changed to en,blue,triangle,8
+1550762920066,3,SAP changed to en,blue,triangle,8
+1550762922674,1,Video Tune Succeeded ,green,square,8
+1550762928162,4,KEY_NUMBER_2,blue,triangle,8
+1550762929285,1,IP Linear requested WBBMD,blue,triangle,8
+1550762929522,4,KEY_ENTER,blue,triangle,8
+1550762929670,3,SAP changed to en,blue,triangle,8
+1550762929725,3,SAP changed to en,blue,triangle,8
+1550762930454,3,SAP changed to en,blue,triangle,8
+1550762932795,1,Video Tune Succeeded ,green,square,8
+1550763298414,1,IP Linear requested ANPLD,blue,triangle,8
+1550763298702,3,SAP changed to en,blue,triangle,8
+1550763298722,3,SAP changed to en,blue,triangle,8
+1550763299443,3,SAP changed to en,blue,triangle,8
+1550763301797,1,Video Tune Succeeded ,green,square,8
+1550763324282,1,IP Linear requested HMMHD,blue,triangle,8
+1550763324637,3,SAP changed to en,blue,triangle,8
+1550763324664,3,SAP changed to en,blue,triangle,8
+1550763325542,3,SAP changed to en,blue,triangle,8
+1550763327715,1,Video Tune Succeeded ,green,square,8
+1550764287276,2,SHELL_STATUS=disconnected ,red,circle,
+1550764291116,2,PLAYER_STATUS=disconnected ,red,circle,
+1550764292148,2,GUIDE_STATUS=disconnected ,red,circle,
+1550764298965,3,SAP changed to en,blue,triangle,8
+1550764308179,2,SHELL_STATUS=disconnected ,red,circle,
+1550764322174,3,SAP changed to en,blue,triangle,8
+1550764329386,2,SHELL_STATUS=disconnected ,red,circle,
+1550764334215,3,SAP changed to en,blue,triangle,8
+1550764337049,3,SAP changed to en,blue,triangle,8
+1550764348477,2,RDK-21197 ,red,cross,15
+1550764348501,2,SHELL_STATUS=disconnected ,red,circle,
+1550764360938,2,RDK-21197 ,red,cross,15
+1550764364597,2,RDK-21197 ,red,cross,15
+1550764364888,2,SHELL_STATUS=active ,green,square,
+1550764388169,3,SAP changed to en,blue,triangle,8
+1550764398478,2,RDK-03087 ,red,cross,15
+1550764402957,2,RDK-03087 ,red,cross,15
+1550764403637,2,RDK-03087 ,red,cross,15
+1550764403641,2,RDK-03087 ,red,cross,15
+1550764403644,2,RDK-03087 ,red,cross,15
+1550764403644,2,RDK-03087 ,red,cross,15
+1550764403651,2,RDK-03087 ,red,cross,15
+1550764403651,2,RDK-03087 ,red,cross,15
+1550764403664,2,RDK-03087 ,red,cross,15
+1550764404134,2,RDK-03087 ,red,cross,15
+1550764404222,2,RDK-03087 ,red,cross,15
+1550764404228,2,RDK-03087 ,red,cross,15
+1550764405279,3,SAP changed to en,blue,triangle,8
+1550764405775,2,RDK-03087 ,red,cross,15
+1550764406054,2,RDK-03087 ,red,cross,15
+1550764406056,2,RDK-03087 ,red,cross,15
+1550764406057,2,RDK-03087 ,red,cross,15
+1550764406057,2,RDK-03087 ,red,cross,15
+1550764406057,2,RDK-03087 ,red,cross,15
+1550764406058,2,RDK-03087 ,red,cross,15
+1550764406059,2,RDK-03087 ,red,cross,15
+1550764406060,2,RDK-03087 ,red,cross,15
+1550764406707,2,RDK-03087 ,red,cross,15
+1550764406707,2,RDK-03087 ,red,cross,15
+1550764407508,2,RDK-03087 ,red,cross,15
+1550764421102,3,SAP changed to en,blue,triangle,8
+1550764436329,3,SAP changed to en,blue,triangle,8
+1550764445918,2,SHELL_STATUS=disconnected ,red,circle,
+1550764452814,2,RDK-21197 ,red,cross,15
+1550764452837,2,SHELL_STATUS=disconnected ,red,circle,
+1550764453539,2,RDK-21197 ,red,cross,15
+1550764454242,2,RDK-21197 ,red,cross,15
+1550764454673,2,SHELL_STATUS=active ,green,square,
+1550764458610,2,RDK-21197 ,red,cross,15
+1550764459211,2,PLAYER_STATUS=active ,green,square,
+1550764459480,1,IP Linear requested HMMHD,blue,triangle,8
+1550764459857,3,SAP changed to en,blue,triangle,8
+1550764459910,3,SAP changed to en,blue,triangle,8
+1550764460229,2,RDK-21197 ,red,cross,15
+1550764460717,2,GUIDE_STATUS=active ,green,square,
+1550767102290,1,Video Aborted ,red,circle,8
+1550767102621,1,IP Linear requested HCHD,blue,triangle,8
+1550767102811,3,SAP changed to en,blue,triangle,8
+1550767102973,3,SAP changed to en,blue,triangle,8
+1550767103821,3,SAP changed to en,blue,triangle,8
+1550767105998,1,Video Tune Succeeded ,green,square,8
+1550767305205,4,KEY_NUMBER_2,blue,triangle,8
+1550767306901,1,IP Linear requested WBBMD,blue,triangle,8
+1550767306913,4,KEY_ENTER,blue,triangle,8
+1550767307261,3,SAP changed to en,blue,triangle,8
+1550767307337,3,SAP changed to en,blue,triangle,8
+1550767308030,3,SAP changed to en,blue,triangle,8
+1550767310200,1,Video Tune Succeeded ,green,square,8
+1550771211888,4,KEY_NUMBER_7,blue,triangle,8
+1550771213170,4,KEY_ENTER,blue,triangle,8
+1550771213204,1,IP Linear requested WLSD1,blue,triangle,8
+1550771213511,3,SAP changed to en,blue,triangle,8
+1550771213572,3,SAP changed to en,blue,triangle,8
+1550771214397,3,SAP changed to en,blue,triangle,8
+1550771216825,1,Video Tune Succeeded ,green,square,8
+1550777421053,4,KEY_NUMBER_2,blue,triangle,8
+1550777421988,1,IP Linear requested WBBMD,blue,triangle,8
+1550777422045,4,KEY_ENTER,blue,triangle,8
+1550777422136,3,SAP changed to en,blue,triangle,8
+1550777422285,3,SAP changed to en,blue,triangle,8
+1550777423162,3,SAP changed to en,blue,triangle,8
+1550777425503,1,Video Tune Succeeded ,green,square,8
+1550777800202,4,KEY_NUMBER_7,blue,triangle,8
+1550777801359,1,IP Linear requested WLSD1,blue,triangle,8
+1550777801572,4,KEY_ENTER,blue,triangle,8
+1550777801760,3,SAP changed to en,blue,triangle,8
+1550777801772,3,SAP changed to en,blue,triangle,8
+1550777802534,3,SAP changed to en,blue,triangle,8
+1550777804293,1,Video Tune Succeeded ,green,square,8
+1550777906278,4,KEY_ENTER,blue,triangle,8
+1550777908139,4,KEY_ENTER,blue,triangle,8
+1550778219716,2,RDK-21197 ,red,cross,15
+1550778395010,4,KEY_ENTER,blue,triangle,8
+1550778397997,4,KEY_NUMBER_7,blue,triangle,8
+1550778399075,4,KEY_ENTER,blue,triangle,8
+1550778399118,1,IP Linear requested WLSD1,blue,triangle,8
+1550778399432,3,SAP changed to en,blue,triangle,8
+1550778399455,3,SAP changed to en,blue,triangle,8
+1550778400183,3,SAP changed to en,blue,triangle,8
+1550778401132,1,Video Tune Succeeded ,green,square,8
+1550778407526,4,KEY_NUMBER_2,blue,triangle,8
+1550778408400,1,IP Linear requested WBBMD,blue,triangle,8
+1550778408487,4,KEY_ENTER,blue,triangle,8
+1550778408729,3,SAP changed to en,blue,triangle,8
+1550778408739,3,SAP changed to en,blue,triangle,8
+1550778409477,3,SAP changed to en,blue,triangle,8
+1550778410932,1,Video Tune Succeeded ,green,square,8
+1550778733125,4,KEY_NUMBER_7,blue,triangle,8
+1550778734422,1,IP Linear requested WLSD1,blue,triangle,8
+1550778734528,4,KEY_ENTER,blue,triangle,8
+1550778734563,3,SAP changed to en,blue,triangle,8
+1550778734739,3,SAP changed to en,blue,triangle,8
+1550778735651,3,SAP changed to en,blue,triangle,8
+1550778736839,1,Video Tune Succeeded ,green,square,8
+1550779440233,2,SHELL_STATUS=disconnected ,red,circle,
+1550779441455,2,SHELL_STATUS=disconnected ,red,circle,
+1550779443458,2,SHELL_STATUS=disconnected ,red,circle,
+1550779447173,2,SHELL_STATUS=disconnected ,red,circle,
+1550779454681,2,SHELL_STATUS=disconnected ,red,circle,
+1550779465510,2,SHELL_STATUS=disconnected ,red,circle,
+1550779475712,2,SHELL_STATUS=disconnected ,red,circle,
+1550779486587,2,SHELL_STATUS=disconnected ,red,circle,
+1550779496858,2,SHELL_STATUS=disconnected ,red,circle,
+1550779507780,2,SHELL_STATUS=disconnected ,red,circle,
+1550779518513,2,SHELL_STATUS=disconnected ,red,circle,
+1550779528524,2,SHELL_STATUS=disconnected ,red,circle,
+1550779538702,2,SHELL_STATUS=disconnected ,red,circle,
+1550779549478,2,SHELL_STATUS=disconnected ,red,circle,
+1550779559491,2,SHELL_STATUS=disconnected ,red,circle,
+1550779569584,2,SHELL_STATUS=disconnected ,red,circle,
+1550779579498,2,SHELL_STATUS=disconnected ,red,circle,
+1550779589498,2,SHELL_STATUS=disconnected ,red,circle,
+1550779599577,2,SHELL_STATUS=disconnected ,red,circle,
+1550779609501,2,SHELL_STATUS=disconnected ,red,circle,
+1550779619509,2,SHELL_STATUS=disconnected ,red,circle,
+1550779629573,2,SHELL_STATUS=disconnected ,red,circle,
+1550779639626,2,SHELL_STATUS=disconnected ,red,circle,
+1550779649548,2,SHELL_STATUS=disconnected ,red,circle,
+1550779659599,2,SHELL_STATUS=disconnected ,red,circle,
+1550779669504,2,SHELL_STATUS=disconnected ,red,circle,
+1550779678639,4,KEY_NUMBER_2,blue,triangle,8
+1550779679505,2,SHELL_STATUS=disconnected ,red,circle,
+1550779679752,4,KEY_ENTER,blue,triangle,8
+1550779679854,1,IP Linear requested WBBMD,blue,triangle,8
+1550779679940,3,SAP changed to en,blue,triangle,8
+1550779680075,3,SAP changed to en,blue,triangle,8
+1550779680899,3,SAP changed to en,blue,triangle,8
+1550779682779,1,Video Tune Succeeded ,green,square,8
+1550779689597,2,SHELL_STATUS=disconnected ,red,circle,
+1550779692582,4,KEY_NUMBER_7,blue,triangle,8
+1550779694093,4,KEY_ENTER,blue,triangle,8
+1550779694129,1,IP Linear requested WLSD1,blue,triangle,8
+1550779694534,3,SAP changed to en,blue,triangle,8
+1550779694566,3,SAP changed to en,blue,triangle,8
+1550779695348,3,SAP changed to en,blue,triangle,8
+1550779696902,1,Video Tune Succeeded ,green,square,8
+1550779699516,2,SHELL_STATUS=disconnected ,red,circle,
+1550779709515,2,SHELL_STATUS=disconnected ,red,circle,
+1550779719615,2,SHELL_STATUS=disconnected ,red,circle,
+1550779729510,2,SHELL_STATUS=disconnected ,red,circle,
+1550779739703,2,SHELL_STATUS=disconnected ,red,circle,
+1550779750594,2,SHELL_STATUS=disconnected ,red,circle,
+1550779760575,2,SHELL_STATUS=disconnected ,red,circle,
+1550779770553,2,SHELL_STATUS=disconnected ,red,circle,
+1550779780955,2,SHELL_STATUS=disconnected ,red,circle,
+1550779791517,2,SHELL_STATUS=disconnected ,red,circle,
+1550779801551,2,SHELL_STATUS=disconnected ,red,circle,
+1550779811624,2,SHELL_STATUS=disconnected ,red,circle,
+1550779821653,2,SHELL_STATUS=disconnected ,red,circle,
+1550779832558,2,SHELL_STATUS=disconnected ,red,circle,
+1550779842722,2,SHELL_STATUS=disconnected ,red,circle,
+1550779853561,2,SHELL_STATUS=disconnected ,red,circle,
+1550779863545,2,SHELL_STATUS=disconnected ,red,circle,
+1550779873715,2,SHELL_STATUS=disconnected ,red,circle,
+1550779904613,2,SHELL_STATUS=disconnected ,red,circle,
+1550779919894,2,RDK-21197 ,red,cross,15
+1550779955541,2,SHELL_STATUS=disconnected ,red,circle,
+1550779976635,2,SHELL_STATUS=disconnected ,red,circle,
+1550779987519,2,SHELL_STATUS=disconnected ,red,circle,
+1550779988547,2,SHELL_STATUS=disconnected ,red,circle,
+1550779992099,2,SHELL_STATUS=disconnected ,red,circle,
+1550780008050,2,RDK-21197 ,red,cross,15
+1550780009176,2,RDK-21197 ,red,cross,15
+1550780009394,2,SHELL_STATUS=active ,green,square,
+1550780016021,2,RDK-21197 ,red,cross,15
+1550780016266,2,PLAYER_STATUS=active ,green,square,
+1550781095245,2,SHELL_STATUS=disconnected ,red,circle,
+1550781098500,2,RDK-03033 ,red,cross,15
+1550781098847,2,RDK-03033 ,red,cross,15
+1550781099148,2,PLAYER_STATUS=disconnected ,red,circle,
+1550781099177,2,RDK-03033 ,red,cross,15
+1550781099189,2,RDK-03033 ,red,cross,15
+1550781099195,2,RDK-03033 ,red,cross,15
+1550781099196,2,RDK-03033 ,red,cross,15
+1550781099201,2,RDK-03033 ,red,cross,15
+1550781099204,2,RDK-03033 ,red,cross,15
+1550781099206,2,RDK-03033 ,red,cross,15
+1550781099510,2,RDK-03033 ,red,cross,15
+1550781099519,2,RDK-03033 ,red,cross,15
+1550781099524,2,RDK-03033 ,red,cross,15
+1550781099938,2,RDK-03033 ,red,cross,15
+1550781101175,2,GUIDE_STATUS=disconnected ,red,circle,
+1550781106486,3,SAP changed to en,blue,triangle,8
+1550781116261,2,SHELL_STATUS=disconnected ,red,circle,
+1550781116364,2,RDK-03033 ,red,cross,15
+1550781116415,2,RDK-03033 ,red,cross,15
+1550781116441,2,RDK-03033 ,red,cross,15
+1550781116442,2,RDK-03033 ,red,cross,15
+1550781116444,2,RDK-03033 ,red,cross,15
+1550781116448,2,RDK-03033 ,red,cross,15
+1550781116462,2,RDK-03033 ,red,cross,15
+1550781116463,2,RDK-03033 ,red,cross,15
+1550781116467,2,RDK-03033 ,red,cross,15
+1550781116612,2,RDK-03033 ,red,cross,15
+1550781116617,2,RDK-03033 ,red,cross,15
+1550781116621,2,RDK-03033 ,red,cross,15
+1550781116885,2,RDK-03033 ,red,cross,15
+1550781130189,3,SAP changed to en,blue,triangle,8
+1550781137788,2,SHELL_STATUS=disconnected ,red,circle,
+1550781153317,3,SAP changed to en,blue,triangle,8
+1550781160146,2,SHELL_STATUS=disconnected ,red,circle,
+1550781165193,3,SAP changed to en,blue,triangle,8
+1550781184119,2,SHELL_STATUS=disconnected ,red,circle,
+1550781189736,3,SAP changed to en,blue,triangle,8
+1550781210393,2,SHELL_STATUS=disconnected ,red,circle,
+1550781215211,3,SAP changed to en,blue,triangle,8
+1550781217985,2,RDK-03033 ,red,cross,15
+1550781218046,2,RDK-03033 ,red,cross,15
+1550781218087,2,RDK-03033 ,red,cross,15
+1550781218092,2,RDK-03033 ,red,cross,15
+1550781218098,2,RDK-03033 ,red,cross,15
+1550781218104,2,RDK-03033 ,red,cross,15
+1550781218112,2,RDK-03033 ,red,cross,15
+1550781218195,2,RDK-03033 ,red,cross,15
+1550781218196,2,RDK-03033 ,red,cross,15
+1550781218251,2,RDK-03033 ,red,cross,15
+1550781218256,2,RDK-03033 ,red,cross,15
+1550781218261,2,RDK-03033 ,red,cross,15
+1550781218539,2,RDK-03033 ,red,cross,15
+1550781239478,2,SHELL_STATUS=disconnected ,red,circle,
+1550781251668,3,SAP changed to en,blue,triangle,8
+1550781277392,2,SHELL_STATUS=disconnected ,red,circle,
+1550781288043,3,SAP changed to en,blue,triangle,8
+1550781325387,2,SHELL_STATUS=disconnected ,red,circle,
+1550781339609,3,SAP changed to en,blue,triangle,8
+1550781375482,2,SHELL_STATUS=disconnected ,red,circle,
+1550781380418,3,SAP changed to en,blue,triangle,8

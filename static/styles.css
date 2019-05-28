@@ -6,6 +6,18 @@
   float: left;
   
 }
+.tabel tr:nth-child(even){
+  background: #eeeded;
+
+}
+
+.tabel tr:nth-child(odd){
+  background: #e3e2e2;
+}
+.tabel tr { 
+  line-height: 10px; 
+}
+
 .tabel1 {
   height: 400px;
 	width: 40%;
@@ -14,6 +26,15 @@
   float: right;
   
 }
+.tabel1 tr:nth-child(even){
+  background: #eeeded;
+
+}
+
+.tabel1 tr:nth-child(odd){
+  background: #e3e2e2;
+}
+
 
 .image-upload>input {
   display: none;
@@ -27,10 +48,15 @@
 }
 .heading {
   text-align: center;
+  height: 70px;
   font-size:35px;
   font-family:'Courier New', Courier, monospace;
+  
   text-shadow: 2px 2px 5px grey;
   opacity: 0.8;
+  
+  
+  
 }
 .chartContainer{
   height: 300px; 

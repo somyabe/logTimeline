@@ -25,5 +25,5 @@ def getData():
     return render_template('browserUI.html',data=json.dumps(jsList))
 
 if __name__ == "__main__":
-    app.run(host='10.0.0.118',debug = True)
-    #app.run(debug = True)    
+    #app.run(host='10.0.0.118',debug = True)
+    app.run(debug = True)    

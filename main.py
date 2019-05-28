@@ -30,6 +30,7 @@ def startApp(fileName,logPath,issueTime,searchSpan):
     int_dur = int_dur * 3600
     epoch2 = epoch1 - int_dur
     mainlist = UserTimeline.getMarkers(epoch2, epoch1, log_path)
+    print(mainlist)
     mlist = UserTimeline.getPlaybackmode(mainlist)
     #print(mlist)
     nlist = UserTimeline.getSettings(mainlist)
@@ -85,7 +86,7 @@ def startApp(fileName,logPath,issueTime,searchSpan):
             df = dfgraph.reindex(columns=columnsTitles)
             df.to_csv('forchart.csv', index=False, line_terminator=None)
             jsList = df.to_dict('records')
-            print(jsList)
+            #print(jsList)
             return jsList
 
         else:

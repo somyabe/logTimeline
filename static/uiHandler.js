@@ -81,7 +81,7 @@ function throwMiniChart(datepart){
 	
     var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
-	backgroundColor: "#DCDCDC",	
+	backgroundColor: "#eeeded",	
 	height: 320,
 	zoomEnabled: true,
 	title:{
@@ -90,7 +90,7 @@ function throwMiniChart(datepart){
 	},
 	subtitles:[
 		{
-			text: "1-Video  2-Settings  3-Notifications  4-Keypresses",			
+			text: "1-Video  2-Notifications  3-Settings  4-Keypresses",			
 			horizontalAlign: "left",
 			fontStyle: "normal",
 			//fontColor: "blue",
@@ -156,7 +156,7 @@ function throwChart(TimelineData){
     var chartData = TimelineData;
     var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
-	backgroundColor: "#DCDCDC",	
+	backgroundColor: "#eeeded",	
 	height: 320,
 	zoomEnabled: true,
 	title:{
@@ -165,7 +165,7 @@ function throwChart(TimelineData){
 	},
 	subtitles:[
 		{
-			text: "1-Video  2-Settings  3-Notifications  4-Keypresses",			
+			text: "1-Video  2-Notifications  3-Settings  4-Keypresses",			
 			horizontalAlign: "left",
 			fontStyle: "normal",
 			//fontColor: "blue",

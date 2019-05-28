@@ -1,24 +1,308 @@
 dates,col3,color,markerType,markerSize,marker
-2019 May 15 22:22:10.557125,Video,blue,triangle,8,QAM Linear requested0x3fa3
-2019 May 15 22:22:12.460812,Video,green,square,8,Video Tune Succeeded 
-2019 May 15 22:33:18.276881,Video,blue,triangle,8,QAM Linear requested0x2b6a
-2019 May 15 22:33:19.935377,Video,green,square,8,Video Tune Succeeded 
-2019 May 15 23:59:56.437911,Notifications,red,cross,15,RDK-21197 
-2019 May 16 00:00:20.967532,Notifications,red,cross,15,RDK-21197 
-2019 May 16 00:00:23.652651,Notifications,green,square,,PLAYER_STATUS=active 
-2019 May 16 00:00:24.368988,Notifications,red,cross,15,RDK-23524 
-2019 May 16 00:00:26.944296,Notifications,red,cross,15,RDK-21197 
-2019 May 16 00:00:28.581974,Notifications,green,square,,GUIDE_STATUS=active 
-2019 May 16 00:00:31.380289,Notifications,red,cross,15,RDK-21197 
-2019 May 16 00:00:45.530436,Video,blue,triangle,8,QAM Linear requested0x2b6a
-2019 May 16 00:00:49.696454,Video,green,square,8,Video Tune Succeeded 
-2019 May 16 00:01:12.216117,Notifications,red,cross,15,RDK-21197 
-2019 May 16 00:01:26.851153,Video,blue,triangle,8,Netflix initiated 
-2019 May 16 00:01:27.524512,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:01:32.217803,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:01:32.313635,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:01:34.383308,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:01:37.291668,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:01:37.563757,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:02:04.210394,Video,blue,triangle,8,Netflix started 
-2019 May 16 00:02:06.409078,Video,blue,triangle,8,Netflix started 
+2019 Feb 21 17:18:31.985973,Video,blue,triangle,8,IP Linear requested ANPLD
+2019 Feb 21 17:18:32.252525,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 17:18:32.336879,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 17:18:33.499531,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 17:18:35.740619,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 18:02:55.034719,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:02:56.373940,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:02:57.542423,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:02:59.244208,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:03:00.573240,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:03:01.944224,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 18:43:16.142232,Notifications,red,circle,,PLAYER_STATUS=disconnected 
+2019 Feb 21 18:43:17.115804,Notifications,red,circle,,GUIDE_STATUS=disconnected 
+2019 Feb 21 18:43:37.049912,Notifications,red,circle,,PLAYER_STATUS=disconnected 
+2019 Feb 21 18:43:57.217722,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 18:43:57.234613,Notifications,red,circle,,GUIDE_STATUS=disconnected 
+2019 Feb 21 18:44:15.312309,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:44:15.316975,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:44:19.159187,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:44:22.834058,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:44:22.920945,Notifications,green,square,,SHELL_STATUS=active 
+2019 Feb 21 18:45:43.254229,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 18:45:55.370839,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:46:06.392426,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:46:06.992302,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:46:07.245322,Notifications,green,square,,SHELL_STATUS=active 
+2019 Feb 21 18:46:10.508211,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:46:10.773657,Notifications,green,square,,PLAYER_STATUS=active 
+2019 Feb 21 18:46:10.953150,Video,blue,triangle,8,IP Linear requested ANPLD
+2019 Feb 21 18:46:11.133208,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 18:46:11.137332,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 18:46:11.446469,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 18:46:11.800287,Notifications,green,square,,GUIDE_STATUS=active 
+2019 Feb 21 20:58:22.614460,Keypresses,blue,triangle,8,KEY_POWER
+2019 Feb 21 20:58:25.187614,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 21 20:58:37.665676,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 21 20:58:38.404233,Video,red,circle,8,Video Aborted 
+2019 Feb 21 20:58:38.723729,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 21 20:58:38.804788,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 21 20:58:39.066698,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:39.126441,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:40.066923,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:42.674523,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 20:58:48.162990,Keypresses,blue,triangle,8,KEY_NUMBER_2
+2019 Feb 21 20:58:49.285809,Video,blue,triangle,8,IP Linear requested WBBMD
+2019 Feb 21 20:58:49.522894,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 21 20:58:49.670586,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:49.725478,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:50.454530,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 20:58:52.795210,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 21:04:58.414616,Video,blue,triangle,8,IP Linear requested ANPLD
+2019 Feb 21 21:04:58.702443,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:04:58.722109,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:04:59.443520,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:05:01.797315,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 21:05:24.282665,Video,blue,triangle,8,IP Linear requested HMMHD
+2019 Feb 21 21:05:24.637208,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:05:24.664199,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:05:25.542257,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:05:27.715489,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 21:21:27.276693,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:21:31.116779,Notifications,red,circle,,PLAYER_STATUS=disconnected 
+2019 Feb 21 21:21:32.148433,Notifications,red,circle,,GUIDE_STATUS=disconnected 
+2019 Feb 21 21:21:38.965848,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:21:48.179332,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:02.174699,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:22:09.386561,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:14.215371,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:22:17.049463,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:22:28.477060,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:22:28.501721,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:22:40.938202,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:22:44.597498,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:22:44.888642,Notifications,green,square,,SHELL_STATUS=active 
+2019 Feb 21 21:23:08.169612,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:23:18.478368,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:22.957290,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.637899,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.641479,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.644123,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.644891,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.651077,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.651655,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:23.664123,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:24.134254,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:24.222382,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:24.228887,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:25.279139,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:23:25.775735,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.054668,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.056575,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.057026,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.057466,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.057920,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.058904,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.059368,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.060034,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.707045,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:26.707912,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:27.508859,Notifications,red,cross,15,RDK-03087 
+2019 Feb 21 21:23:41.102245,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:23:56.329739,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:24:05.918407,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:24:12.814545,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:24:12.837635,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 21 21:24:13.539656,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:24:14.242117,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:24:14.673568,Notifications,green,square,,SHELL_STATUS=active 
+2019 Feb 21 21:24:18.610523,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:24:19.211689,Notifications,green,square,,PLAYER_STATUS=active 
+2019 Feb 21 21:24:19.480054,Video,blue,triangle,8,IP Linear requested HMMHD
+2019 Feb 21 21:24:19.857184,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:24:19.910440,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 21:24:20.229125,Notifications,red,cross,15,RDK-21197 
+2019 Feb 21 21:24:20.717160,Notifications,green,square,,GUIDE_STATUS=active 
+2019 Feb 21 22:08:22.290736,Video,red,circle,8,Video Aborted 
+2019 Feb 21 22:08:22.621396,Video,blue,triangle,8,IP Linear requested HCHD
+2019 Feb 21 22:08:22.811008,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:08:22.973958,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:08:23.821059,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:08:25.998660,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 22:11:45.205782,Keypresses,blue,triangle,8,KEY_NUMBER_2
+2019 Feb 21 22:11:46.901565,Video,blue,triangle,8,IP Linear requested WBBMD
+2019 Feb 21 22:11:46.913058,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 21 22:11:47.261425,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:11:47.337069,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:11:48.030360,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 22:11:50.200717,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 21 23:16:51.888774,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 21 23:16:53.170531,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 21 23:16:53.204916,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 21 23:16:53.511862,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 23:16:53.572011,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 23:16:54.397044,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 21 23:16:56.825070,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:00:21.053197,Keypresses,blue,triangle,8,KEY_NUMBER_2
+2019 Feb 22 01:00:21.988193,Video,blue,triangle,8,IP Linear requested WBBMD
+2019 Feb 22 01:00:22.045585,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:00:22.136028,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:00:22.285255,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:00:23.162371,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:00:25.503048,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:06:40.202312,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 22 01:06:41.359969,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 22 01:06:41.572790,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:06:41.760359,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:06:41.772382,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:06:42.534441,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:06:44.293587,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:08:26.278669,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:08:28.139340,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:13:39.716265,Notifications,red,cross,15,RDK-21197 
+2019 Feb 22 01:16:35.010077,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:16:37.997146,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 22 01:16:39.075682,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:16:39.118949,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 22 01:16:39.432933,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:39.455599,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:40.183623,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:41.132980,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:16:47.526160,Keypresses,blue,triangle,8,KEY_NUMBER_2
+2019 Feb 22 01:16:48.400300,Video,blue,triangle,8,IP Linear requested WBBMD
+2019 Feb 22 01:16:48.487147,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:16:48.729249,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:48.739767,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:49.477773,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:16:50.932783,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:22:13.125438,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 22 01:22:14.422568,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 22 01:22:14.528770,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:22:14.563885,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:22:14.739308,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:22:15.651375,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:22:16.839100,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:34:00.233734,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:01.455996,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:03.458282,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:07.173791,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:14.681810,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:25.510967,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:35.712508,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:46.587667,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:34:56.858873,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:07.780724,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:18.513028,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:28.524120,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:38.702751,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:49.478959,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:35:59.491469,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:09.584460,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:19.498009,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:29.498039,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:39.577539,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:49.501108,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:36:59.509854,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:09.573069,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:19.626045,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:29.548630,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:39.599947,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:49.504974,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:58.639002,Keypresses,blue,triangle,8,KEY_NUMBER_2
+2019 Feb 22 01:37:59.505054,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:37:59.752203,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:37:59.854872,Video,blue,triangle,8,IP Linear requested WBBMD
+2019 Feb 22 01:37:59.940424,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:00.075776,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:00.899309,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:02.779791,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:38:09.597251,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:38:12.582389,Keypresses,blue,triangle,8,KEY_NUMBER_7
+2019 Feb 22 01:38:14.093770,Keypresses,blue,triangle,8,KEY_ENTER
+2019 Feb 22 01:38:14.129225,Video,blue,triangle,8,IP Linear requested WLSD1
+2019 Feb 22 01:38:14.534990,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:14.566419,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:15.348667,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 01:38:16.902922,Video,green,square,8,Video Tune Succeeded 
+2019 Feb 22 01:38:19.516244,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:38:29.515992,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:38:39.615782,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:38:49.510106,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:38:59.703812,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:39:10.594686,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:39:20.575478,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:39:30.553648,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:39:40.955248,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:39:51.517099,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:01.551462,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:11.624824,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:21.653675,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:32.558688,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:42.722960,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:40:53.561766,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:41:03.545992,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:41:13.715970,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:41:44.613927,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:41:59.894408,Notifications,red,cross,15,RDK-21197 
+2019 Feb 22 01:42:35.541421,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:42:56.635602,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:43:07.519929,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:43:08.547074,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:43:12.099440,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 01:43:28.050908,Notifications,red,cross,15,RDK-21197 
+2019 Feb 22 01:43:29.176115,Notifications,red,cross,15,RDK-21197 
+2019 Feb 22 01:43:29.394856,Notifications,green,square,,SHELL_STATUS=active 
+2019 Feb 22 01:43:36.021588,Notifications,red,cross,15,RDK-21197 
+2019 Feb 22 01:43:36.266942,Notifications,green,square,,PLAYER_STATUS=active 
+2019 Feb 22 02:01:35.245924,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:01:38.500409,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:38.847863,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.148660,Notifications,red,circle,,PLAYER_STATUS=disconnected 
+2019 Feb 22 02:01:39.177844,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.189965,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.195806,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.196995,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.201677,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.204899,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.206167,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.510336,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.519338,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.524985,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:39.938267,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:41.175434,Notifications,red,circle,,GUIDE_STATUS=disconnected 
+2019 Feb 22 02:01:46.486087,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:01:56.261287,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:01:56.364606,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.415572,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.441813,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.442886,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.444832,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.448239,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.462256,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.463172,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.467444,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.612875,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.617403,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.621654,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:01:56.885524,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:02:10.189133,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:02:17.788447,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:02:33.317824,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:02:40.146676,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:02:45.193186,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:03:04.119414,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:03:09.736457,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:03:30.393109,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:03:35.211448,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:03:37.985708,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.046245,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.087277,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.092501,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.098528,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.104458,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.112378,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.195500,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.196329,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.251057,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.256077,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.261205,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:38.539803,Notifications,red,cross,15,RDK-03033 
+2019 Feb 22 02:03:59.478220,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:04:11.668112,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:04:37.392304,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:04:48.043440,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:05:25.387920,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:05:39.609716,Settings,blue,triangle,8,SAP changed to en
+2019 Feb 22 02:06:15.482076,Notifications,red,circle,,SHELL_STATUS=disconnected 
+2019 Feb 22 02:06:20.418013,Settings,blue,triangle,8,SAP changed to en
